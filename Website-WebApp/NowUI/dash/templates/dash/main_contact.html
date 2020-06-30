@@ -1,0 +1,164 @@
+﻿{% extends 'dash/main_base.html'%}
+
+{% load static %}
+
+{% block head %}
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main class="page-content">
+        <!-- Feedback -->
+        <section class="well well-3 bg-alabster">
+            <div class="container">
+                <h2>Contact form
+                    <span class="heading-3">feedback</span>
+                </h2>
+                <!-- RD Mailform -->
+                <form class='rd-mailform' method="post" action="{% static 'bat/rd-mailform.html'%}">
+                    <!-- RD Mailform Type -->
+                    <input type="hidden" name="form-type" value="contact"/>
+                    <!-- END RD Mailform Type -->
+                    <fieldset>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label data-add-placeholder>
+                                    <input type="text"
+                                           name="name"
+                                           placeholder="Your name"
+                                           data-constraints="@NotEmpty @LettersOnly"/>
+                                </label>
+                            </div>
+                            <div class="col-md-4">
+                                <label data-add-placeholder>
+                                    <input type="text"
+                                           name="email"
+                                           placeholder="Your email"
+                                           data-constraints="@NotEmpty @Email"/>
+                                </label>
+                            </div>
+                            <div class="col-md-4">
+                                <label data-add-placeholder>
+                                    <input type="text"
+                                           name="phone"
+                                           placeholder="Your phone"
+                                           data-constraints="@Phone"/>
+                                </label>
+                            </div>
+                        </div>
+                        <label data-add-placeholder>
+                                  <textarea name="message" placeholder="Message"
+                                            data-constraints="@NotEmpty"></textarea>
+                        </label>
+                        <div class="mfControls btn-group text-center text-md-left">
+                            <button class="btn btn-sm btn-default" type="submit">Submit</button>
+                        </div>
+                        <div class="mfInfo">
+                        </div>
+                    </fieldset>
+                </form>
+                <!-- END RD Mailform -->
+            </div>
+        </section>
+        <!-- END Feedback -->
+        <!-- RD Google Map -->
+        <div class="rd-google-map">
+            <div id="google-map" class="rd-google-map__model" data-zoom="14" data-x="-73.9874068" data-y="40.643180"></div>
+            <ul class="rd-google-map__locations">
+                <li data-x="-73.9874068" data-y="40.643180">
+                    <p>8901 Marmora Road,
+                        Glasgow, D04 89GR.</p>
+                </li>
+            </ul>
+        </div>
+        <!-- END RD Google Map -->
+        <!-- Contact Info -->
+        <section class="well well-3">
+            <div class="container text-center">
+                <h2 class="text-secondary">Contact Info</h2>
+                <div class="row flow-offset-1 offset-3 row-xs-center text-left">
+                    <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4  wow fadeInLeft">
+                        <div class="contact-info">
+                            <p class="heading-5">8901 Marmora Road, <br class="hidden visible-md-block">
+                                Glasgow, D04 89GR.</p>
+                            <dl>
+                                <dt>Freephone</dt>
+                                <dd><a href="../index.html#">+1 800 559 6580</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>Telephone</dt>
+                                <dd><a href="../index.html#">+1 800 603 6035</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>FAX</dt>
+                                <dd><a href="../index.html#">+1 800 889 9898</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>E-mail</dt>
+                                <dd><a href="mailto:#">mail@demolink.org</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4 offset-8 ">
+                        <div class="contact-info">
+                            <p class="heading-5">9863 - 9867 Mill Road, <br class="hidden visible-md-block">
+                                Cambridge, MG09 99HT.
+                            </p>
+                            <dl>
+                                <dt>Freephone</dt>
+                                <dd><a href="../index.html#">+1 800 559 6580</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>Telephone</dt>
+                                <dd><a href="../index.html#">+1 800 603 6035</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>FAX</dt>
+                                <dd><a href="../index.html#">+1 800 889 9898</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>E-mail</dt>
+                                <dd><a href="mailto:#">mail@demolink.org</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4 offset-8 offset-9  wow fadeInRight">
+                        <div class="contact-info">
+                            <p class="heading-5">9870 St Vincent Place, <br class="hidden visible-md-block">
+                                Glasgow, DC 45 Fr 45.</p>
+                            <dl>
+                                <dt>Freephone</dt>
+                                <dd><a href="../index.html#">+1 800 559 6580</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>Telephone</dt>
+                                <dd><a href="../index.html#">+1 800 603 6035</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>FAX</dt>
+                                <dd><a href="../index.html#">+1 800 889 9898</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>E-mail</dt>
+                                <dd><a href="mailto:#">mail@demolink.org</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END Contact Info -->
+    </main>
+
+ {% endblock head %}

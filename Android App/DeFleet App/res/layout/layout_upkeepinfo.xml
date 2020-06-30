@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0f2f6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#ff3cbfb4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/txt_str_errorpage_introduce" style="@style/textAppearanceXLarge" />
+    </LinearLayout>
+    <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="#ff555555" android:id="@id/tv_feedback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/label_submit_upkeepinfo_issues" style="@style/textAppearanceXXLarge" />
+                <RadioGroup android:orientation="vertical" android:id="@id/radiogroup1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip">
+                    <RadioButton android:id="@id/radiobutton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:checked="true" android:text="@string/txt_str_not_setcar" style="@style/RadioButtonStyles" />
+                    <RadioButton android:id="@id/radiobutton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/txt_str_not_show_upkeepinfo" style="@style/RadioButtonStyles" />
+                    <RadioButton android:id="@id/radiobutton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/txt_str_upkeepinfo_error" style="@style/RadioButtonStyles" />
+                    <RadioButton android:id="@id/radiobutton4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/txt_str_upkeepinfo_error2" style="@style/RadioButtonStyles" />
+                    <RadioButton android:id="@id/radiobutton5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/txt_str_upkeepinfo_error3" style="@style/RadioButtonStyles" />
+                </RadioGroup>
+                <EditText android:gravity="top" android:id="@id/edit_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/txt_str_question" android:minLines="4" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip">
+                <TextView android:textColor="@color/tv_radio" android:id="@id/tv_str" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_upkeepinfo_prompt" />
+            </LinearLayout>
+            <Button android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/btn_save_error" android:background="@drawable/btn_green" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/txt_str_submitinfo" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alphabet_size">12.0dip</dimen>
+    <dimen name="umeng_socialize_pad_window_height">350.0dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580.0dip</dimen>
+    <dimen name="padding_small">8.0dip</dimen>
+    <dimen name="padding_medium">8.0dip</dimen>
+    <dimen name="padding_large">16.0dip</dimen>
+    <dimen name="button_min_height">25.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="titlebar_height">49.0dip</dimen>
+    <dimen name="bottomview_height">150.0dip</dimen>
+    <dimen name="titlebar_paddingLeft">10.0dip</dimen>
+    <dimen name="titlebar_paddingRight">10.0dip</dimen>
+    <dimen name="calendar_day_headers_paddingbottom">4.0dip</dimen>
+    <dimen name="calendar_month_topmargin">16.0dip</dimen>
+    <dimen name="calendar_month_title_bottommargin">4.0dip</dimen>
+    <dimen name="calendar_text_medium">18.0sp</dimen>
+    <dimen name="calendar_text_small">14.0sp</dimen>
+    <dimen name="track_restore_w_h">44.0dip</dimen>
+</resources>

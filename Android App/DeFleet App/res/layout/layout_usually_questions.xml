@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip">
+            <TextView android:textColor="#ff35bdb2" android:id="@id/question_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/text_app_question_one" style="@style/textAppearanceSMedium" />
+            <TextView android:textColor="#ff000000" android:id="@id/answer_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_app_answer_one" android:layout_below="@id/question_one" style="@style/textAppearanceSMedium" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/img_faq" android:layout_below="@id/answer_one" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:background="#ffffffff" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip">
+            <TextView android:textColor="#ff35bdb2" android:id="@id/question_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/text_app_question_two" style="@style/textAppearanceSMedium" />
+            <TextView android:textColor="#ff000000" android:id="@id/answer_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_app_answer_two" android:layout_below="@id/question_two" style="@style/textAppearanceSMedium" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#fff0f2f6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:background="#fff0f2f6" android:layout_width="fill_parent" android:layout_height="26.599976dip" />
+        <LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="#ff35bdb2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.299988dip" android:layout_marginTop="20.0dip" android:text="@string/_1_obd_upkeep_i_1" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.299988dip" android:layout_marginTop="20.0dip" android:layout_marginRight="13.299988dip" android:text="@string/obd_0_5_obd_4s_upkeep_i_2" />
+        </LinearLayout>
+        <TextView android:background="#fff0f2f6" android:layout_width="fill_parent" android:layout_height="26.599976dip" />
+        <LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="#ff35bdb2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.299988dip" android:layout_marginTop="20.0dip" android:text="@string/_2_odb_upkeep_i_3" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.299988dip" android:layout_marginTop="20.0dip" android:layout_marginRight="13.299988dip" android:text="@string/_obd_obd_obd_obd_upkeep_i_4" />
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/upkeep_i_1" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.299988dip" android:layout_marginTop="20.0dip" android:layout_marginRight="13.299988dip" android:text="@string/_obd_obd_upkeep_i_5" />
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/upkeep_i_2" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

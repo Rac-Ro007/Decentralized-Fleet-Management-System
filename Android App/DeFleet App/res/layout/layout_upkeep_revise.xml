@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="17.0sp" android:textColor="#ff999ca1" android:background="#ffffffff" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/upkeep_revise_content" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="17.0sp" android:textColor="#ff999ca1" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/txt_str_total_mileage" android:layout_weight="3.0" />
+            <EditText android:textSize="30.0sp" android:textColor="#ff35bdb2" android:layout_gravity="center_vertical" android:id="@id/et_tripLength" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:maxLength="7" android:numeric="integer" android:layout_weight="3.0" />
+            <TextView android:textSize="17.0sp" android:textColor="#ff999ca1" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="km" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="17.0sp" android:textColor="#ff999ca1" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/txt_str_maintenance_mileage" android:layout_weight="3.0" />
+            <EditText android:textSize="30.0sp" android:textColor="#ff35bdb2" android:layout_gravity="center_vertical" android:id="@id/et_upkeep" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:maxLength="7" android:numeric="integer" android:layout_weight="3.0" />
+            <TextView android:textSize="17.0sp" android:textColor="#ff999ca1" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="km" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/line_buycar" android:background="@drawable/bg_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="17.0dip" android:textColor="#ff999ca1" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/txt_str_buy_time_car" android:layout_weight="1.0" />
+            <TextView android:textSize="17.0dip" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/tv_buycartime" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/line_upkeeptime" android:background="@drawable/bg_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="17.0dip" android:textColor="#ff999ca1" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/txt_str_last_time_car" android:layout_weight="1.0" />
+            <TextView android:textSize="17.0sp" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/tv_upkeeptime" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="17.0sp" android:textColor="#ff999ca1" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_setupkeepinfo" />
+        <Button android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/bt_commit" android:background="@drawable/btn_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/label_save" />
+    </LinearLayout>
+</ScrollView>

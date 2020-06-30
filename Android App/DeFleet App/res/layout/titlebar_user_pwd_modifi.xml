@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/titlebar_user_pwd_modifi" android:paddingLeft="@dimen/titlebar_paddingLeft" android:paddingRight="@dimen/titlebar_paddingRight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_back" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/des_image" />
+    <TextView android:textColor="@color/title_color" android:id="@id/tv_title" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_user_pwd_modifi" android:singleLine="true" android:layout_centerInParent="true" style="@style/textAppearanceXXXLarge" />
+</RelativeLayout>

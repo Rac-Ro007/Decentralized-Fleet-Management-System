@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/rela_averageGasConsum" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <ImageView android:id="@id/iv_icon" android:background="@drawable/icon_averagegasconsum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_centerVertical="true" android:contentDescription="@string/des_image" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff555555" android:id="@id/tv_averagegasconsum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:text="@string/txt_str_average_gas_consum" android:layout_toRightOf="@id/iv_icon" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/iv_arrowicon" android:background="@drawable/im_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/des_image" />
+            </RelativeLayout>
+            <View android:id="@id/v_line" android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/line_averageGasConsum" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="120.0dip">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/lin_data" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="13.0sp" android:textColor="#ff0f97ff" android:gravity="center_horizontal" android:id="@id/tv_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="@string/txt_str_date2" android:layout_weight="1.0" />
+                        <TextView android:textSize="20.0sp" android:textColor="#ff0f97ff" android:gravity="center_horizontal" android:id="@id/tv_averageGasConsum" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="10.5L/100km" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_below="@id/lin_data">
+                        <RadioButton android:gravity="center" android:id="@id/tv_day" android:background="@drawable/btn_day" android:text="@string/day" style="@style/day" />
+                        <RadioButton android:gravity="center" android:id="@id/tv_month" android:background="@drawable/btn_month" android:checked="true" android:text="@string/month" style="@style/month" />
+                        <RadioButton android:gravity="center" android:id="@id/tv_year" android:background="@drawable/btn_year" android:text="@string/year" style="@style/year" />
+                    </RadioGroup>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rela_linechar" android:layout_width="fill_parent" android:layout_height="280.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+                    <RelativeLayout android:id="@id/rela_line1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <RelativeLayout android:id="@id/rela_line2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <TextView android:gravity="center" android:id="@id/tv_noaverageGasConsum" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nodriveinfo" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <RelativeLayout android:id="@id/rela_averageCost" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <ImageView android:id="@id/iv_costicon" android:background="@drawable/icon_averagecost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_centerVertical="true" android:contentDescription="@string/des_image" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff555555" android:id="@id/tv_averagecost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:text="@string/txt_str_oil_resources" android:layout_toRightOf="@id/iv_costicon" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/iv_costarrowicon" android:background="@drawable/im_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/des_image" />
+            </RelativeLayout>
+            <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/line_averagecost" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="120.0dip">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/lin_datacost" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="13.0sp" android:textColor="#ff0f97ff" android:gravity="center_horizontal" android:id="@id/tv_datecost" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="@string/txt_str_date2" android:layout_weight="1.0" />
+                        <TextView android:textSize="20.0sp" android:textColor="#ff0f97ff" android:gravity="center_horizontal" android:id="@id/tv_averagecost2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="10.5L/100km" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_below="@id/lin_datacost">
+                        <RadioButton android:gravity="center" android:id="@id/tv_daycost" android:background="@drawable/btn_day" android:text="@string/day" style="@style/day" />
+                        <RadioButton android:gravity="center" android:id="@id/tv_monthcost" android:background="@drawable/btn_month" android:checked="true" android:text="@string/month" style="@style/month" />
+                        <RadioButton android:gravity="center" android:id="@id/tv_yearcost" android:background="@drawable/btn_year" android:text="@string/year" style="@style/year" />
+                    </RadioGroup>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rela_linecharcost" android:layout_width="fill_parent" android:layout_height="280.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+                    <RelativeLayout android:id="@id/rela_costline1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <TextView android:gravity="center" android:id="@id/tv_nocost" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nodriveinfo" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:gravity="center" android:id="@id/rela_tendency_all" android:background="#7f000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_tendency_lf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tendency_lf" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+        <Button android:textColor="#ffffffff" android:id="@id/bt_know" android:background="@drawable/bg_dashboard_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/main_iknow" android:layout_below="@id/iv_tendency_lf" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:layout_gravity="center" android:id="@id/preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.chaoyue.overseas.obd.zxing.view.ViewfinderView android:id="@id/viewfinder_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

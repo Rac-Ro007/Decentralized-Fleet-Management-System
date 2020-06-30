@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/alert" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_td_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="ICON" />
+            <TextView android:textSize="20.0dip" android:textColor="#ffed331a" android:id="@id/tv_td_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_toRightOf="@id/iv_td_icon" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/rela_close" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="20.0dip" android:textColor="#ff007aff" android:gravity="center_horizontal" android:id="@id/tv_td_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_close" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="20.0dip" android:textColor="#ff007aff" android:id="@id/tv_countdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5S" android:layout_toRightOf="@id/tv_td_close" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

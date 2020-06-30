@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0f2f6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_list_item_normal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/tv_sn_gray" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_binding_str1" style="@style/textAppearanceSMedium" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/bg_list_item_normal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:id="@id/tv_str1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_binding_str2" android:layout_alignParentLeft="true" style="@style/textAppearanceSMedium" />
+        <TextView android:gravity="left" android:id="@id/tv_goto_bluetooth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/textAppearanceSMedium" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_start_scanning" android:background="@drawable/bg_list_item" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_scanning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_sn_scanning" android:layout_centerVertical="true" android:contentDescription="@string/des_image" />
+        <TextView android:textColor="#ff000000" android:id="@id/tv_scanning" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_began_scanning" android:singleLine="true" android:layout_toRightOf="@id/iv_scanning" style="@style/textAppearanceXXXLarge" />
+        <ImageView android:id="@id/iv_buy_car_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next" android:layout_alignParentRight="true" android:contentDescription="@string/des_image" />
+        <TextView android:textColor="#ff999ca1" android:id="@id/tv_buy_car_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_toLeftOf="@id/iv_buy_car_time" style="@style/textAppearanceMedium" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/bg_list_item_normal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tv_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_serial_number" style="@style/textAppearanceMedium" />
+        <EditText android:id="@id/tv_serial_number" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/text_sn_snNotBound" android:singleLine="true" android:maxLength="13" android:layout_alignParentRight="true" style="@style/textAppearanceMedium" />
+    </RelativeLayout>
+    <Button android:textSize="17.0dip" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/btn_save_total_mileag" android:background="@drawable/btn_green" android:padding="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/btn_text_binding" />
+</LinearLayout>

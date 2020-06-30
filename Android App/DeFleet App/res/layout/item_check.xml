@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_check" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_loading" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv1" android:background="@drawable/bg_check_checking_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv2" android:background="@drawable/bg_check_line_disable" android:layout_width="25.0dip" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/check_checking" android:id="@id/tv_brief" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_fault" />
+</LinearLayout>

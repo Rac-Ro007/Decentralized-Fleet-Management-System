@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:background="#fff0f2f6" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/info" />
+        <TextView android:textSize="18.0sp" android:id="@id/name" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/price" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        <TextView android:textColor="@android:color/darker_gray" android:background="@android:color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/text_str_Warm_prompt" />
+        <TextView android:gravity="center_vertical" android:id="@id/textview1" android:background="#fff0f2f6" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:text="@string/txt_str_address" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_address_info" android:background="@android:color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/textview1">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/dashboard_view_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:textColorHint="@color/hintcolor" android:id="@id/et_address" android:paddingRight="20.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:hint="@string/txt_str_select_city" android:singleLine="true" android:editable="false" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_next" android:layout_alignRight="@id/et_address" android:layout_centerVertical="true" android:contentDescription="@string/des_image" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:textColorHint="@color/hintcolor" android:id="@id/et_detailaddress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:hint="@string/txt_str_select_address" android:maxLength="50" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <EditText android:textColorHint="@color/hintcolor" android:id="@id/et_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/txt_str_consignee" android:singleLine="true" android:maxLength="10" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <EditText android:textColorHint="@color/hintcolor" android:id="@id/et_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/txt_str_phone" android:maxLength="11" android:digits="\ 0123456789" android:inputType="phone" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:gravity="center_vertical" android:id="@id/tv_textview" android:background="#fff0f2f6" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/txt_str_pay_type" />
+        <LinearLayout android:id="@id/ll_alipay" android:background="@android:color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_alipay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_radiobtn_selected" />
+            <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="8.0dip" android:text="@string/txt_str_alipay" />
+        </LinearLayout>
+        <View android:id="@id/line" android:background="#fff8f9fa" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:id="@id/ll_bank" android:background="@android:color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_bank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_radiobtn_empty" />
+            <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="8.0dip" android:text="@string/txt_str_phone_bank" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_commit" android:background="@drawable/bg_titlebar" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="10.0dip" android:text="@string/txt_str_gopay" />
+    </LinearLayout>
+</ScrollView>

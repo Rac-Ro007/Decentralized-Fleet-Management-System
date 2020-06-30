@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mapbar.android.obd.framework.widget.NoResizeRelativeLayout android:orientation="vertical" android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/titlebar" layout="@layout/titlebar" />
+    <com.mapbar.android.obd.framework.widget.MViewAnimator android:id="@id/animator" android:background="@color/page_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titlebar">
+        <include layout="@layout/layout_welcome" />
+    </com.mapbar.android.obd.framework.widget.MViewAnimator>
+    <SurfaceView android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</com.mapbar.android.obd.framework.widget.NoResizeRelativeLayout>

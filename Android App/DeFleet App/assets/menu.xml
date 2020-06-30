@@ -1,0 +1,28 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<ESRGrammar>
+	<scene name="map">
+		<sentence name="open" ID="1001">
+			<listref ref="menus" />
+		</sentence>
+	</scene>
+	<list name="menus">
+		<word ID="1">搜索</word>
+		<word ID="2">周边搜索</word>
+		<word ID="3">路线管理</word>
+		<word ID="4">模拟导航</word>
+		<word ID="5">我的位置</word>
+		<word ID="6">回自车</word>
+		<word ID="7">回家</word>
+		<word ID="8">到公司</word>
+		<word ID="9">打开声音</word>
+		<word ID="10">关闭声音</word>
+		<word ID="11">退出</word>
+		<word ID="12">放大</word>
+		<word ID="13">缩小</word>
+		<word ID="14">白天模式</word>
+		<word ID="15">夜晚模式</word>
+		<word ID="16">正北朝上</word>
+		<word ID="17">车头朝上</word>
+		<word ID="18">三维</word>
+	</list>	
+</ESRGrammar>

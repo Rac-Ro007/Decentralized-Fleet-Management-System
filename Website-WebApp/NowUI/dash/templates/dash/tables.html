@@ -1,0 +1,74 @@
+{% extends "dash/base.html" %}
+{% load static %}
+
+{% block head %}
+  <title>
+    Vehicle Info
+  </title>
+  {% endblock head %}
+
+<body class="">
+{% block content %}
+      <div class="panel-header panel-header-sm">
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title"> Vehicle Info</h4>
+                <div class="" align="right">
+                  <button class="btn btn-danger btn-block"><b>Add New Vehicle</b></button>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead class=" text-primary">
+                      <th>
+                        Vehicle ID
+                      </th>
+                      <th>
+                        Vehicle Type
+                      </th>
+                      <th>
+                        Driver ID
+                      </th>
+                      <th>
+                        Action
+                      </th>
+                      <th>
+                        Doc's
+                      </th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          MH-02-AC-007
+                        </td>
+                        <td>
+                          LMV
+                        </td>
+                        <td>
+                          #12908
+                        </td>
+                        <td>
+                          <button onclick="location.href='/map'" class="btn btn-success btn-block">
+                            <b>Track</b>
+                          </button>
+                        </td>
+                        <td>
+                        <a type="button" href="https://gateway.ipfs.io/ipfs/QmTGjWSKbCGPvdJPSB2cveN3k1u4L8krjD6xsdCvDbfTfF" target="_blank" class="btn btn-success btn-info btn-block">
+                            <b>View</b>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endblock %}

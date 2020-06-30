@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_message" android:background="@android:color/white" android:layout_width="300.0dip" android:layout_height="180.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="#ff555555" android:id="@id/tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="15.0dip" android:text="@string/txt_str_notaddcar" />
+    <View android:background="#ff999ca1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="68.0dip" />
+    <LinearLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="#ff0090ff" android:gravity="center" android:id="@id/tv_add" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/txt_str_add" android:layout_weight="1.0" />
+        <View android:background="#ff999ca1" android:layout_width="1.0dip" android:layout_height="50.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="#ff999ca1" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/txt_str_return" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

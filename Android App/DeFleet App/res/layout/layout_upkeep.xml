@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:obd="http://schemas.android.com/apk/res/com.chaoyue.overseas">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.chaoyue.overseas.obd.widget.ListViewEx android:id="@id/lv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/listdivider" android:dividerHeight="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/line_loading" android:background="#7f000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/pb" android:layout_width="50.0dip" android:layout_height="59.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/progress_vertical" style="@android:style/Widget.ProgressBar.Horizontal" />
+            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_getupkeepinfo" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

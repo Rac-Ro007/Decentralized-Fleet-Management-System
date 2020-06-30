@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ff35bdb2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="22.0dip" android:text="@string/cartype_content" />
+    <TextView android:background="#ffdadee6" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:id="@id/tv_network_car" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="22.0dip" android:text="系统判断您的车型为:" />
+    <Button android:textSize="22.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bt_car" android:background="@drawable/btn_green" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="22.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="车型信息" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="22.0dip" android:text="您注册绑定的车型为:" />
+    <Button android:textSize="22.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bt_go_firmware" android:background="@drawable/btn_green" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="22.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="立即升级" />
+    <Button android:textSize="22.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bt_go_chose_car" android:background="@drawable/btn_green" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="22.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:text="我要更改为其他车型" />
+</LinearLayout>

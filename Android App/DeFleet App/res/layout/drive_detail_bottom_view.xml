@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/drive_listitem_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:id="@id/middle_tv_drive_anaylse" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginTop="10.0dip" android:text="@string/txt_str_drive_anaylse" android:drawableLeft="@drawable/icon_drive_anaylse" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" />
+    <View android:id="@id/middle_divider1" android:background="#ffebedf0" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/middle_tv_drive_anaylse" />
+    <RatingBar android:id="@id/middle_ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:max="5" android:numStars="5" android:rating="3.5" android:isIndicator="true" android:layout_below="@id/middle_divider1" android:layout_centerHorizontal="true" style="@style/RatingBar" />
+    <com.chaoyue.overseas.obd.widget.PieChart android:id="@id/piechart" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_marginTop="-20.0dip" android:layout_below="@id/middle_ratingbar" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/color_desc1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="-18.0dip" android:layout_below="@id/piechart">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ll_green" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_green" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="#ff35bdb2" android:layout_alignParentLeft="true" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/tv_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/txt_str_good_driver" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ll_yellow" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_yellow" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="#ffffc765" android:layout_alignParentLeft="true" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/tv_yellow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/txt_str_high_120" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/color_desc2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="6.0dip" android:layout_below="@id/color_desc1">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ll_blue" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_blue" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="#ff27a7f1" />
+            <TextView android:id="@id/tv_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/txt_str_90_120" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ll_red" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_red" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="#fffe8080" />
+            <TextView android:id="@id/tv_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/txt_str_less_60" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/color_desc3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="6.0dip" android:layout_below="@id/color_desc2">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ll_light_green" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_light_green" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="#ffa7f588" />
+            <TextView android:id="@id/tv_light_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/txt_str_idling" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_bottom" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_weight="1.0" android:layout_below="@id/color_desc3">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_acceleration" android:background="@drawable/icon_drive_analyse_red_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/check_list_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_accelerate" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_brakes" android:background="@drawable/icon_drive_analyse_red_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/check_list_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_brake" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_zerospeed" android:background="@drawable/icon_drive_analyse_red_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/check_list_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_idling2" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/middle_divider2" android:background="#ffebedf0" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/ll_bottom" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/check_list_info" android:id="@id/bottom_tv_drive_anaylse_suggest" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/txt_str_drive_advice" android:drawableLeft="@drawable/icon_drive_anaylse_suggest" android:drawablePadding="5.0dip" android:layout_below="@id/middle_divider2" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0f2f6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#ff3cbfb4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/txt_str_errorpage_introduce" style="@style/textAppearanceXLarge" />
+    </LinearLayout>
+    <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="#ff555555" android:id="@id/tv_feedback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/label_error_log_issues" style="@style/textAppearanceXXLarge" />
+                <RadioGroup android:orientation="vertical" android:id="@id/radiogroup1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip">
+                    <RadioButton android:id="@id/radiobutton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/txt_str_no_connection" style="@style/RadioButtonStyles" />
+                    <RadioButton android:id="@id/radiobutton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/txt_str_no_connection2" style="@style/RadioButtonStyles" />
+                    <RadioButton android:id="@id/radiobutton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/txt_str_no_connection3" style="@style/RadioButtonStyles" />
+                    <RadioButton android:id="@id/radiobutton4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/txt_str_no_connection4" style="@style/RadioButtonStyles" />
+                    <RadioButton android:id="@id/radiobutton5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/txt_str_no_connection5" style="@style/RadioButtonStyles" />
+                </RadioGroup>
+                <EditText android:gravity="top" android:id="@id/edit_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/txt_str_question" android:minLines="4" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_log_file_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/tv_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_date" style="@style/textAppearanceLarge" />
+                    <TextView android:textColor="@color/tv_radio" android:id="@id/tv_log_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/textAppearanceLarge" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/tv_radio" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_date" style="@style/textAppearanceLarge" />
+                    <TextView android:textColor="@color/tv_radio" android:id="@id/tv_log_end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/textAppearanceLarge" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_no_log" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <ImageView android:background="@drawable/iv_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/tv_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/txt_str_noerr" style="@style/textAppearanceXXLarge" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip">
+                <TextView android:textColor="@color/tv_radio" android:id="@id/tv_str" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_notice" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/ll_save_error" android:background="@color/dark_green" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_submitinfo" style="@style/textAppearanceXLarge" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

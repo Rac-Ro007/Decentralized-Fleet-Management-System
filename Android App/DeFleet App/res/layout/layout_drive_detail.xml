@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_drveDetail_hideBar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="64.0dip" android:baselineAligned="false">
+        <RelativeLayout android:id="@id/rela_travel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_travel_icon" android:background="@drawable/track_icon_press" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" android:contentDescription="@string/des_image" />
+            <TextView android:textSize="22.0sp" android:textColor="#ff35bdb2" android:gravity="center" android:id="@id/tv_travel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/drivedetail_travel_data" android:layout_toRightOf="@id/iv_travel_icon" android:layout_centerInParent="true" />
+            <TextView android:id="@id/tv_travel_line" android:background="#ff35bdb2" android:layout_width="fill_parent" android:layout_height="1.5dip" android:layout_alignParentBottom="true" android:textIsSelectable="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rela_track" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_track_icon" android:background="@drawable/travel_data_icon_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" android:contentDescription="@string/des_image" />
+            <TextView android:textSize="22.0sp" android:textColor="#ff555555" android:gravity="center" android:id="@id/tv_track" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/drivedetail_my_track" android:layout_toRightOf="@id/iv_track_icon" android:layout_centerInParent="true" />
+            <TextView android:id="@id/tv_track_line" android:background="#ffd7dbe3" android:layout_width="fill_parent" android:layout_height="1.5dip" android:layout_alignParentBottom="true" android:textIsSelectable="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rela_all_data" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.chaoyue.overseas.obd.map.OBDMapView android:enabled="true" android:id="@id/obd_mapview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" smallView="flase" smallViewEnableEvent="true" useBuiltInControl="true" />
+        <ImageView android:id="@id/iv_speed_label" android:background="@drawable/speed_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginBottom="20.0dip" android:layout_alignBottom="@id/obd_mapview" android:layout_alignParentLeft="true" />
+        <Button android:id="@id/bt_restore" android:background="@drawable/btn_restore" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/rela_travel_detail" android:background="#fff8f9fa" android:padding="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/ahd_shot_pic" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:background="#fff8f9fa" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/drive_detail_top_view" layout="@layout/drive_detail_top_view" />
+                    <View android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+                    <include android:id="@id/drive_detail_middle_view" layout="@layout/drive_detail_middle_view" />
+                    <View android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+                    <include android:id="@id/drive_detail_bottom_view" layout="@layout/drive_detail_bottom_view" />
+                    <LinearLayout android:orientation="vertical" android:background="@drawable/drive_listitem_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="22.0sp" android:layout_gravity="center_horizontal" android:id="@id/tv_dataanalysistitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:drawableLeft="@drawable/icon_emissions" android:drawablePadding="9.0dip" android:textIsSelectable="true" />
+                        <Button android:textSize="22.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bt_dataanalysisbtn" android:background="@drawable/btn_green" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" />
+                        <TextView android:layout_gravity="center_horizontal" android:id="@id/tv_dataanalysisDis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:textIsSelectable="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/rela_hint" android:background="#fffff5be" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignLeft="@id/ahd_shot_pic" android:layout_alignParentBottom="true">
+                <TextView android:textSize="15.0sp" android:textColor="#ffe5af1a" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/txt_str_shenma" />
+                <TextView android:textColor="#ffe5af1a" android:id="@id/tv_content2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_setcost" android:layout_toRightOf="@id/tv_content" style="@style/textAppearanceMedium" />
+                <ImageView android:id="@id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/iv_costclose" android:layout_alignParentRight="true" android:contentDescription="@string/des_image" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/line_no_track" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="600.0dip">
+        <ImageView android:id="@id/iv_no_track_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="66.0dip" android:src="@drawable/no_track_icon" android:contentDescription="@string/des_image" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff9da3b0" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:text="@string/drivedetail_no_track" android:lineSpacingExtra="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

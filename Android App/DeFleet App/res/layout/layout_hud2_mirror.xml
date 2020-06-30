@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rela_all" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:berdy="http://schemas.android.com/apk/res/com.chaoyue.overseas">
+    <RelativeLayout android:id="@id/rela_fanxiang" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="bottom" android:id="@id/rela_hudrela" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <TextView android:textSize="35.0sp" android:textColor="#ff00fff6" android:id="@id/tv_time" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_0000" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="30.0sp" android:textColor="#ff00fff6" android:id="@id/compass_plate_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="东南" android:layout_alignBottom="@id/tv_time" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hud_marginTop2">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/line_show1" android:background="@drawable/hud_por_gosetting_n" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="@dimen/text_size1" android:textColor="#ff00fff6" android:gravity="center" android:id="@id/tv_show1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_str_0" berdy:typeface="LcdD.ttf" />
+                    <TextView android:textSize="@dimen/hud_text_size4" android:textColor="#ff00fff6" android:id="@id/tv_unit1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_speed2" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/line_show2" android:background="@drawable/hud_por_gosetting_n" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="bottom" android:id="@id/iv_hud2_electronic_eye" android:background="@drawable/ic_hud_v_camer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="@dimen/text_size1" android:textColor="#ff00fff6" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/tv_show2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="0" android:singleLine="true" android:layout_weight="1.0" berdy:typeface="LcdD.ttf" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/hud_text_size4" android:textColor="#ff00fff6" android:id="@id/tv_unit2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_rpm" android:layout_centerHorizontal="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/line_show3" android:background="@drawable/hud_lan_gosettingbig_n" android:layout_width="wrap_content" android:layout_height="180.0dip" android:layout_marginTop="@dimen/hud_marginTop">
+                <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="@dimen/text_size" android:textColor="#ff00fff6" android:gravity="center" android:id="@id/tv_hud_show3" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_str_0_0" berdy:typeface="LcdD.ttf" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff00fff6" android:gravity="center" android:id="@id/tv_unit3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:text="@string/txt_str_gasConsum4" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ProgressBar android:id="@id/tv_donghua" android:layout_width="fill_parent" android:layout_height="90.0dip" android:max="50" android:progressDrawable="@drawable/progressbar_style" style="?android:attr/progressBarStyleHorizontal" />
+            <ImageView android:background="@drawable/hudjianbian1" android:layout_width="fill_parent" android:layout_height="90.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/line_show4" android:visibility="invisible" android:layout_width="250.0dip" android:layout_height="160.0dip">
+            <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="@dimen/text_size" android:textColor="#ff00fff6" android:gravity="center" android:id="@id/tv_hud_show4" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" berdy:typeface="LcdD.ttf" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/line_dao" android:layout_width="fill_parent" android:layout_height="@dimen/hud_layout_height" android:layout_marginTop="@dimen/hud_layout_marginTop3">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/line_show5" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="@dimen/text_size" android:textColor="#ff00fff6" android:gravity="center" android:id="@id/tv_hud_show5" android:layout_width="fill_parent" android:layout_height="fill_parent" berdy:typeface="LcdD.ttf" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/line_show6" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="@dimen/text_size" android:gravity="center" android:id="@id/tv_hud_show6" android:layout_width="fill_parent" android:layout_height="fill_parent" berdy:typeface="LcdD.ttf" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rela_title" android:background="#ff35bdb2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="74.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="37.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.599976dip" android:text="@string/txt_str_mileage3" />
+            <TextView android:textSize="25.0sp" android:textStyle="normal" android:textColor="@color/title_color" android:id="@id/tv_tripLength" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/txt_str_0_0" />
+            <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/label_car_mileage_unit" />
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.599976dip" android:text="@string/txt_str_consuming" />
+            <TextView android:textSize="25.0sp" android:textStyle="normal" android:textColor="@color/title_color" android:id="@id/tve_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/txt_str_0000" />
+        </LinearLayout>
+        <Button android:textStyle="normal" android:textColor="@color/title_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/bt_stop" android:background="@drawable/bg_hud2button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.599976dip" android:text="@string/txt_str_stop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="37.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.599976dip" android:src="@drawable/hudduigou" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff98fff7" android:layout_gravity="center_vertical" android:id="@id/tv_trip_stat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/txt_str_drivering" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/line_bottom" android:background="#ff363636" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <RadioGroup android:orientation="horizontal" android:id="@id/rg_buttom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/iv_icon1" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/bg_hudicon1" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/iv_icon2" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/bg_hudicon2" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/iv_icon3" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/bg_hudicon3" android:layout_weight="1.0" />
+        </RadioGroup>
+    </LinearLayout>
+    <Button android:textSize="15.0sp" android:textColor="@color/title_color" android:gravity="center" android:id="@id/bt_direction" android:background="@drawable/bg_hudbutton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="70.0dip" android:text="@string/hud_mirror" android:layout_above="@id/line_bottom" android:layout_alignParentLeft="true" />
+    <Button android:textSize="15.0sp" android:textColor="@color/title_color" android:gravity="center" android:id="@id/bt_setting" android:background="@drawable/bg_hudbutton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:text="@string/hud_setting" android:layout_above="@id/line_bottom" android:layout_alignParentLeft="true" />
+    <RelativeLayout android:id="@id/rela_all2" android:background="#cc000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:textSize="15.0sp" android:textColor="@color/title_color" android:gravity="center" android:id="@id/bt_settin_guide" android:background="@drawable/bg_hudbutton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="75.0dip" android:text="@string/hud_setting" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="39.0dip" android:src="@drawable/hud_guide_state" android:layout_above="@id/bt_settin_guide" android:layout_alignParentLeft="true" android:contentDescription="@string/des_image" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/line_show1_guide" android:background="@drawable/hud_por_gosetting" android:layout_width="160.0dip" android:layout_height="110.0dip" android:layout_below="@id/imageView1" android:layout_alignParentLeft="true">
+            <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="@dimen/text_size1" android:textColor="#ff00fff6" android:gravity="center" android:id="@id/tv_show1_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" berdy:typeface="LcdD.ttf" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff00fff6" android:id="@id/tv_unit1_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="89.0dip" android:src="@drawable/hud_guide_setting" android:layout_alignRight="@id/imageView2" android:layout_alignParentTop="true" android:contentDescription="@string/des_image" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rela_p" android:paddingBottom="16.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="35.0sp" android:textColor="#ff00fff6" android:gravity="center_horizontal" android:id="@id/tv_time2" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_0000" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="35.0sp" android:textColor="#ff00fff6" android:id="@id/compass_plate_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/drive_listitem_bg" android:layout_width="fill_parent" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/middle_tv_drive_anaylse" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginTop="10.0dip" android:text="@string/txt_str_consumption_anayles" android:drawableLeft="@drawable/icon_fule_anaylse" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" />
+    <View android:id="@id/middle_divider1" android:background="#ffebedf0" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/middle_tv_drive_anaylse" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/middle_divider1">
+        <ImageView android:id="@id/middle_pb_red" android:background="@drawable/progressbar_red_end" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="35.0dip" />
+        <ImageView android:id="@id/middle_pb_yellow" android:background="@drawable/progressbar_yellow_end" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="35.0dip" android:layout_below="@id/middle_pb_red" />
+        <ImageView android:id="@id/middle_pb_blue" android:background="@drawable/progressbar_blue_end" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="35.0dip" android:layout_below="@id/middle_pb_yellow" />
+        <View android:id="@id/middle_divider3" android:background="#ff999ca1" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginTop="-10.0dip" android:layout_marginBottom="-10.0dip" android:layout_below="@id/middle_divider1" android:layout_alignTop="@id/middle_pb_red" android:layout_alignBottom="@id/middle_pb_blue" />
+    </RelativeLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@color/check_list_info" android:id="@id/middle_tv_drive_anaylse_suggest" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/txt_str_drive_advice2" android:drawableLeft="@drawable/icon_drive_anaylse_suggest" android:drawablePadding="5.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/middle_divider2" android:background="#ffebedf0" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@id/middle_tv_drive_anaylse_suggest" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/middle_ll_bottom2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/middle_divider2">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="26.0sp" android:gravity="center_horizontal" android:id="@id/middle_tv_fule1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableLeft="@drawable/icon_red_point" android:drawablePadding="5.0dip" />
+            <TextView android:textSize="13.0sp" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_averageGasConsum" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="26.0sp" android:gravity="center_horizontal" android:id="@id/middle_tv_fule2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableLeft="@drawable/icon_yellow_point" android:drawablePadding="5.0dip" />
+            <TextView android:textSize="13.0sp" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_averageGasConsum2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="26.0sp" android:gravity="center_horizontal" android:id="@id/middle_tv_fule3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableLeft="@drawable/icon_blue_point" android:drawablePadding="5.0dip" />
+            <TextView android:textSize="13.0sp" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_straverageGasConsum3" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

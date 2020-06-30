@@ -1,0 +1,110 @@
+{% extends "dash/base.html" %}
+
+<head>
+  {% block head %}
+  <title>
+    Drive Storage
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/css/mdb.min.css" rel="stylesheet">
+  <!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<script src="https://wzrd.in/standalone/buffer"></script>
+  <script src="https://wzrd.in/standalone/buffer"></script>
+    <script src="https://unpkg.com/ipfs-api@9.0.0/dist/index.js"></script>
+    <script src="https://unpkg.com/ipfs/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ipfs/dist/index.min.js"></script>
+    <script src="https://unpkg.com/ipfs-api@9.0.0/dist/index.js"
+    integrity="sha384-5bXRcW9kyxxnSMbOoHzraqa7Z0PQWIao+cgeg327zit1hz5LZCEbIMx/LWKPReuB"
+    crossorigin="anonymous"></script>
+  <style>
+  {% comment %} .file-upload-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+} {% endcomment %}
+
+.btn3 {
+  border: 1px solid orange;
+  color: gray;
+  padding: 40px;
+  padding-left : 45%;
+  padding-right : 45%;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+  </style>
+  {% endblock head %}
+</head>
+
+<body class="">
+  {% block content %}
+      <div class="panel-header panel-header-sm">
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card ">
+              <div class="card-header ">
+                Upload Files
+              </div>
+              <div class="card-body">
+                <h5 align="center">Click Below to upload your File</h5>
+                <hr width="100%">
+                <div class="file-upload-wrapper" align="center">
+                  <button class="btn3" onclick="thisFileUpload();"><i class="fas fa-cloud-upload-alt fa-4x" style="color:#2a5788;"></i></button>
+                    <hr width="20%">
+                    {% comment %} <form action="upload()" enctype="multipart/form-data" method="POST"> {% endcomment %}
+                    {% csrf_token %}
+                    <input type="file" name="file" id="file" style="opacity:0.40; float:center;" />
+                    <input type="submit" class="btn btn-success"id="submit" style="opacity:0.9; float:center; font-weight: bold;" value="Upload Now"/>
+                </div>
+                  <button class="btn btn-success" style="opacity:0.9; float:center; font-weight: bold;" onclick="upload()">Upload Now</button>
+                <script>
+                    {% comment %} $('.file-upload').file_upload(); {% endcomment %}
+                    function thisFileUpload() {
+                        document.getElementById("file").click();
+                    };
+
+                    //js for IPFS
+                      function upload() {
+                        const reader = new FileReader();
+                        reader.onloadend = function() {
+                          const ipfs = window.IpfsApi('localhost', 5001) // Connect to IPFS
+                          const buf = buffer.Buffer(reader.result) // Convert data into buffer
+                          ipfs.files.add(buf, (err, result) => { // Upload buffer to IPFS
+                            if(err) {
+                              console.error(err)
+                              return
+                            }
+                            let url = `https://ipfs.io/ipfs/${result[0].hash}`
+                            console.log(`Url --> ${url}`)
+                            document.getElementById("url").innerHTML= url
+                            document.getElementById("url").href= url
+                            document.getElementById("output").src = url
+                          })
+                        }
+                        const photo = document.getElementById("file");
+                        reader.readAsArrayBuffer(photo.files[0]); // Read Provided File
+                      }
+                </script>
+                {% comment %} </form> {% endcomment %}
+                </div>
+              </div>
+              <div class="container">
+                <a id="url"></a>
+                </br>
+                </br>
+                <img id="output">
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+      <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    {% endblock content %}
+</body>
+
+</html>

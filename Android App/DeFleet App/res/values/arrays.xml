@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pie_colors">
+        <item>\#35BDB2</item>
+        <item>\#FFC765</item>
+        <item>\#27A7F1</item>
+        <item>\#FE8080</item>
+        <item>\#a7f588</item>
+        <item>\#BF1A0B</item>
+        <item>\#590202</item>
+        <item>\#BBBF34</item>
+        <item>\#038C17</item>
+        <item>\#2E707B</item>
+        <item>\#5CC9CB</item>
+        <item>\#CAF1E7</item>
+    </string-array>
+</resources>

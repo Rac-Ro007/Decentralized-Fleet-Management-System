@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/line_all" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/alert" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/im_temp_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/temperature" android:layout_centerVertical="true" />
+            <TextView android:textSize="20.0dip" android:textColor="#ffed331a" android:id="@id/tv_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/txt_str_water1" android:layout_toRightOf="@id/im_temp_icon" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/txt_str_suggestion" />
+        <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/rela_close" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="20.0dip" android:textColor="#ff007aff" android:id="@id/tv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_close" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="20.0dip" android:textColor="#ff007aff" android:id="@id/tv_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_close" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

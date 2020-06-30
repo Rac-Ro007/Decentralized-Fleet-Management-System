@@ -1,0 +1,3124 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_33 (Sun Microsystems Inc.)
+
+Name: res/drawable-hdpi/speed67.png
+SHA1-Digest: hoW25EkNQ0xUhDhuC36Ixo4ge2w=
+
+Name: res/layout/layout_firmware_disclaimer.xml
+SHA1-Digest: 7czvdC4PFqOMM53StcSooYQxA8k=
+
+Name: res/drawable-hdpi/d_icon2.png
+SHA1-Digest: U3jzW34ZMhKzMFPoMbjx+w1ffSo=
+
+Name: res/layout/layout_mileage_integral.xml
+SHA1-Digest: CU96wa9JFQNPnnU89+yasGsgw24=
+
+Name: res/drawable-hdpi/route_address_end.png
+SHA1-Digest: GQxt6YvoFr5eeQAxIy/5iCdlzFU=
+
+Name: res/layout/titlebar_synchro_trip.xml
+SHA1-Digest: RqMRPGoiHxICBn5vlkcL9ylIoU4=
+
+Name: res/layout/ixintui_push_download.xml
+SHA1-Digest: R06MAtrn42m9jCCLCnjxhVDHYyU=
+
+Name: res/drawable-hdpi/speed28.png
+SHA1-Digest: /J6dRJyt/5rIMnUyJYKQn1HVL1I=
+
+Name: res/drawable-hdpi/speed10.png
+SHA1-Digest: hYeFuyu5O+NWTD8Z3RiXf2l5IQ0=
+
+Name: res/drawable-hdpi/default_user_icon.png
+SHA1-Digest: yo7+quLCEM3poB7xm8baqfaLOps=
+
+Name: res/layout/layout_selecttheaddress.xml
+SHA1-Digest: IiWlPszGrSocF7lkKpY2Ubfe5Rc=
+
+Name: res/layout/titlebar_user_pwd_retrieve.xml
+SHA1-Digest: afoDaKo7CWQ+03R0HnPL0I6vgzE=
+
+Name: res/drawable-hdpi/drive_history_green_cal_bg.png
+SHA1-Digest: vAqBbWwWuCBbVj6oaiy8Lw6OzM8=
+
+Name: res/layout/titlebar_selectaddress.xml
+SHA1-Digest: 9tcTeWPJQ5u662arJhldf0D6HRY=
+
+Name: res/drawable-hdpi/btn_message_send.9.png
+SHA1-Digest: f/rcmm8c5kuvFJXHCJxAp5zo6Gw=
+
+Name: res/layout/layout_check_clear.xml
+SHA1-Digest: 0ifLDHmRbqQi+tAW3hfKV3lSMBQ=
+
+Name: res/layout/umeng_socialize_at_overlay.xml
+SHA1-Digest: KSXnYF+cc5OnNJx6Cn3/IjCNLZg=
+
+Name: res/drawable/umeng_socialize_laiwang.png
+SHA1-Digest: LAk4SUNfpmJ5tq8Wb17ezGfJ8bI=
+
+Name: res/drawable/umeng_socialize_douban_off.png
+SHA1-Digest: m3IikWOoak32Kho6xIv+kqB8/S0=
+
+Name: res/drawable-xhdpi/temperature_icon1.png
+SHA1-Digest: k6FpQ6pUdPf4J1Dcn35793VEk30=
+
+Name: res/drawable/umeng_socialize_tx_off.png
+SHA1-Digest: mhoC/aoGKiXbC92Lam4abRHTUK4=
+
+Name: res/drawable-hdpi/btn_2_normal.9.png
+SHA1-Digest: seY1aULjBVROJGeIlscUCLY5S8A=
+
+Name: assets/obd/car/logo/08769b02d0f9cf2cac2a1aa8341b9224.jpg
+SHA1-Digest: lYsLF6ANQr5NjSWnP0LcSml3Eek=
+
+Name: lib/armeabi/libentryex.so
+SHA1-Digest: KGE39CebBt1Q8rqkcaWPSgoQL5o=
+
+Name: res/drawable-hdpi/shop_006.png
+SHA1-Digest: /p//8WjTlLFQ74uiDY70DG91tUY=
+
+Name: res/drawable-hdpi/icon_radiobtn_selected.png
+SHA1-Digest: A6Q6sqNncAemGsFxOELQ7TBywrI=
+
+Name: res/drawable-hdpi/hudduigou.png
+SHA1-Digest: O/IEMyW+j4QPexJqjeK+cOg2Njc=
+
+Name: res/drawable/umeng_socialize_wechat.png
+SHA1-Digest: zign/H5H/+fnyubQgVNnlpNG8Oc=
+
+Name: res/drawable-hdpi/history_big_red_pt.png
+SHA1-Digest: 2ZrqHe9RrdHJyam1SO9gE7RJ/uI=
+
+Name: res/layout/layout_cartype.xml
+SHA1-Digest: aYu9Ft8DcKoRmGa6Vb5ZfhHopdA=
+
+Name: res/drawable/umeng_socialize_shape_solid_grey.xml
+SHA1-Digest: fX3nUshjgqZct05XwqeUgiOgim4=
+
+Name: res/drawable-hdpi/hud_por_gosetting.png
+SHA1-Digest: 9ePyU555XGWsWShglSbxk99wR40=
+
+Name: res/drawable-hdpi/icon_drive_analyse_red_bg.png
+SHA1-Digest: FjT+lK70n/IU21iHN+y8PN3+rYo=
+
+Name: res/drawable/umeng_update_button_check_selector.xml
+SHA1-Digest: 8kmXRH8YXJM2zBwD8WwIxaKw5sI=
+
+Name: res/drawable-xhdpi/xiaozhen_v.png
+SHA1-Digest: /l5Pp/afs5qI7NQTLeHO+vLP3EM=
+
+Name: res/drawable-hdpi/dbbutton_n.png
+SHA1-Digest: 065lnwyFGkhV8YKRdeDYKF2S9as=
+
+Name: res/drawable-hdpi/yp.png
+SHA1-Digest: 00LuVZnZQYwrj1g4lVAw30VsldU=
+
+Name: res/layout/titlebar_speed_prompt.xml
+SHA1-Digest: 02UguIuNdPKY3L9B1ujaWHbtTbI=
+
+Name: res/layout/layout_user_registe.xml
+SHA1-Digest: h+347GnsMWWrtc/fKdknVdwBI9U=
+
+Name: res/drawable-hdpi/consumption.png
+SHA1-Digest: +DCiU+bS0JRpk9zegTDKChLGN6I=
+
+Name: res/drawable-hdpi/speed61.png
+SHA1-Digest: RvyWETYMI3WuHXiBlhFjhVN7foo=
+
+Name: res/layout/titlebar_user_registe_car.xml
+SHA1-Digest: Wc3FFlSwhRDnREjupfpl9zIONpg=
+
+Name: assets/navicore/res/compass.png
+SHA1-Digest: SEHHkYtdgCG3rMiphIUx0uoggIM=
+
+Name: res/layout/layout_drive_errcode_prompt.xml
+SHA1-Digest: Z8zPezFBoBEto1CPyLXyoItbhVE=
+
+Name: res/drawable-hdpi/progress_02.9.png
+SHA1-Digest: ucK7TOgtLQLTUV0LTOW8/hq9bSI=
+
+Name: res/layout/layout_main.xml
+SHA1-Digest: OnOL5EsiHIoMBpGLl/pFabV72KU=
+
+Name: res/drawable/umeng_socialize_light_bar_bg.9.png
+SHA1-Digest: OHjX4g8qSsyKQkUzUsmxt8uEXe4=
+
+Name: assets/obd/car/logo/c33f708c8ac0707760edf377b805c9d2.jpg
+SHA1-Digest: gv0y0k6zmwNhDqKkwz19/tR8toc=
+
+Name: res/drawable-hdpi/btn_press.9.png
+SHA1-Digest: aqIGPehL98LT+bCEJuC2IoAf820=
+
+Name: res/layout/titlebar_car_number.xml
+SHA1-Digest: C7rkjhGQF4wcbVsGJbl5OUUxrhg=
+
+Name: res/drawable/umeng_socialize_bind_bg.9.png
+SHA1-Digest: bD6YsLJzfxTZSpNSYGW1iHc0mh0=
+
+Name: res/layout-v9/umeng_common_download_notification.xml
+SHA1-Digest: +Lfbczd4TbayQfTEAPcgGbqQT0s=
+
+Name: assets/navicore/res/zoomout_disable.png
+SHA1-Digest: kp/RCsx52Ex4qsbW5o0jbDSBf1w=
+
+Name: res/layout/layout_upkeep_i.xml
+SHA1-Digest: TQsuCWG3TDQ+U7OjM54FczZtA7I=
+
+Name: res/drawable/umeng_update_wifi_disable.png
+SHA1-Digest: ULFVVxHPQp6nwE7E8oZCu+VKWYE=
+
+Name: res/layout-1180x768/layout_hud2_mirror.xml
+SHA1-Digest: NjQ5AlgR63umno8ACqxzTOBYfVI=
+
+Name: assets/navicore/res/zoomin.png
+SHA1-Digest: e8m4dld0QB39F6GkG5eRmWKzJ/E=
+
+Name: res/layout/layout_fill_order.xml
+SHA1-Digest: HpffeB2FdYU6z1cvJTm9K+FehUI=
+
+Name: res/layout/titlebar_gas_check.xml
+SHA1-Digest: tgEdNbd+HHh2OjZ+dDn1PBKQcNg=
+
+Name: assets/OTAHTML.zip
+SHA1-Digest: 6wx/8RNvD/haHXlyOIGC7XpLnJI=
+
+Name: assets/navicore/res/data/resource.irf.png
+SHA1-Digest: Cq453rEe8FKCR3Xg9oxSZmyVNbo=
+
+Name: res/drawable-hdpi/ic_condition_scan_normal.png
+SHA1-Digest: vsRFsDmI2lv6yG65YeuAoZ+MrJc=
+
+Name: res/layout/umeng_socialize_full_curtain.xml
+SHA1-Digest: UzUPTRIJ9KRCqF1C2d8V14Sq4Cc=
+
+Name: res/drawable-hdpi/tip_blue.png
+SHA1-Digest: mZzw8skuZEby6S6RwXG1r3yNnmU=
+
+Name: res/layout/layout_h_dashboard2.xml
+SHA1-Digest: fx+Zt5XE+CJXhG7ZnEa0DTNxJW0=
+
+Name: res/drawable/umeng_socialize_qzone_on.png
+SHA1-Digest: toMgVXIHA21ekB/JXLStOyNHm7M=
+
+Name: res/drawable-hdpi/btn_analyse.xml
+SHA1-Digest: 7MVnqOkFs3CgeZTWaHran2rYheg=
+
+Name: res/anim/slide_out_right.xml
+SHA1-Digest: kKhrwFdzJjPNbogZjzYzZNCZ6d8=
+
+Name: res/drawable-hdpi/mileage_icon2.png
+SHA1-Digest: R+3xF/b506bXfbunT6YdiqLqFeI=
+
+Name: res/drawable-hdpi/speed38.png
+SHA1-Digest: cUVK1fgpOSvkdRYQ7HRwWxj3m/s=
+
+Name: res/drawable-hdpi/button_day.png
+SHA1-Digest: 7wIycnPDwBf8t4kQiBpXwrv77rY=
+
+Name: res/layout/titlebar_user_login.xml
+SHA1-Digest: 90YumGlgjLV3OEppOXh6/WRSdOc=
+
+Name: res/layout/titlebar_error_log.xml
+SHA1-Digest: VwCN4STqRbcXPoaAJI9WXpgmfrw=
+
+Name: res/drawable-hdpi/speed8.png
+SHA1-Digest: v0i5W0mR9Jds/0gNtJ3ul4LYnCQ=
+
+Name: res/layout/umeng_update_dialog.xml
+SHA1-Digest: ii1tGAtbo6j+9LyH7hDvSi/qi94=
+
+Name: res/drawable-hdpi/img_regist_auto_info.png
+SHA1-Digest: IlrcRvDlyu/5ARBs4Bzxgnm2hjY=
+
+Name: res/drawable/progress_bar_blue.xml
+SHA1-Digest: FRJYwcrjBhyvSRjha1V8Iy9gt3o=
+
+Name: res/layout/layout_user_retrieve_password.xml
+SHA1-Digest: Fb8rQfu9PlmjGTTBki4bRr+ybrw=
+
+Name: res/drawable/umeng_socialize_wxcircle.png
+SHA1-Digest: hmUkF3sMV0n+paKkecX4iOnPTxY=
+
+Name: assets/obd/car/logo/aca7852f49aef22705fa88aaa9ab324f.jpg
+SHA1-Digest: Yn+6FTcj7D1WRFT1xlZR9cxMJEs=
+
+Name: res/drawable-hdpi/arrow_selector.xml
+SHA1-Digest: xRvHfW0SMdfzfalj3jxpX9NSbzQ=
+
+Name: res/layout/layout_dialog_gps_tip.xml
+SHA1-Digest: tImZ7zPOSXqQn3eTuAr2RlYCKt4=
+
+Name: res/drawable-hdpi/speed31.png
+SHA1-Digest: oF5FSenSvfJzxkDwgIq176CXclI=
+
+Name: res/drawable-hdpi/icon_warning_fault.png
+SHA1-Digest: TxSEkYWu6IN2HLr1vqA/E+aOdoc=
+
+Name: res/layout/item_list_upkeep.xml
+SHA1-Digest: uBt+9XoVStdcaIH0CTcZs4q9U6U=
+
+Name: res/drawable-hdpi/temperature.png
+SHA1-Digest: VanNP6nW4xSpNv9CXssdgRzrtfs=
+
+Name: res/layout/item_list_drive.xml
+SHA1-Digest: cgvaFvS6DKpMyh8yatwqDci/e4U=
+
+Name: res/layout/layout_sn_binding.xml
+SHA1-Digest: D3NhUtsfmOrNDIV1PZgXWrO8WkI=
+
+Name: res/drawable/iv_choice_pressed.png
+SHA1-Digest: kf7SrWhq9vZKpaBLz8iGNK4rjXQ=
+
+Name: res/drawable-hdpi/progressbar_yellow_end.9.png
+SHA1-Digest: K0x0cYtySeDXFDiRjQEFldTPfnA=
+
+Name: res/drawable-hdpi/icon_yellow_point.png
+SHA1-Digest: Bi0t3QYIMr/Ig8RvgEqga7O01Lg=
+
+Name: res/drawable-hdpi/voltage_icon1.png
+SHA1-Digest: HOt4+VKCg+rTco01z4+yGuuj2n0=
+
+Name: res/drawable-hdpi/hud_pr.png
+SHA1-Digest: j0AwOJyS0tvxRSGohcSzpPLqqks=
+
+Name: res/drawable-hdpi/dashboard_icon1.png
+SHA1-Digest: BXGDF8VikYJfYx8V+Va5ISR5xzo=
+
+Name: res/drawable-hdpi/hudbutton_n.png
+SHA1-Digest: jIjaO7qclipP3o4oKYUScFyM0O8=
+
+Name: res/drawable-hdpi/hud_setting_cancel_d.png
+SHA1-Digest: kHBMBynWvUcMOCPTAsP/GfCPSzk=
+
+Name: res/anim/slide_in_right.xml
+SHA1-Digest: EqgbltA4hVW8/sLlBXvHeoAb3SE=
+
+Name: res/drawable-hdpi/upkeep_i_1.png
+SHA1-Digest: 94Ilsw8GwKWsBMmoPqd6+r85JN8=
+
+Name: res/drawable/bg_getpoint.xml
+SHA1-Digest: RD50WgPtkfPWWlnoXw9wRaphZuk=
+
+Name: assets/obd/car/logo/fe8adae97840767ec64bcd965519546a.jpg
+SHA1-Digest: U9cSSVG2VmrmgaMhaosFw00OOBQ=
+
+Name: res/drawable/umeng_fb_tick_normal.png
+SHA1-Digest: DC/zA3DYqb4GZ9zvQ0V2M/tDH/o=
+
+Name: res/drawable-hdpi/speed18.png
+SHA1-Digest: r8dKCz3RHik+6JBgNlu+SsS1bho=
+
+Name: res/drawable-hdpi/ic_next.png
+SHA1-Digest: xx2ZpzmEUJWx8i6mnZfALX7jhxE=
+
+Name: res/drawable-hdpi/img_regist_logo.png
+SHA1-Digest: mlSJ4eA5G5LtXcD+Z7qVD6QwYwg=
+
+Name: res/layout/layout_sn_scanning.xml
+SHA1-Digest: UrVmux0CioA6hHgf049OJjt+udk=
+
+Name: res/drawable-hdpi/icon_ratingbar_full.png
+SHA1-Digest: V6fxrqXOns+HT1bGsQFIqiNObnY=
+
+Name: res/anim/title_anim.xml
+SHA1-Digest: 9hgxgTxsrHUEFPqQ+8cFm0PQtko=
+
+Name: res/drawable/umeng_socialize_title_tab_button_right.xml
+SHA1-Digest: or5KWNIGPDmSlFqJN7+sVvmwiSI=
+
+Name: res/drawable/bg_hud_setting_cancel.xml
+SHA1-Digest: OIxGUh9USBueUAdxx0QWx/sgfI4=
+
+Name: res/layout/layout_user_registe_car.xml
+SHA1-Digest: rHTl0AoOiQQbYG+3VRk698BHENo=
+
+Name: res/drawable-hdpi/speed25.png
+SHA1-Digest: kspxhxDClkgngreAorhGDz4conk=
+
+Name: res/drawable/umeng_socialize_button_login.xml
+SHA1-Digest: wqAlWCKcNPQoB5H/mu4B5KkBmxQ=
+
+Name: res/layout-1280x720/layout_hud2_mirror.xml
+SHA1-Digest: pa0agIZvfze795T2EEkYGHl8ZCc=
+
+Name: res/layout/layout_integral_center.xml
+SHA1-Digest: 8hxsQzB5D4LicSvTN5nWkjlu/Eo=
+
+Name: res/drawable-hdpi/main003.png
+SHA1-Digest: GeSoHdQwgSNOvZIfLbY/TrZ0hwM=
+
+Name: res/layout/titlebar_total_mileage.xml
+SHA1-Digest: HxGQmjsMMGcDDYeglrAoojrFJlA=
+
+Name: res/layout/umeng_socialize_full_alert_dialog.xml
+SHA1-Digest: ZT88waJmYNX6rWwR/IcwdvZu/40=
+
+Name: res/drawable/umeng_fb_arrow_right.png
+SHA1-Digest: cpWZeFvnTunnVoDbEmobrTrIxHQ=
+
+Name: assets/fonts/LcdD.ttf
+SHA1-Digest: dSUQqOamawtzdRgPQ1JxCVYA6so=
+
+Name: assets/obd/car/logo/17b87f05b683be85f5fc416687bc58d3.jpg
+SHA1-Digest: e3ON3hj3ts9XJfSvEwP1412FHLo=
+
+Name: res/layout/titlebar_user_pwd_modifi.xml
+SHA1-Digest: vO1RS0kc2vKlxV9i5ceAhpAABlE=
+
+Name: res/drawable-hdpi/gouxuan.png
+SHA1-Digest: A6Q6sqNncAemGsFxOELQ7TBywrI=
+
+Name: res/drawable-hdpi/changzhen.png
+SHA1-Digest: Af82wGFzBE5C8cx/IZksOC2pQ/s=
+
+Name: res/layout/titlebar_upkeep_revise.xml
+SHA1-Digest: QD8Whx6Fk5FN07WhaBslDgKhkck=
+
+Name: res/layout/titlebar_sn_not_binding.xml
+SHA1-Digest: OtQD17mwOSUuz86Lwr0k/ZETmK4=
+
+Name: res/drawable-hdpi/ic_car_maintain_normal.png
+SHA1-Digest: qjmRk8rCwneRzQiBVh9d2w4/lfs=
+
+Name: res/drawable-hdpi/speed49.png
+SHA1-Digest: xgxHYLVpkVueF9g0XkiXDeF8Muc=
+
+Name: assets/navicore/res/small_map3_style_sheet.json.png
+SHA1-Digest: IGncUjDozExbvk6+2Ro3QIuLZWY=
+
+Name: res/drawable-hdpi/hud_lan_gosettingbig.png
+SHA1-Digest: auWZwq3HfXBf+sxygcePe0vUl8M=
+
+Name: res/drawable-hdpi/speed17.png
+SHA1-Digest: vOpPHLJJ8w4IwD6KPjASGYwyv1c=
+
+Name: res/drawable/umeng_socialize_follow_off.png
+SHA1-Digest: 1+13WWN6Ft/1vskwi1QxuCQ3Gbg=
+
+Name: res/drawable/umeng_fb_bar_bg.9.png
+SHA1-Digest: zTF3mPGO8XIUaaZ0RJDAPnmH/vc=
+
+Name: res/drawable-hdpi/hongdian.png
+SHA1-Digest: tBCYb2OPFqwbNH0Gy7P4YDN42Uw=
+
+Name: res/drawable-hdpi/bg_titlebar.9.png
+SHA1-Digest: Quk4bSBucI4YGtDwkJ0uyn8db5U=
+
+Name: res/layout/titlebar_sn_binding.xml
+SHA1-Digest: +lySRpeOwLZQXyk8iUHsHDi4m+Q=
+
+Name: res/drawable-hdpi/check_mistake.png
+SHA1-Digest: GPVjP9WtikpiET0Yul/xEkNnAew=
+
+Name: res/drawable-hdpi/icon_warning_fatigue.png
+SHA1-Digest: NOcVqlFlCfnBtta/8zVl/GaIjkU=
+
+Name: res/drawable/umeng_socialize_button_blue.9.png
+SHA1-Digest: NgMeuCP/J5DaMlc6v8l0XUhEphc=
+
+Name: res/layout/titlebar_order_complete.xml
+SHA1-Digest: j36eqnqQaOeUsJ6BLjXmtaOXPec=
+
+Name: res/layout/umeng_fb_activity_contact.xml
+SHA1-Digest: lczqOLisF55vLmZWI1CbB+80VVo=
+
+Name: res/drawable-hdpi/top.png
+SHA1-Digest: /ZxeRwy9+ysxMaP6mO0IQxEQGrM=
+
+Name: res/layout-1180x768/layout_landscape_hud.xml
+SHA1-Digest: r9K0ICkFsLGsEHjN8Nh6WLklIhs=
+
+Name: res/layout/layout_include.xml
+SHA1-Digest: QCDZeb3xtJevXBeKQeZdqsvG9vc=
+
+Name: assets/obd/car/logo/ebd9f656b354fcc9231b139065c713d5.jpg
+SHA1-Digest: iSREdhASfFVVxfR0hLdg76J7pBg=
+
+Name: res/layout/titlebar_check_history.xml
+SHA1-Digest: TMJkN7zUDUjDe6QYEdWwGtkK00w=
+
+Name: res/layout/layout_check_not_connect_dialog.xml
+SHA1-Digest: mXdKcc+lJWqodycEahxYo8p29Cw=
+
+Name: res/layout/layout_track.xml
+SHA1-Digest: ySbJr1Z5l+nHeZkrsSRJMLZisQY=
+
+Name: res/drawable-hdpi/ic_car_maintain_pressed.png
+SHA1-Digest: 53cauPZdyxWrpidBtQaUP8XDV0U=
+
+Name: res/drawable-hdpi/vin_icon3.jpg
+SHA1-Digest: lQnnSKvvSF6PvKYyriimzII0QyQ=
+
+Name: res/layout/umeng_fb_activity_conversation.xml
+SHA1-Digest: ITyJY6ovXYApHNT85KKYT+JrzHw=
+
+Name: res/drawable-hdpi/dashboard.png
+SHA1-Digest: bXDov0EXI7Wqh7i22v1du1Plf44=
+
+Name: res/drawable-hdpi/speed12.png
+SHA1-Digest: 6XElCpWTyn4ZCyGIYaljSG3T+lE=
+
+Name: assets/obd/car/logo/546affec580860c19b17ab39eb130191.jpg
+SHA1-Digest: mSoggZ0ss4280Ez+8udAKUT1MU0=
+
+Name: res/drawable/umeng_socialize_nav_bar_bg.png
+SHA1-Digest: hZGaj/JkjjD34gvBba/LaJZqujs=
+
+Name: res/drawable-hdpi/arrow_right.png
+SHA1-Digest: V8JA2ZM+DUNWmFGBlJ1YnmSfShE=
+
+Name: res/layout/umeng_socialize_at_item.xml
+SHA1-Digest: d3PZyqgqmUKMESOVX0IRSS6ueVU=
+
+Name: res/drawable/umeng_fb_write_pressed.png
+SHA1-Digest: /mR5ug1ARAvkMzXHb3WTcmTrAQQ=
+
+Name: res/drawable/bg_error_log.xml
+SHA1-Digest: 5sGP4B4Ekyl74bK0BxPi11kuPXY=
+
+Name: res/drawable/umeng_socialize_shape_solid_black.xml
+SHA1-Digest: T37stDiAvICCFp8Ja1tI+remjUQ=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: N15wUnaXM1jl6d+4euAUmFsxTGw=
+
+Name: assets/obd/car/logo/23e4a72721bc4d726906b47bc80224b1.jpg
+SHA1-Digest: yuMIdi7IkfDUtT+0NqljhaZnRU0=
+
+Name: assets/obd/car/logo/6b8464f9b15b2c5ec62c97ea0402f9e9.jpg
+SHA1-Digest: VxUMfwKQYzOWtGbHAK8G6NI7t7M=
+
+Name: res/drawable/iv_holderror_normal.png
+SHA1-Digest: 7Wwne3f6/AqQUeJ3Vw6jTiUsffI=
+
+Name: res/drawable-hdpi/xiaopan.png
+SHA1-Digest: HjqLfyWsQTGvkKBt8OY0Lj1o9Gc=
+
+Name: res/drawable/umeng_socialize_facebook.png
+SHA1-Digest: YuVlF/sxcMTpsyo5UdTOPWER8Gw=
+
+Name: res/drawable/umeng_socialize_at_selected.png
+SHA1-Digest: vFfANHh8KIUK2CxqdrNi6eMX9EY=
+
+Name: res/drawable/umeng_socialize_follow_on.png
+SHA1-Digest: SroBEK4/zXiRqWZvWBjUa8JlbSo=
+
+Name: res/drawable/umeng_fb_back_selected.png
+SHA1-Digest: 6siWfCBMtg28kTItz2nG39qC8EY=
+
+Name: res/drawable/umeng_socialize_sms_off.png
+SHA1-Digest: osxXF00YerowvggUAlYFYigJbQI=
+
+Name: res/drawable/umeng_common_gradient_green.xml
+SHA1-Digest: ZDyisfAamRM9mdew8+tq1DegzP8=
+
+Name: res/layout/titlebar_drive_management_sn.xml
+SHA1-Digest: FcPH+mwDC3JqrSFF0qPv9PjkF40=
+
+Name: res/drawable-hdpi/hud_guide_state.png
+SHA1-Digest: Hx8Cn12oio1ljYkXAoS5TytGSyA=
+
+Name: res/drawable-hdpi/dashoboard_v_bg.png
+SHA1-Digest: ZPwtv6lTotGORAi3OFFTRCY+Yp4=
+
+Name: res/layout/layout_navi_model.xml
+SHA1-Digest: 2S/DFhNgQCeeqWm61NcZ0XjNAZY=
+
+Name: res/drawable-hdpi/iv_check_not_connect.png
+SHA1-Digest: 5OfBEJkZh7mnM6p43Igh+WN1Pmc=
+
+Name: res/drawable-hdpi/button_year.png
+SHA1-Digest: r7o1RygzL42Crfd1CrGOByeMoqc=
+
+Name: res/layout-960x540/layout_v_dashboard2.xml
+SHA1-Digest: JYzXH9pEtLbJA5P/HZKicFhxinY=
+
+Name: res/drawable-hdpi/img_buy.png
+SHA1-Digest: MDM3UkZXXt8sL6p7oEUw0G/CqKg=
+
+Name: res/layout/layout_calendar_years.xml
+SHA1-Digest: 5gpHq00+AHri7ec9WTcBtNhlVgA=
+
+Name: res/drawable-hdpi/icon_fule_anaylse.png
+SHA1-Digest: IS9shgZ3QFF6I/VlwQh4m/5FEtY=
+
+Name: res/drawable-hdpi/umeng_socialize_oauth_check_off.png
+SHA1-Digest: /8xNpMWvFS4uibqJmdeB2dW0ZHM=
+
+Name: res/drawable-hdpi/wanggezi.png
+SHA1-Digest: VCqTOOdghtCfFqBpSE0BHt4f1vo=
+
+Name: res/drawable-hdpi/mengceng.png
+SHA1-Digest: NcB84F2pYrRC1jRTgMdfxZXyDnM=
+
+Name: res/drawable-hdpi/btn_pressed.9.png
+SHA1-Digest: 0SzrUQsfbdgR5N8wNN+uI19Qu5s=
+
+Name: res/drawable/im_arrow.xml
+SHA1-Digest: qF4kA3gDF2Z0oBs7vfT4ng7I53E=
+
+Name: res/drawable-hdpi/drive_listitem_middle_bg.9.png
+SHA1-Digest: Kw/lKbe7xXwy+W4wd7he/KM0wdI=
+
+Name: res/drawable-hdpi/finish_firmware.png
+SHA1-Digest: +JB5PoXBRqJOiGIA2WJYwPIe75s=
+
+Name: res/layout-1180x768/layout_v_dashboard2.xml
+SHA1-Digest: pd/KHiVrrieNuC8X4lcnxmB3dDI=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: N15wUnaXM1jl6d+4euAUmFsxTGw=
+
+Name: res/drawable/umeng_socialize_oauth_check_on.png
+SHA1-Digest: 2Uhb2/RXTvVBFUp60OKSC4vp/5M=
+
+Name: res/layout/item_avail_integral.xml
+SHA1-Digest: /1KtVlitBUSGUS4nUS53iP59I9o=
+
+Name: res/layout/titlebar_tired_prompt.xml
+SHA1-Digest: 7InByvVy3heMVsGcG7jxEAKBTjA=
+
+Name: res/anim/push_right_out.xml
+SHA1-Digest: b0B5py+cZs45AHbecoFADbyPvJQ=
+
+Name: res/drawable-hdpi/umeng_socialize_share_pic.png
+SHA1-Digest: ICQW2J83rBegwQpVVW14iwnaWso=
+
+Name: res/layout/titlebar_mileage_integral.xml
+SHA1-Digest: vdzDPDTp6OWuIgVD/+ElshbEyXc=
+
+Name: res/drawable-hdpi/bg_check_line_enable.png
+SHA1-Digest: VZCrfuhskTmXWLPYzmmqKbilAYM=
+
+Name: res/layout/layout_citylist.xml
+SHA1-Digest: 8v9OVn5XnWCtabz0LFEIp9v/830=
+
+Name: res/drawable-hdpi/bg_light_open_p.png
+SHA1-Digest: DfLrqCH1/5kK5cFVhchEX5AwFL0=
+
+Name: res/drawable/bg_check_clear.xml
+SHA1-Digest: PW8uJR7LkhxocEXXuZJEi9geJo4=
+
+Name: res/drawable-hdpi/temperature_mistake.png
+SHA1-Digest: pJi+BxONbTtKCX5YTxMIZkWXcow=
+
+Name: res/drawable-hdpi/bluetoothconnect.png
+SHA1-Digest: 6fxO1Z4fsikEQt+KoMpnT5FGYfI=
+
+Name: res/drawable/umeng_socialize_button_login_normal.png
+SHA1-Digest: J67D0FFijDTbSnePdIu+BLE12Ro=
+
+Name: res/drawable-hdpi/icon_emissions.png
+SHA1-Digest: yAKbjciJNNufZgfyG3Xtm78vx44=
+
+Name: res/drawable/umeng_socialize_location_on.png
+SHA1-Digest: pFWewFEBW31ppoDwfG8n56nSqr8=
+
+Name: assets/obd/car/logo/04201b6844bc332e553a06c682a98349.jpg
+SHA1-Digest: R8k6Oy9ef6Q+hdNuwin9L/idH5k=
+
+Name: res/drawable-hdpi/calendar_bg_selector.xml
+SHA1-Digest: /o9w+3kgvnnFSZF7Y5oc4KEdMKU=
+
+Name: res/drawable-xhdpi/changzhen_v.png
+SHA1-Digest: uosowmWz7hIlOpDbEUkEgg+gRi8=
+
+Name: res/drawable-hdpi/speed14.png
+SHA1-Digest: 5a0Ub/nRf9eZDrQpvSEv6FDKRF4=
+
+Name: res/drawable/umeng_socialize_location_off.png
+SHA1-Digest: Z4X26jlc7tbSPXUzZ/55MajjHD8=
+
+Name: assets/navicore/res/zoomin_pressed.png
+SHA1-Digest: K7O9qlna7N5cdEZQ9OL0WglYHcY=
+
+Name: res/layout/layout_car_control.xml
+SHA1-Digest: 7C4/mcDiWzRwJcOssxljBCma1Us=
+
+Name: assets/navicore/res/zoomout_pressed.png
+SHA1-Digest: Oj2unZ8w5LR3UYxq1mh/76874mE=
+
+Name: res/drawable-xhdpi/stop_button_n.png
+SHA1-Digest: hem5i8NHAFqCYJ3QiYpVO0QebAI=
+
+Name: res/drawable-xhdpi/invalid_icon.png
+SHA1-Digest: XtIfksLn3W71vy1BxBEGxq3CDz8=
+
+Name: res/drawable-hdpi/umeng_update_btn_check_off_focused_holo_light.
+ png
+SHA1-Digest: q2aDAtDEQelrCYZBDuVXGd/tmCY=
+
+Name: res/layout/titlebar_gears_prompt.xml
+SHA1-Digest: lbE5ZRw90RLRRwdYmpIkZr8TdRQ=
+
+Name: assets/obd/car/logo/4ce6c4f5f6716711e65aa46276ec9354.jpg
+SHA1-Digest: 1Mz62nzb+4HBM5AucBJETkFCifc=
+
+Name: res/drawable-hdpi/drive_history_green_pt.png
+SHA1-Digest: vcofVit3OBBdUgvSLV5ZuSZgJ+E=
+
+Name: res/drawable-hdpi/bg_cost.png
+SHA1-Digest: q1a/5c0bUAEoXQ9vG4Th0UceQJg=
+
+Name: res/drawable-hdpi/speed21.png
+SHA1-Digest: eyquWNYUoXTAJKvqB5hjqmkSN5s=
+
+Name: res/drawable/icon_ratingbar.xml
+SHA1-Digest: o6y9NIu6P7NBarrNFkp4tna+6Xc=
+
+Name: res/drawable/bg_start_check_normal.png
+SHA1-Digest: Ud9/jkmrULkdSfh4Eu5CIddQdQ0=
+
+Name: res/drawable/umeng_socialize_laiwang_dynamic_gray.png
+SHA1-Digest: 3VjCTVRs54j/TL74JtDhza711f8=
+
+Name: res/drawable-hdpi/setting_logo.png
+SHA1-Digest: 9CbafZzZSqiaB65aiAAdTGv3izg=
+
+Name: res/anim/slide_in_down.xml
+SHA1-Digest: eoiN51YKidE+89c7mh/zpupwegY=
+
+Name: res/drawable/umeng_socialize_qq_off.png
+SHA1-Digest: ZVVkG1sUd3Xd3tXjT3UorGji8iw=
+
+Name: res/anim/slide_out_alpha.xml
+SHA1-Digest: CUJCCNHcc4uIhuQCgZwo9JS/nhU=
+
+Name: res/layout/layout_detailed_list_item.xml
+SHA1-Digest: 1yUNIinvOwB7YlUCs+x3O1uD56Y=
+
+Name: res/layout/titlebar_electronic.xml
+SHA1-Digest: vH/cq/TMelM1cWO2WNiZL9Mtp3s=
+
+Name: res/layout/titlebar_merger_trip.xml
+SHA1-Digest: bRquYPZ3V53aqCzqeB8ZE79QOuY=
+
+Name: res/layout/layout_correction_rate.xml
+SHA1-Digest: ilejSKCuI69qLC+B0x8Q4LDMyas=
+
+Name: res/drawable-hdpi/speed53.png
+SHA1-Digest: 8ZZ7uarEwJvKJ/+s9qfEWXe5RtA=
+
+Name: res/layout/titlebar_fill_order.xml
+SHA1-Digest: 4zAG6qd73qT0cMbsM1PpY3frC4g=
+
+Name: res/drawable-hdpi/icon_drive_anaylse_suggest.png
+SHA1-Digest: ZepF1W1HqgvfwLDjlXo25uTUscs=
+
+Name: res/drawable-hdpi/hudjianbian.png
+SHA1-Digest: R9Fqa7iF1UkUOdiBWEb/c5YC6lU=
+
+Name: res/drawable-hdpi/iv_car_no.png
+SHA1-Digest: /ZHGTkZ/wQuC4DjyWXRzJMXRXT8=
+
+Name: res/drawable-hdpi/pb_bg.png
+SHA1-Digest: 2AfUeQfOG3IWmt4W/8KrH/BCvG4=
+
+Name: res/layout/layout_drive_water_prompt.xml
+SHA1-Digest: q87zDqVcM//y0hi6NbrAAmPnhyQ=
+
+Name: res/layout/layout_user_modifi_password.xml
+SHA1-Digest: uyNXEDL0DQPGw0gGtIknGEyAR2g=
+
+Name: assets/ixintui_plugin/ixintui_plugin.jar
+SHA1-Digest: mhEpPwC0e2FPBvVYDexKRQI+ZuQ=
+
+Name: res/drawable-hdpi/speed42.png
+SHA1-Digest: RGWI3D4PRUw7UdKTM4oK0A6HsZg=
+
+Name: res/drawable/umeng_socialize_yixin_circle_gray.png
+SHA1-Digest: eYeL/15Mv6fuFJeiL+w3TCwav/I=
+
+Name: res/layout/layout_newtemperature.xml
+SHA1-Digest: Rg5ckJda3lLhXGjA/VkK5gf3Nbk=
+
+Name: res/drawable/bg_connection.xml
+SHA1-Digest: pG1lRz0njaULsMcjKg9desL9lw8=
+
+Name: res/layout/layout_purchasing_info.xml
+SHA1-Digest: IN0hQB1E9ANK8NC9UEs+/qM1a6o=
+
+Name: res/layout/layout_user_center.xml
+SHA1-Digest: kw7queYs6VwFKv65PUHvpHMDxKI=
+
+Name: res/drawable-hdpi/track_icon_press.png
+SHA1-Digest: DsRP3Rkk/HbeKWomo5/Lao0TzoQ=
+
+Name: res/drawable-hdpi/icon_blue_point.png
+SHA1-Digest: Ijm/rlZsXTq0La+X4GzKEbEL5hE=
+
+Name: res/drawable-hdpi/dashboard_pointer.png
+SHA1-Digest: Mfx2oUY1zY/j0oW1kDqdyXVBiyk=
+
+Name: res/drawable-hdpi/umeng_socialize_nav_bar_bg_pad.9.png
+SHA1-Digest: EBP1j7JRcHEfaSZrIHuuyY4NjFg=
+
+Name: res/drawable-hdpi/shop_003.png
+SHA1-Digest: hlqLlk7LKUrm9aFiEwPKjHc9x4o=
+
+Name: res/drawable-hdpi/speed35.png
+SHA1-Digest: Ds16zCYdgJPLuBK5X2EPhtH4Blk=
+
+Name: res/drawable-hdpi/vin_icon2.jpg
+SHA1-Digest: L2Rk3dG1lqZM6EbgE9ATrBEUAaU=
+
+Name: res/drawable-hdpi/bg_user_center.png
+SHA1-Digest: elLQRUInLuq6QRopiXOeHp7rHQ8=
+
+Name: assets/obd/car/logo/b4cc7688f964f11c60a1bd1bce30ec7e.jpg
+SHA1-Digest: zFVqEkkJS8Uon5ZZ1m0RRyXGyGs=
+
+Name: res/layout/drive_detail_top_view.xml
+SHA1-Digest: J7NGGZAJCUAxrv6dgZjVmAz+p20=
+
+Name: res/drawable-hdpi/bg_toggle_pressed.png
+SHA1-Digest: 1cc5zIc1H8dUy8WJY0hr7+i0/cU=
+
+Name: res/drawable-hdpi/notintegral_icon.png
+SHA1-Digest: 9ktih8+pY/N+utkwJ0y2pRnquqg=
+
+Name: res/drawable/iv_buytip_pressed.png
+SHA1-Digest: viGmCurRo4ykQ3rE4BYd7Y6MmYA=
+
+Name: res/drawable-hdpi/icon_car_number.png
+SHA1-Digest: 5pt4EYgT9oC005Qgb+j2BzQnTF8=
+
+Name: assets/obd/car/logo/03b61987374fff7f4049c070e54a070d.jpg
+SHA1-Digest: itgtuS6onhqNCXvBNiR3Y4C5e00=
+
+Name: res/drawable-hdpi/icon_voltage_prompt.png
+SHA1-Digest: TnBtRodPJ8uHhhIi61zRg3XB2N4=
+
+Name: res/layout/layout_car_number_edit.xml
+SHA1-Digest: bBAslOsrzdBsim2uAEADvuIpc2s=
+
+Name: res/drawable-hdpi/iv_warning.png
+SHA1-Digest: Kax9CIficB/UUW/+61ihq9W2cmA=
+
+Name: res/layout/layout_check_history_query.xml
+SHA1-Digest: lnd6X6j4+ucRRtQl5l8m+dXMLrU=
+
+Name: res/drawable/umeng_socialize_follow_check.xml
+SHA1-Digest: EnxkL988umEZ3LtavfFbozIifw8=
+
+Name: res/drawable-hdpi/umeng_update_close_bg_tap.png
+SHA1-Digest: SNDG2U8SkuWqLIV19ogQGjNLlU8=
+
+Name: res/drawable-hdpi/hud_time_icon.png
+SHA1-Digest: ejCVQUimosdGz7ykTt1b3jtEBw4=
+
+Name: res/layout/titlebar_user_info_edit.xml
+SHA1-Digest: 51qVhhQ2eeM+MCj/lacisqxila0=
+
+Name: res/drawable-hdpi/ic_condition_scan_pressed.png
+SHA1-Digest: exWN9qRONFP8cLAjvtPPcdz+l3k=
+
+Name: res/drawable-hdpi/umeng_socialize_oauth_check_on.png
+SHA1-Digest: ioAYVAh95fD+6Fqy1/dF8AVXOdA=
+
+Name: res/layout/layout_gas_check.xml
+SHA1-Digest: gFiHic2HCA0XS1y+HzVCFOHcobY=
+
+Name: res/layout/umeng_bak_platform_selector_dialog.xml
+SHA1-Digest: 2H9WL4aNvfGK7rKjhOkb/U0R8TE=
+
+Name: res/layout/layout_firmware_upgrade.xml
+SHA1-Digest: 47keNx0tKvrprD8oUw0cg1jvRpo=
+
+Name: res/layout/umeng_fb_list_item.xml
+SHA1-Digest: bd+/q/GOXZ/KBlDBrGNXQK2uZKk=
+
+Name: res/layout/layout_mileage_upload.xml
+SHA1-Digest: iEFNlojULOXymciVfcPyl+bxkYY=
+
+Name: res/drawable-hdpi/hud_lan_gosetting_n.png
+SHA1-Digest: qRf9TCJ1cSf5hlCLnv9nxBWxrYU=
+
+Name: res/drawable/umeng_socialize_title_tab_left_pressed.png
+SHA1-Digest: n7vMuE2GkQ/tjs0/AJRTHZ+PwqA=
+
+Name: res/drawable/umeng_socialize_title_right_bt_selected.png
+SHA1-Digest: r6jXEAuJwWubbaf/mv4SZweFM+g=
+
+Name: res/layout-1180x768/layout_h_dashboard2.xml
+SHA1-Digest: fx+Zt5XE+CJXhG7ZnEa0DTNxJW0=
+
+Name: res/drawable-hdpi/hudbutton2_n.9.png
+SHA1-Digest: nBzolJK1xrQhxlPI907DNC5SrAM=
+
+Name: res/drawable-hdpi/shop_008b.png
+SHA1-Digest: ttyQtcUdr0JLWbIYCPEWRD71xXg=
+
+Name: res/drawable-hdpi/bg_user_center_device.9.png
+SHA1-Digest: bj9ym8l5zLVh6xlFBhyta4BCMh8=
+
+Name: res/drawable/umeng_socialize_gmail_on.png
+SHA1-Digest: WE6W7RK1blgoRFd7l155nhduVsk=
+
+Name: res/drawable-hdpi/dashboard2_bg.9.png
+SHA1-Digest: P1P6NdnTzpnujrs6+f2hNrmPt7o=
+
+Name: res/drawable-xhdpi/ic_synchro_trip_schedule2.png
+SHA1-Digest: oicFP5H4LJO6N3DcaRWBov9y3e8=
+
+Name: res/layout/titlebar_calendar_years.xml
+SHA1-Digest: 4FXcL811lfvrt8LZMSMXTnSgzj8=
+
+Name: res/drawable/umeng_socialize_shareboard_item_background.xml
+SHA1-Digest: yzB2Kth5wod87hmrS/balnqUPCg=
+
+Name: res/color/calendar_text_selector.xml
+SHA1-Digest: P91phKUdmTyY3sf4fZJ6M6reM+0=
+
+Name: res/drawable/bg_hud2button.xml
+SHA1-Digest: pwkdnFT3qWiU34ZD4fO0N7qX9VM=
+
+Name: res/layout/layout_drive_tired_prompt.xml
+SHA1-Digest: YLqdY72XbYyRh4Fgh39It616dsk=
+
+Name: res/layout/layout_user_info_settings.xml
+SHA1-Digest: EOnmY9yvgsuCABcWXef5RKulzPM=
+
+Name: res/drawable-hdpi/icon_speed_prompt.png
+SHA1-Digest: 3qsDG4y1oIyYBL9Yoq5LvAHFoGY=
+
+Name: res/drawable-hdpi/xiaopan_v.png
+SHA1-Digest: Vijncfh6rBJcpmX/DLLPqWpnxbk=
+
+Name: res/layout/layout_dialog_open_gps.xml
+SHA1-Digest: tOmQn4yXPg0KxMYJbKirGN2iyYE=
+
+Name: res/drawable-xhdpi/bigdashboard.png
+SHA1-Digest: 0+DLEJQCM+yfy4EeZpz9z1GOP04=
+
+Name: res/drawable-hdpi/bigdashboard_v.png
+SHA1-Digest: AqUSdudsiPK7Q1P2J+A3taTlg00=
+
+Name: res/drawable-hdpi/line.9.png
+SHA1-Digest: og4cdi5XfrPR394IW/P43UGhPt4=
+
+Name: res/drawable-hdpi/clearcode_icon.png
+SHA1-Digest: WwMp2oUABucCbOiRc+FaSXpEY+0=
+
+Name: res/drawable-hdpi/loging_gif.gif
+SHA1-Digest: VKuvWM51z4r+Lo0bLfWGOxo4EoM=
+
+Name: res/anim/umeng_fb_slide_in_from_right.xml
+SHA1-Digest: hQ5uS5IfNVGpKLnTl1l5fNNsyNg=
+
+Name: navicore_readme.txt
+SHA1-Digest: B5bc/Twq3FDjYYA8vbfVzO4K9HY=
+
+Name: res/layout/layout_buy.xml
+SHA1-Digest: Dm749DyQtluOODjLZlKBnINiTso=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: gEy73l20sUo3o3l6W03pnffcINo=
+
+Name: res/drawable/umeng_socialize_douban_on.png
+SHA1-Digest: cVvLqiPEeVtg3i4UpxNeOFtF6k0=
+
+Name: res/drawable/umeng_socialize_location_ic.png
+SHA1-Digest: rnuOviZZDUqiGtZZPJVacwGfo70=
+
+Name: res/layout/layout_v_dashboard2.xml
+SHA1-Digest: IVwKcc+E7Ge1uEh1PWurVqs5EAc=
+
+Name: assets/obd/car/logo/ff5dbe73089dc98f91b34f5be2f92106.jpg
+SHA1-Digest: FingaRK8HUWzn8+ve5JYsfNolD0=
+
+Name: res/layout/layout_add_cars_prompt.xml
+SHA1-Digest: 0i4cHxoZEGtECy1ab/onkHlsOfk=
+
+Name: res/layout/titlebar_check_clear.xml
+SHA1-Digest: wVB/PYLBBW6JAdAAEiqNtDNpV8M=
+
+Name: res/drawable/corners_bg.xml
+SHA1-Digest: 6gtfT4Ql4PhLxtr1oeWoQSV+FaA=
+
+Name: lib/armeabi/libobd.so
+SHA1-Digest: SPItEfECsKdJB60U07vx1p9Q9Es=
+
+Name: res/drawable-hdpi/icon_mileage_integral.png
+SHA1-Digest: 1VzP5j99OS4kr+IsJzU1U3jsRds=
+
+Name: res/drawable-hdpi/no_track_icon.png
+SHA1-Digest: T9n3BdDEf74Gos2QTMe2fSZtb4E=
+
+Name: res/layout/titlebar_carinfo_edit.xml
+SHA1-Digest: 3Zjsn/rJgNvE8c/m7906oDF6AhU=
+
+Name: res/drawable-hdpi/icon_drive_analyse_circle.png
+SHA1-Digest: PTWuxYTXx09EBdh71nLPy17mYJw=
+
+Name: res/layout/layout_land_dashboard2.xml
+SHA1-Digest: e4tEPlXxfcWq4E7hlk5GFkUzRJM=
+
+Name: res/layout/layout_upkeep.xml
+SHA1-Digest: DfnJRL6OcGyPaw3oBOJD62UuSAg=
+
+Name: res/layout/titlebar_drive_detail.xml
+SHA1-Digest: GeXEvNuEtqt/FmMOZ77J82fpEw4=
+
+Name: res/drawable-hdpi/icon_mileage_arrow.png
+SHA1-Digest: 4hF6OoGnTgvOw9DCnTIKyGHY49k=
+
+Name: res/layout/layout_choose_car_index.xml
+SHA1-Digest: FgLY16na8+11EyNfJZEko31kFk0=
+
+Name: res/anim/slide_out_left.xml
+SHA1-Digest: KqAQ9BboYl83FEEfToDmdNc1t4Q=
+
+Name: res/drawable-hdpi/consume_icon.png
+SHA1-Digest: fAakzfC5A3sjTnE4KA73yD7vehQ=
+
+Name: res/drawable/iv_buytip_normal.png
+SHA1-Digest: Aw0qetpnm1Zl0iSWcixI8k9VvKE=
+
+Name: res/drawable/umeng_socialize_sidebar_selected.xml
+SHA1-Digest: +n2LTL3DKaBaO9TXpjC263C0OVs=
+
+Name: res/drawable-hdpi/route_address_start.png
+SHA1-Digest: 7vZEVtwBukV5fMvrhWe9joIbCFQ=
+
+Name: res/drawable/umeng_socialize_sidebar_normal.xml
+SHA1-Digest: cz+nT6I2NB0rIESYn2UkmrxnSOU=
+
+Name: res/drawable/umeng_socialize_renren_on.png
+SHA1-Digest: 22zUgyL18cpr0PcRhteaAlRFRsQ=
+
+Name: res/layout/layout_ota_dialog.xml
+SHA1-Digest: YpdGXbEAkDUolfYEfqlPURBYQ38=
+
+Name: res/layout/layout_dialog_addcar.xml
+SHA1-Digest: iHB22id9URFnjN/NXeRjbmi7ESE=
+
+Name: res/drawable-hdpi/time_icon.png
+SHA1-Digest: O4enijLxzLEmui4yEo471CXPoAc=
+
+Name: res/layout/layout_gasocost_setting.xml
+SHA1-Digest: f3FUYXDHRgfxQBlxxfzl3a8ThTE=
+
+Name: res/layout/titlebar_main.xml
+SHA1-Digest: HteBgCycZ2ewjvUkjiIFl2VaK1I=
+
+Name: res/layout/titlebar_fu.xml
+SHA1-Digest: sCOv1MRNBcli3rXG8NM4LfyK6FQ=
+
+Name: res/drawable-hdpi/icon_averagecost.png
+SHA1-Digest: lJcWPigA4u/5JipH4W6MHXHBwM0=
+
+Name: res/layout/layout_usually_questions.xml
+SHA1-Digest: PkU0Cwyhff9IwMbE7jqRiSUMaF4=
+
+Name: res/drawable-xhdpi/voltage_icon2.png
+SHA1-Digest: Q+iaM7qg6UtW5/hAdUYUi/KsYa8=
+
+Name: res/drawable/umeng_update_button_cancel_bg_tap.xml
+SHA1-Digest: 5rw7HM5IfQn+63ndxrcj3DuqFT0=
+
+Name: res/drawable-hdpi/speed40.png
+SHA1-Digest: jvbarDaPlsL6+B2T1a+ih+ue01k=
+
+Name: res/layout/layout_electroniceye.xml
+SHA1-Digest: 4hN8Skfu1WBE/o4aUNlfL5PDrl8=
+
+Name: res/layout/layout_choose_car.xml
+SHA1-Digest: ru77bIhFGcHiuV7bu9yuLUD5ahk=
+
+Name: res/drawable-hdpi/bg_connect.png
+SHA1-Digest: TyRi/8YqkhnrFQ5sHAc98vXmsJ4=
+
+Name: res/drawable-hdpi/temperature_icon1.png
+SHA1-Digest: mhMG8n48KjHDEgbYHNqxDmBe46A=
+
+Name: res/drawable-xhdpi/stop_button_d.png
+SHA1-Digest: wSDhZzGDTdVVxVRJkilQvcIAVS0=
+
+Name: res/layout/layout_check_history.xml
+SHA1-Digest: /Hraz+atG5wPiByj//E2Ror1+Bs=
+
+Name: res/drawable-hdpi/speed41.png
+SHA1-Digest: 3H1EugkRf/GtUFoFLlkuhm4uvxw=
+
+Name: res/drawable-hdpi/logo.png
+SHA1-Digest: nE78yjhSTvh8ANOryO/klXZEzC0=
+
+Name: res/drawable/umeng_socialize_google.png
+SHA1-Digest: lOA0GEAWecsAdEkeUx3CN1xEEko=
+
+Name: assets/obd/car/logo/84d6f71f1e9a243e3b747c088ef3efc8.jpg
+SHA1-Digest: Sjo1E1ybv9JolP0nq2fnpqe5fsY=
+
+Name: res/drawable-hdpi/shop_007.png
+SHA1-Digest: vyP4ZByMU0QSL4LzSmZskWLCqDs=
+
+Name: res/drawable-hdpi/speed57.png
+SHA1-Digest: reK4Mff6VxPZrmXR9kGTG1O8NYk=
+
+Name: res/drawable-hdpi/btn_close.png
+SHA1-Digest: kNacFKyUeNzJOLOPQLuoVM1GTz0=
+
+Name: res/drawable-hdpi/adddevice_green.png
+SHA1-Digest: GJXRf3uwZv/NmCwsAjWHe9DNlhc=
+
+Name: res/drawable-hdpi/speed60.png
+SHA1-Digest: iZ3CwCJ2NZOnym+w0qovOEaqyww=
+
+Name: res/drawable-hdpi/moneydian1.png
+SHA1-Digest: kHw5qDbrXU5QH4zQczSv7HFiaEo=
+
+Name: assets/obd/car/logo/20dd98090fef59a7eaebb311af0a0655.jpg
+SHA1-Digest: RVs6FKDt1dT1FOBeJ3jr1uBf1HI=
+
+Name: res/drawable/umeng_fb_reply_right_bg.9.png
+SHA1-Digest: MkX5Q1zjVQVwFz7Do1gJJtpR7Xk=
+
+Name: res/anim/umeng_fb_slide_out_from_right.xml
+SHA1-Digest: 2yA/OnTKWaohE+ewbY9QbRQgUxo=
+
+Name: res/drawable-hdpi/ic_car_maintain.xml
+SHA1-Digest: ppBv3vvFb5KYYOi0iUy9rAYtguM=
+
+Name: res/layout/titlebar_car_affirm.xml
+SHA1-Digest: ZWhwj+tL9Li7/tbu4QJZHpZdBrA=
+
+Name: res/drawable-hdpi/speed20.png
+SHA1-Digest: ldS0tuqNpn/XDNNO3eempa8xj4E=
+
+Name: res/layout/layout_electroniceye_update.xml
+SHA1-Digest: 8MuMRkiXd5xiHEVVSqFlL/jgzoY=
+
+Name: res/drawable-hdpi/drive_detail_share.png
+SHA1-Digest: KnCxI5z+DACeKa0fQm36dJ2Cl9A=
+
+Name: assets/navicore/cn/base.dat.png
+SHA1-Digest: 2nZV5ixXn9f2hcFVsZjLkHiCwvI=
+
+Name: res/drawable-hdpi/icon_shop_2.png
+SHA1-Digest: A525yLqzAr3Wq2T+32zTX1+anE8=
+
+Name: res/drawable-hdpi/bg_list_item_normal.9.png
+SHA1-Digest: ka6SDwFSQuT+yjvPGT8Jr4prcGU=
+
+Name: res/drawable-hdpi/voltage.png
+SHA1-Digest: J61U5KRmQWChUEOrtjRNaQbfNeM=
+
+Name: res/drawable-hdpi/speed46.png
+SHA1-Digest: FsDXwMvR8WG1H40aCTIRawWeH50=
+
+Name: res/drawable/progressbar_style.xml
+SHA1-Digest: jr/i6YLmVnJTghzEPF8Nt634spA=
+
+Name: res/anim/umeng_socialize_shareboard_animation_in.xml
+SHA1-Digest: VVKrqI1BrNTq6GwZAxs7aHAl7Mo=
+
+Name: res/drawable-hdpi/btn_user_center_normal.png
+SHA1-Digest: oLFDvhCb4d3Q3vbAj6h1WdBpTUE=
+
+Name: res/layout/titlebar_settings.xml
+SHA1-Digest: 7XQKO4abpszBecXliOeu2uhaMDs=
+
+Name: res/drawable/btn_connection_pressed.png
+SHA1-Digest: UXuIP+kUW+Vq36gFwsE4XgBV8yc=
+
+Name: res/drawable-hdpi/umeng_update_btn_check_on_focused_holo_light.p
+ ng
+SHA1-Digest: OPd6H183jIbgtjLlC2gEX9NZh4w=
+
+Name: res/drawable-hdpi/bg_light_open_n.png
+SHA1-Digest: 6KIQorvoaC/D9L8Rl8pDoWYHJUI=
+
+Name: res/drawable-hdpi/icon_shop_4.png
+SHA1-Digest: Bxmy/96Dz0JChv1zTJcNRHUwMUo=
+
+Name: res/drawable-hdpi/speed50.png
+SHA1-Digest: 90VJckrZBjDKaEQ5LYPIIJDlCgc=
+
+Name: res/layout/layout_mileage_explain.xml
+SHA1-Digest: as8UA2Iix4bVD9Ooqa4U/VtiODM=
+
+Name: res/drawable-hdpi/img_regist_dividing_line.png
+SHA1-Digest: QF6m4vOW5icHX+WXMTt2fR3eq1E=
+
+Name: res/drawable/umeng_socialize_oauth_check_off.png
+SHA1-Digest: yxBG54WuaBEVmhexTTNBOkZv4TY=
+
+Name: res/drawable-hdpi/mileage_exchang.png
+SHA1-Digest: mKp2smltVMUJk1s/CnucaNo8m/0=
+
+Name: res/drawable-hdpi/icon_warning_temperature.png
+SHA1-Digest: BWFaKzzfi0p15ofs6f1yVYXBUs4=
+
+Name: res/layout/titlebar.xml
+SHA1-Digest: D25P7gnEIzlRsMf16rI3Yn/eMXc=
+
+Name: res/drawable-hdpi/img_faq.png
+SHA1-Digest: 8iilZZCNL9BQKSWNTcoML1mRpF4=
+
+Name: res/drawable-hdpi/drive_history_red_pt.png
+SHA1-Digest: qQmskwb/z6VAmLafjYR4TxkJ63g=
+
+Name: res/layout/titlebar_detailed_list.xml
+SHA1-Digest: RbQK4YZsnREVa+XdctAEVXKDYcs=
+
+Name: res/drawable-hdpi/btn_compass.png
+SHA1-Digest: dOT3vhbWRWIYN7f6jmCKJv3gteo=
+
+Name: res/drawable/umeng_socialize_at_button.xml
+SHA1-Digest: d0Xr1jWThp3TBPMvbL/SNK1QDM8=
+
+Name: res/anim/slide_out_down.xml
+SHA1-Digest: ei1tF1EAP751FzN/Ec8JeA6ekgI=
+
+Name: res/drawable/umeng_socialize_title_right_bt.xml
+SHA1-Digest: uQ3RVkFL7fzF075m/iUSeE4yG5c=
+
+Name: res/layout/layout_drive_management_sn.xml
+SHA1-Digest: 9fsCf6Fm5C6nxEKHgIpf0AuiPHk=
+
+Name: res/drawable-xhdpi/voltage_icon1.png
+SHA1-Digest: VQ0+MuTd+ASlmaYsNQCw579itTw=
+
+Name: res/drawable-hdpi/speed47.png
+SHA1-Digest: 4KFR6yKSQ2v0OvB2iTRuob97SUc=
+
+Name: res/drawable-hdpi/img_title_seach.png
+SHA1-Digest: 409uPZYjTZIWLAUhXHlL3LlLMIM=
+
+Name: lib/armeabi/libbspatch.so
+SHA1-Digest: DJ+tVYLZXSlAPF8ZTVgKhQnxTwo=
+
+Name: res/layout/umeng_fb_new_reply_alert_dialog.xml
+SHA1-Digest: 8yPw8MxA3QzfGVusd51WZwQOzpw=
+
+Name: res/layout/layout_sn_not_binding.xml
+SHA1-Digest: Zwu7VdhQj0GNp7HwtvtLbFzKjg8=
+
+Name: res/drawable-hdpi/speed6.png
+SHA1-Digest: DDEq8IJrgSFQQteN6Mo8syBrHs8=
+
+Name: res/drawable/bg_hudicon1.xml
+SHA1-Digest: 2uWhwJO1hdIfK2VamzFXEb5JIWg=
+
+Name: res/layout/layout_drive_gears_prompt.xml
+SHA1-Digest: SkkrvL5hmqLIXz1J9CFlGKLaaRU=
+
+Name: assets/obd/car/logo/524533d327366630d9f8019f32c71910.jpg
+SHA1-Digest: MrPh0PrVE1mZh8by1IpvuY4X3B8=
+
+Name: assets/navicore/sound/speeding_beep.mp3.png
+SHA1-Digest: tz8ZCCvwxdBhwqm+HQAfck5C2mM=
+
+Name: res/layout/layout_temperature.xml
+SHA1-Digest: wf/TFyKYfftsaB38DnUxcTsLI8U=
+
+Name: res/drawable/umeng_socialize_title_back_bt_selected.png
+SHA1-Digest: V0Q/2t+9wtn/Jjsj12JavdYHXK0=
+
+Name: res/drawable/umeng_socialize_button_red_blue.xml
+SHA1-Digest: 9Jf5VtR+Iop0kQaaZWsyRBMSnGg=
+
+Name: res/drawable-hdpi/xiaozhen.png
+SHA1-Digest: aU7iiILtjNxQ+dI1XeMigdNN7wc=
+
+Name: res/layout/layout_welcome.xml
+SHA1-Digest: 7hm7nhbvLqa2xXWlvMEBYlSDVrw=
+
+Name: res/drawable/bg_hudicon3.xml
+SHA1-Digest: Kr2PiNiRifEYL2JBLlx928QNfTE=
+
+Name: res/layout/layout_upkeep_info.xml
+SHA1-Digest: j29X5abDGAFQQ8E5XSqM25fk62s=
+
+Name: res/layout-1208x720/layout_hud2_mirror.xml
+SHA1-Digest: pa0agIZvfze795T2EEkYGHl8ZCc=
+
+Name: res/drawable-hdpi/btn_back_pressed.png
+SHA1-Digest: xPsltF0DHBpaEHYmgL1ocyc15Pc=
+
+Name: res/drawable/umeng_fb_top_banner.xml
+SHA1-Digest: Mwlie4mN7jzddP1D5t6qo0dhBhA=
+
+Name: res/layout/dialog_onetextview.xml
+SHA1-Digest: 31mfDpjl2ms82s8GJ2Eqf/S59oU=
+
+Name: res/drawable/umeng_fb_see_list_pressed.png
+SHA1-Digest: bPPcl7rx76S9DtiqNtuWxAV5rNg=
+
+Name: res/drawable-hdpi/tip_yellow.png
+SHA1-Digest: xhmvSP3bBW1COlK8c84cWWJSaz8=
+
+Name: res/drawable-hdpi/bigdashboard.png
+SHA1-Digest: vxG9d96Uz1GSc5lTYS/QJdeuE+8=
+
+Name: res/drawable-hdpi/arrow_more.png
+SHA1-Digest: V8JA2ZM+DUNWmFGBlJ1YnmSfShE=
+
+Name: res/drawable-hdpi/speed5.png
+SHA1-Digest: y6MwNlBs7S1s3UEpYacwn+022SU=
+
+Name: res/layout/titlebar_user_registe.xml
+SHA1-Digest: SAxPTA1rz4WMv426dMQY4rSFrnU=
+
+Name: assets/obd/car/logo/708cac5cfda3d7bb24be6d28b04585b2.jpg
+SHA1-Digest: Y1XDYFrTWhCi9JhVojU+plfZs3Y=
+
+Name: res/drawable-hdpi/alert.png
+SHA1-Digest: ytS3jUUELbgZy30+ZiDa66YxTHc=
+
+Name: res/drawable-hdpi/tip_red.png
+SHA1-Digest: fR5AKghcFiJlOxxL2WitN7K9nHQ=
+
+Name: res/drawable/btn_red.xml
+SHA1-Digest: 7VHTpQ11Gtv32Vv/DdoHRAbdXs4=
+
+Name: res/layout/umeng_socialize_composer_header.xml
+SHA1-Digest: 2sE1tuLg1YA4S8Ov/gQhesyDegg=
+
+Name: res/drawable-hdpi/ic_synchro_trip_schedule.png
+SHA1-Digest: bgZwCvxQ4ZHCY5XEkhAjU+/REzA=
+
+Name: res/drawable-hdpi/jiaozheng_down_icon.png
+SHA1-Digest: +jXsOVtdZc+eyv55mZg/iebXj+0=
+
+Name: res/drawable/umeng_socialize_refersh.png
+SHA1-Digest: mP5dPJHmuxVc2oX0lmZLe+InHYo=
+
+Name: res/drawable-xhdpi/bigdashboard_v.png
+SHA1-Digest: +uaqqjLZVeCEYbXlRxvZoUBWDHI=
+
+Name: res/drawable/umeng_fb_back_selector.xml
+SHA1-Digest: jUSdj3MsyP5bUGQKKjfnyg/936w=
+
+Name: res/drawable/umeng_socialize_renren_off.png
+SHA1-Digest: aQ0ZzhM0rqf90jaR6mxLIwbEABQ=
+
+Name: res/layout-960x540/layout_landscape_hud.xml
+SHA1-Digest: B6oziYIZatYGkAnSM4gRHkZT30M=
+
+Name: res/layout-1280x720/layout_v_dashboard2.xml
+SHA1-Digest: NYfkEIWE5ZfFVIfTAveI33pMnvo=
+
+Name: res/drawable/umeng_fb_write_normal.png
+SHA1-Digest: wh9yplgll0Vfb6hMVfOMYNeYVz0=
+
+Name: res/layout/titlebar_integral_center.xml
+SHA1-Digest: nq2h5Tl7Oy+cyl/sL6T5M9VrK/E=
+
+Name: res/drawable/progress_bar_yellow.xml
+SHA1-Digest: KKEharwJX4wliA+r7Qz++CDTkhU=
+
+Name: res/drawable-hdpi/money_bg.9.png
+SHA1-Digest: UxkDHAlQZqVgVca3ACCM8g4FxGg=
+
+Name: res/layout/layout_checker_dailog.xml
+SHA1-Digest: 6agscOoF6sdhfu1gS8DFGfr4BvE=
+
+Name: res/layout/layout_drive_analyse.xml
+SHA1-Digest: DGpCAvpB0a1fSiXyL4rq5dujiD8=
+
+Name: res/drawable-hdpi/icon_averagegasconsum.png
+SHA1-Digest: i/Xe65LmGnQs7GTcxOyMMgwtYq4=
+
+Name: res/drawable-hdpi/speed39.png
+SHA1-Digest: yuor90nLLiitdfc5ijXlKmmcR2E=
+
+Name: res/drawable/umeng_socialize_x_button.png
+SHA1-Digest: RiIDr/U7Nb3sDx26DVxqJYkAxKs=
+
+Name: assets/res/obd_demo.log
+SHA1-Digest: EZTMmzXLX1SlMfMgvKY+OjGZhpM=
+
+Name: assets/obd/car/logo/b3a76d4b5bac4053bc60a243b16543d2.jpg
+SHA1-Digest: GYWvc4hdatReXMEMeMxBYyREc60=
+
+Name: res/layout/titlebar_citylist.xml
+SHA1-Digest: cA2vH9jtTA9+VVkurTmkO2xQOGk=
+
+Name: res/drawable-hdpi/add_device_bg.9.png
+SHA1-Digest: VPG+H1RK3gpIUc4aRGEOeU+obpo=
+
+Name: res/layout/layout_drive_management.xml
+SHA1-Digest: AwvadOnckOdd2fmGp1h71rBWMAI=
+
+Name: res/drawable-hdpi/net_error_test_img.png
+SHA1-Digest: yxzP8vnYoQF3Jlg/qopoKA4Z+2k=
+
+Name: res/drawable/umeng_update_button_close_bg_selector.xml
+SHA1-Digest: JleEnW6Gz4C3SLd8JntrOvXmiD0=
+
+Name: res/drawable-hdpi/hud_setting_cancel_n.png
+SHA1-Digest: knwzXxvp8/3TSatGNItbWfxxsoc=
+
+Name: res/drawable-hdpi/speed33.png
+SHA1-Digest: jC6fHBogSRS1zP8E7NiclpDdQZY=
+
+Name: res/drawable-hdpi/moneyline1.png
+SHA1-Digest: HNrg1fMQlZl4P/GlsYTcrl3DOJw=
+
+Name: res/layout/layout_specialdata.xml
+SHA1-Digest: iENha+QmjrW3tiV9jjbF/8zZ8XE=
+
+Name: res/layout/titlebar_errcode_prompt.xml
+SHA1-Digest: AUVRfE5MHTIfhOg2QUdjDE5Atpc=
+
+Name: res/drawable-hdpi/btn_analyse_pressed.png
+SHA1-Digest: +8EncNf+xKMEo1ZVC/1Gb8SHyJI=
+
+Name: res/drawable/umeng_socialize_share_to_button.xml
+SHA1-Digest: 0Taot7MELEQqwhFCKLGm5NAtWio=
+
+Name: res/layout/titlebar_water_prompt.xml
+SHA1-Digest: gCmmBNL39nYPzb4M3J1sMtN/bpQ=
+
+Name: res/drawable/umeng_socialize_qzone_off.png
+SHA1-Digest: pkd1q/+4rdd0C+m/LEQHFH0UVM0=
+
+Name: res/drawable-hdpi/ciycle_user_center_selected.png
+SHA1-Digest: ZtTLWAWkKB9Y0Ojl5ABOz5HVkwk=
+
+Name: res/drawable-hdpi/speed36.png
+SHA1-Digest: 9AkgxxDjfUhLojjj17gevka/+0M=
+
+Name: res/drawable-hdpi/button_day_n.png
+SHA1-Digest: f0R2mLGbHoWtK6cnN+glYQUDh9g=
+
+Name: res/drawable-hdpi/bg_list_item.xml
+SHA1-Digest: UsUa2Y8E/GruCOAGgbzyOBjWT8o=
+
+Name: res/drawable-hdpi/money2.png
+SHA1-Digest: pWsnU/SrzKOhbrpNYnPjelX/EVo=
+
+Name: res/drawable-hdpi/btn_message_send_pressed.9.png
+SHA1-Digest: ytS5o6J5qQbFkaQoflkAUtoyWsE=
+
+Name: res/drawable-hdpi/pb_bg2.png
+SHA1-Digest: 1zAAnAvS4q7SEhwDzXY0k1Hdwgw=
+
+Name: res/drawable-hdpi/img_regist_profeil.png
+SHA1-Digest: If9Abs/IumBdNkHiGndB+b4F6ew=
+
+Name: res/drawable-hdpi/mark.png
+SHA1-Digest: H+dsb09ms/S3r7OWbRSZs9FEUQo=
+
+Name: res/layout/main.xml
+SHA1-Digest: MBx8ISEg2ND6NNpQQEbfrniYPOw=
+
+Name: res/drawable/umeng_socialize_button_white.9.png
+SHA1-Digest: 7oe/muWBsPAmee2kjppW/z357xE=
+
+Name: res/layout/layout_tendency.xml
+SHA1-Digest: hkmAmttzT9cMMLxoSZ0zOyke1cs=
+
+Name: res/drawable/btn_restore.xml
+SHA1-Digest: SIh8aMVDaS2hs4mui//Yzi09JRI=
+
+Name: assets/obd/car/logo/4fafdb851f9d5c6ec6d317e9e95d476c.jpg
+SHA1-Digest: JeLpG0JXp5hX+zoPYUg/aIIKqkk=
+
+Name: res/drawable-hdpi/icon_highlight_gasoline.png
+SHA1-Digest: lPF1w14J4OpDIonuv5VeSzEECCw=
+
+Name: res/drawable/umeng_fb_back_normal.png
+SHA1-Digest: +JE0DAVhnp9YdcWjXbhicsBv/qg=
+
+Name: res/drawable/umeng_socialize_title_right_bt_normal.png
+SHA1-Digest: 6mj/fDtJuhdqshkKke0ndQIYrXw=
+
+Name: assets/obd/car/logo/bf6ba9a1eb697692666dc98fdaf88663.jpg
+SHA1-Digest: IxVXsKdhv5slRhsEU7oir8nWIuY=
+
+Name: res/layout/umeng_socialize_shareboard_item.xml
+SHA1-Digest: x2HC1TWbP3gcRgnG5YpFkhHXbfY=
+
+Name: res/layout/layout_choose_car_item.xml
+SHA1-Digest: mJEKWVuyA6DxbrqkgNpftO68MKI=
+
+Name: res/drawable/umeng_fb_see_list_selector.xml
+SHA1-Digest: yAn3Ja8ip5RaVvgFngDq8lFdJoc=
+
+Name: res/drawable-hdpi/adddevice_black.png
+SHA1-Digest: eCmOWdXDrMaDl4ERv6qj3sNs/ks=
+
+Name: res/layout/layout_dialog_sn_solutions.xml
+SHA1-Digest: Z8d+ao40hDvmfyuIS3D+Zga+qLo=
+
+Name: res/drawable-hdpi/binddevice_blue.png
+SHA1-Digest: P8lygCG3T50snd5Q5U/bdPfGXk0=
+
+Name: res/drawable-hdpi/umeng_update_btn_check_on_holo_light.png
+SHA1-Digest: 5bekrm7fAjxp9kmeL6/TVFPIphg=
+
+Name: res/drawable-hdpi/hud_button_d.png
+SHA1-Digest: 6oIgTa+FBieUCC0xOdPgCCh2NCE=
+
+Name: res/layout/titlebar_drive_prompt.xml
+SHA1-Digest: 9O0xZlEQIBYbqwBWggeQw+InArk=
+
+Name: res/layout/umeng_fb_list_header.xml
+SHA1-Digest: svdRU56tRwa1oZfqi8Iyx3RjgKU=
+
+Name: res/drawable-hdpi/compass.png
+SHA1-Digest: FmF6i+xV/UsgRiazcgJm3zE3X04=
+
+Name: res/drawable-hdpi/bluebooth_black.png
+SHA1-Digest: IX4NUf+irsSJMEvtHoKCLDmfbY0=
+
+Name: res/drawable-hdpi/icon_hud_with_blackbg.png
+SHA1-Digest: HLW3J2qourC9NOUf04FtE1G4k88=
+
+Name: res/drawable-hdpi/scrollbar_handle_vertical.9.png
+SHA1-Digest: y4RS98vIAyKsO8udQaX5D4x97+4=
+
+Name: res/drawable-xhdpi/dashboard1_bg.9.png
+SHA1-Digest: A2QePs3mHnkiXPHnsHFm4qIO8MQ=
+
+Name: res/drawable-hdpi/speed68.png
+SHA1-Digest: p3URm6bHXpfrjfJicrvqkYMJ2mo=
+
+Name: res/drawable-hdpi/arrow_down.png
+SHA1-Digest: FFcuIUVh3uxxU1x0RJRgPnOUVLI=
+
+Name: res/layout/month.xml
+SHA1-Digest: fh1D9BrUTSfv4WfPIiWLRzpVSCY=
+
+Name: res/drawable/btn_year.xml
+SHA1-Digest: d4I9J7mGGXJOhiblv21GODkDxcc=
+
+Name: res/drawable-hdpi/button_month.png
+SHA1-Digest: DtdrgSIvYDbsOjCtUVWS6AwVRfQ=
+
+Name: res/drawable-hdpi/hudjianbian2.9.png
+SHA1-Digest: fR72AzRceKMA4qXTeN1kDb0q8qA=
+
+Name: res/drawable-hdpi/line_firmware.png
+SHA1-Digest: 48qIHkJ6aHPzZtnHcJXlAb1A3Zg=
+
+Name: assets/frontia_plugin/plugin-deploy.key
+SHA1-Digest: PqZ81rTMQb16TkYpzDkBuy1eoXo=
+
+Name: res/drawable-xhdpi/loging_gif.gif
+SHA1-Digest: RjNYsp+uvkk1TdhYjbwpfVy60Tk=
+
+Name: res/layout-1196x720/layout_v_dashboard2.xml
+SHA1-Digest: tFVeODxW/AsxTCEqW8HHBxkCnV0=
+
+Name: res/drawable/umeng_socialize_action_back_normal.png
+SHA1-Digest: sGAj5BWQuPZz7A9V+GcPT85aRgI=
+
+Name: res/layout/layout_check.xml
+SHA1-Digest: Q28AYbVLH7LgX7X83MP1/HmSpkQ=
+
+Name: res/anim/umeng_socialize_fade_in.xml
+SHA1-Digest: MGPwQ5UjqA9j+G0O70wU+dPBkw4=
+
+Name: res/drawable-hdpi/btn_user_center_down_normal.png
+SHA1-Digest: 3q1AATSeJTMPyfy3r02lWGS4zqA=
+
+Name: res/drawable-hdpi/dashboard2.png
+SHA1-Digest: 1tiOtLxQvQOS4reiTACShmbPZgs=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: N15wUnaXM1jl6d+4euAUmFsxTGw=
+
+Name: res/drawable/btn_white.xml
+SHA1-Digest: WyrDK7irxBT/9/Xaw+ZhAZmPJcc=
+
+Name: res/drawable-hdpi/btn_normal.9.png
+SHA1-Digest: 2yXFNfE1heplilp58zcQ2ERTTg4=
+
+Name: res/drawable/umeng_socialize_yixin_circle.png
+SHA1-Digest: faImT2EeaE7ykG+P+vf7zoxXKkk=
+
+Name: res/drawable-hdpi/dashboard_v_bg.png
+SHA1-Digest: /oQxW6Q+BT+3gHfRxU1X2zaw4VE=
+
+Name: res/drawable-hdpi/hudyibiao_p.png
+SHA1-Digest: faqfPTAuQdT3FE5RM2leTvT67YI=
+
+Name: res/drawable/umeng_update_button_ok_bg_focused.xml
+SHA1-Digest: mIg6H8I4hSNTvD4ZAtkLZQ46/1s=
+
+Name: assets/obd/car/logo/4b3be1b99cdbdae2b74dce50b96d4da0.jpg
+SHA1-Digest: jfY2f0c48DVtEsvUfqga6XCf7Gs=
+
+Name: res/drawable/umeng_fb_list_item_pressed.9.png
+SHA1-Digest: 5ogIBBDF4t1zBWqHnAG0v0S9jAc=
+
+Name: res/drawable-hdpi/bg_edittext.png
+SHA1-Digest: w0quKezWCsHr0bCaSKqzcvkdj3U=
+
+Name: res/drawable/umeng_socialize_button_grey_blue.xml
+SHA1-Digest: rCyMDO6R5KJI8aGmbCXIyIIMNsQ=
+
+Name: assets/obd/car/logo/d0928aec56e125b5a38a42d3c2646ca2.jpg
+SHA1-Digest: oOlvtM4M6bixjJdh9zA76qny/fQ=
+
+Name: res/layout-1196x720/layout_hud2_mirror.xml
+SHA1-Digest: X24WJLR/lwVmNCjNWvezZD/k13M=
+
+Name: res/layout/layout_user_synchro_trip.xml
+SHA1-Digest: vV97KiKpyPnWteU1aSVcH553y4w=
+
+Name: res/drawable-hdpi/changzhen_v.png
+SHA1-Digest: tkhf1MZYwq2z5TPXtUvHCCER5A4=
+
+Name: res/drawable-hdpi/speed54.png
+SHA1-Digest: PbrlPfrpYz8uKh2M3QjuWmwq0UI=
+
+Name: res/anim/umeng_fb_slide_in_from_left.xml
+SHA1-Digest: RsMpHEvsX1YB0+QDnMEqm9Kcrwg=
+
+Name: res/drawable-hdpi/getpoint_pressed.png
+SHA1-Digest: Fe3BPxn51UszUgS/RD9hTUoi5WQ=
+
+Name: res/drawable-hdpi/progressbar_blue_end.9.png
+SHA1-Digest: i+CQx+87n5TFq/S/lXUTMM5llF4=
+
+Name: res/drawable-hdpi/progress_01.9.png
+SHA1-Digest: FcuxkprG59os7kfUPDcU1CS6qqY=
+
+Name: res/drawable/umeng_socialize_sina_on.png
+SHA1-Digest: ZwIH0wPX3PWDUjDbxanpW3r/qmc=
+
+Name: res/layout/layout_scanning_bluetooth_end_dialog.xml
+SHA1-Digest: KwfWcUNv7y8ybykwZI/f+UDG8Gw=
+
+Name: res/drawable/umeng_socialize_window_shadow_pad.xml
+SHA1-Digest: UcqN4PtxDdqYMzw6PgwoBSe0y9o=
+
+Name: res/layout/titlebar_correction_rate.xml
+SHA1-Digest: fUWkaaoRo330dr812X8ySxY6jPA=
+
+Name: res/layout-1208x720/layout_h_dashboard2.xml
+SHA1-Digest: fx+Zt5XE+CJXhG7ZnEa0DTNxJW0=
+
+Name: res/drawable-hdpi/icon_drive_anaylse.png
+SHA1-Digest: CUYAI5vHN3xEyK7tYmcTacwZEAI=
+
+Name: res/drawable/umeng_fb_submit_selector.xml
+SHA1-Digest: HqdAhsMTkacEfjrqnB2OrXZRiOU=
+
+Name: assets/obd/car/logo/d5ebeb3f82d5d538b17ca15f597cbc15.jpg
+SHA1-Digest: IodLTPjPfhczhRatCCxe3k2Fu34=
+
+Name: res/drawable-hdpi/im_close.png
+SHA1-Digest: 4yc5AAeoGwOX4h+35HgmA3kLIA8=
+
+Name: res/drawable-hdpi/ui8_wg_bg_dialog_content.9.png
+SHA1-Digest: x/PQNIoaAXiPYOmey5gUODCXTKs=
+
+Name: res/drawable-hdpi/icon_radiobtn_empty.png
+SHA1-Digest: LD5wfB67fWpzEKqDQxzTspFuhCM=
+
+Name: res/layout/layout_toggle_button.xml
+SHA1-Digest: MVFpaDANpoC5G14FlEHaq3ARvfc=
+
+Name: res/drawable/umeng_update_button_cancel_bg_selector.xml
+SHA1-Digest: OQxp/yWVWOMl+DLY1m4Oxh/B948=
+
+Name: res/drawable-hdpi/meigou.png
+SHA1-Digest: LD5wfB67fWpzEKqDQxzTspFuhCM=
+
+Name: res/drawable-hdpi/btn_analyse_normal.png
+SHA1-Digest: 3ttSVYPaGzh1ywH7tQbAmh/ezG0=
+
+Name: res/layout/ui8_wg_dialog.xml
+SHA1-Digest: 0hFlYO+TgEZHpEUQA3Yq3tELWIA=
+
+Name: assets/obd/car/logo/17db89239723cb41074031dd48967699.jpg
+SHA1-Digest: w2mH2yUSvyi0C88JWQGpY+q9WeM=
+
+Name: res/drawable/umeng_fb_gradient_green.xml
+SHA1-Digest: ZDyisfAamRM9mdew8+tq1DegzP8=
+
+Name: res/drawable/umeng_socialize_yixin.png
+SHA1-Digest: vIX3Ho0ul+YDu/t/evOfP7ZSp14=
+
+Name: res/drawable-hdpi/icon_warning_voltage.png
+SHA1-Digest: hNGZFuQFzZDfGYT+C2EMI3RTO2A=
+
+Name: res/drawable-hdpi/ic_hud_v_camer.png
+SHA1-Digest: R1dQ28VbREvF5OlaPFbOVbIyQoM=
+
+Name: res/drawable-hdpi/icon_login_name.png
+SHA1-Digest: FIs7+JK5bWk/adO7E/Cv148zgTU=
+
+Name: res/layout/umeng_socialize_post_share.xml
+SHA1-Digest: 0BkHKMf057IGJM1cWfTm66OLCoQ=
+
+Name: res/layout-sw550dp-large/umeng_socialize_titile_bar.xml
+SHA1-Digest: CO8RgV34grqpwV0nLfYTV8dCkSc=
+
+Name: res/drawable-xhdpi/ic_synchro_trip_exclamation.png
+SHA1-Digest: ETZd4TMHxzaGb0KpD+XLv9n+Ur0=
+
+Name: res/drawable-hdpi/dashboard1_bg.9.png
+SHA1-Digest: zaqLUk2OuySvVA6EbWlAMBKC4oE=
+
+Name: assets/obd/car/logo/3114aa9449c91fea0a02b2532e2b44eb.jpg
+SHA1-Digest: /vTHFwY30rF6NtNs3p9Ti3mf/VU=
+
+Name: res/drawable-hdpi/dashboard_bg.png
+SHA1-Digest: IbCD3cEDdcdVN4V9uM3rKEeojLc=
+
+Name: res/drawable-hdpi/umeng_socialize_share_video.png
+SHA1-Digest: fHgCmstiOwEuCSjJsvJqO/Gm69s=
+
+Name: res/drawable-hdpi/icon_login_passwd.png
+SHA1-Digest: QmurOJcWYErhguQvEQkGCiQkpX8=
+
+Name: res/drawable-hdpi/tendency_lf.png
+SHA1-Digest: l7TZTtSlsde24C8f/BdTDZnJw6A=
+
+Name: assets/obd/car/logo/c6277daea312ba6e92a8c42c0df4175c.jpg
+SHA1-Digest: 2deTmMCUjZqQxYKGqpPcMQA3QTs=
+
+Name: res/drawable/umeng_update_title_bg.xml
+SHA1-Digest: lKUqlCtptduTaz4NroijWqTnGRI=
+
+Name: assets/obd/car/logo/853247ad69c3d663324adcb8d509b620.jpg
+SHA1-Digest: h3ljD3URKMspTsOdnP9pxU7EahA=
+
+Name: res/drawable-hdpi/speed55.png
+SHA1-Digest: DP/pBl3sDGshruDV5OVsck8t7IA=
+
+Name: res/layout/layout_car_infos_edit.xml
+SHA1-Digest: pNTL2CNcuZnwMFZoPqG7nrWvJrM=
+
+Name: res/drawable-xhdpi/pb_bg2.png
+SHA1-Digest: nBREvyvugfDEhcABxmDV1FGysN0=
+
+Name: res/layout/item_list_check_history.xml
+SHA1-Digest: lcBC5s1RrgXUIH4Md1DKw2V4Kbk=
+
+Name: res/drawable-hdpi/speed64.png
+SHA1-Digest: xSo2PDLC3DfqLWbMhcyz7p2BM9s=
+
+Name: res/layout/titlebar_voice_prompt.xml
+SHA1-Digest: sFb1QXCHrhDpUZfOoXBzR32/lAw=
+
+Name: res/drawable-xhdpi/state_bg.png
+SHA1-Digest: gvsY0QMoYDAWueaQvguz+bfRLWo=
+
+Name: res/drawable-xhdpi/ic_synchro_trip_circle.png
+SHA1-Digest: w9b8yq3BI96zWoDQEGlUcpDgH90=
+
+Name: res/drawable-hdpi/speed24.png
+SHA1-Digest: Q8hLOFNwoPNOYvof9yqZ8FLNtgw=
+
+Name: res/drawable/umeng_socialize_fetch_image.png
+SHA1-Digest: cgxRiflpJRiwVaFUCMym/e5i1lw=
+
+Name: res/drawable-hdpi/icon_highlight_people.png
+SHA1-Digest: AoYJx1V9+VMeAXaesj6ya6sad/0=
+
+Name: res/drawable-hdpi/btn_user_info_edit_normal.png
+SHA1-Digest: YAiPTNV54C8rI7Cum0QqDnwVdk4=
+
+Name: assets/navicore/res/zoomout.png
+SHA1-Digest: FXX2euviV4foTxVyga4DeZwlohI=
+
+Name: res/drawable-hdpi/btn_1_pressed.9.png
+SHA1-Digest: c7FKKhP8xcILqf8u9/3xKijIqik=
+
+Name: res/drawable/umeng_socialize_button_grey.9.png
+SHA1-Digest: fwGR9xw4m0bLKjvLHR+P40OkIIM=
+
+Name: res/layout/titlebar_firmware_disclaimer.xml
+SHA1-Digest: ybe29au7LkDcJ7Xntd+c+6JL1P8=
+
+Name: res/layout/umeng_socialize_titile_bar.xml
+SHA1-Digest: pjeULsEitYrdRav5Zqt985bvrcM=
+
+Name: res/drawable-hdpi/error.png
+SHA1-Digest: 8siwWr9sLSCklD4YC3YAqRBnAVQ=
+
+Name: res/drawable-xhdpi/dashoboard_v_bg.png
+SHA1-Digest: 6K57J+lM13Ii+QzFomSj0ltTD1Y=
+
+Name: res/layout/titlebar_specialdata.xml
+SHA1-Digest: mzWb33t6Hb0o3cWr2BZ5C8iDjpo=
+
+Name: res/drawable-hdpi/bg_light_p.png
+SHA1-Digest: DjE9EKQnmIWY3JyXQz/jLt9l8aY=
+
+Name: res/drawable-hdpi/bg_list_item_pressed.9.png
+SHA1-Digest: YAw1rUuOBOKnOmsT4+nGUx/yBbk=
+
+Name: res/drawable-hdpi/icon_gas_prompt.png
+SHA1-Digest: hNchu1qaZmONWx3ThqC4iJJKE/c=
+
+Name: res/drawable/btn_green.xml
+SHA1-Digest: 80eZ2hwvUu0YAl8tAxB7nVHqWXk=
+
+Name: res/drawable/umeng_socialize_wechat_gray.png
+SHA1-Digest: AK5ed67TWmOEoiOxgK7GEiZm3JE=
+
+Name: res/drawable/umeng_fb_user_bubble.9.png
+SHA1-Digest: u9Gupn9QNFoYozLA7Ra+yE7rIbw=
+
+Name: res/drawable-hdpi/bg_black_txt.9.png
+SHA1-Digest: 6b9q/Sgo1Ssmhg4hACfQIa6Ag0E=
+
+Name: res/layout/item_list_mycar.xml
+SHA1-Digest: 6zLD42tTkgFQ/9jubuUpGnySQ6A=
+
+Name: res/drawable-hdpi/icon_car_detail.png
+SHA1-Digest: RHqSmBp4X0lN28oCQcSFECSg6r4=
+
+Name: res/drawable-xhdpi/ic_synchro_trip_not.png
+SHA1-Digest: BMXLHt66RupJjomoO8qL3Gk+vuY=
+
+Name: res/drawable-hdpi/ic_condition_scan.xml
+SHA1-Digest: 1H4vYBsbWRuCQX8fT6dNfkSsBdA=
+
+Name: res/layout/umeng_bak_at_list_item.xml
+SHA1-Digest: Sj7WZYU2H7g0QRUdBnoo0NpPiq0=
+
+Name: res/drawable-hdpi/speed58.png
+SHA1-Digest: jn/jSZq6+xEJf1yAn4estEFl4Qg=
+
+Name: res/drawable-hdpi/upkeep_info_yuan.png
+SHA1-Digest: EothmupaWB8Z4nxyEARIA7sojlQ=
+
+Name: res/layout/item_list_drive_analyse.xml
+SHA1-Digest: B74GEAfwijES8+DZQI8Y8xYqpac=
+
+Name: res/drawable/ui8_wg_bg_dialog_btn_single.xml
+SHA1-Digest: QbhMq2F0GqL8ZaMgv1qn+LoqMxM=
+
+Name: res/drawable-hdpi/hud_lan_gosetting.png
+SHA1-Digest: udxHGF50N1t0VEvxrU3VSMewHKM=
+
+Name: res/layout/titlebar_about_details.xml
+SHA1-Digest: UWrFvo7bdZPyPUWI8tgGebq12k0=
+
+Name: res/drawable-hdpi/bg_sn_scanning.png
+SHA1-Digest: cBh1JRs2t2QniQ2a3P7NAVq/kig=
+
+Name: res/anim/push_right_in.xml
+SHA1-Digest: CDnA0PSaAtmWKn/pss/GlZFoUoI=
+
+Name: res/drawable-hdpi/speed56.png
+SHA1-Digest: JMIkgNYDP7tqSg0XTSeQBO+EXZg=
+
+Name: res/drawable-hdpi/img_regist_bg.png
+SHA1-Digest: oKtLkG42ouq7dmSeii7clpN7OyQ=
+
+Name: res/layout/titlebar_smart_service.xml
+SHA1-Digest: OtrqCCPEtGaP5sRE4FFo6cGaPnI=
+
+Name: res/drawable-hdpi/hudlist_p.png
+SHA1-Digest: g1ygk/HYQBksZEKeCAOQvv/DBDY=
+
+Name: res/drawable-hdpi/ic_synchro_trip_schedule2.png
+SHA1-Digest: 5893PGQvcnnYU103F345VwTgYEI=
+
+Name: res/layout/layout_upkeep_revise.xml
+SHA1-Digest: aQw4mYTpE53RjbsQ6d+rq4Y1AJg=
+
+Name: res/drawable-hdpi/umeng_socialize_light_bar_bg_pad.9.png
+SHA1-Digest: 1omLMIljpzftfYQmmjhoTSF5o4M=
+
+Name: res/drawable/umeng_fb_gradient_orange.xml
+SHA1-Digest: AHyEGQnT7imQmkLcSm6fiGPhe3s=
+
+Name: res/drawable-hdpi/speed15.png
+SHA1-Digest: K6lthg5E/nvQVDkSYoz4YHKCK7c=
+
+Name: res/drawable-hdpi/testing_success.png
+SHA1-Digest: YN5Lm1PfH+pm0pN6GwYENnxoOTo=
+
+Name: res/drawable/bg_hud_button.xml
+SHA1-Digest: yrUiWYMxhT5E+o3Jo9DMeG6h2pE=
+
+Name: res/drawable-hdpi/binddevice_green.png
+SHA1-Digest: qSjhwbNhRGuElPlcyxiJ5htXrzo=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: N15wUnaXM1jl6d+4euAUmFsxTGw=
+
+Name: res/layout/titlebar_drive_history.xml
+SHA1-Digest: FgMxZHjbYf/+z7KCRf5sbdJ9YS0=
+
+Name: res/drawable-hdpi/speed29.png
+SHA1-Digest: bLZ+zPjyOsjmpJafPrYw+D9QJeE=
+
+Name: res/drawable/umeng_socialize_default_avatar.png
+SHA1-Digest: 4PcrB0xLX7YKuHElnjEO7tXmuwo=
+
+Name: res/layout/layout_speed.xml
+SHA1-Digest: KpnVfuNrmll57F62wealfHUHnpc=
+
+Name: res/drawable-hdpi/speed65.png
+SHA1-Digest: GEKKN+MTZ4GNIyESVWjhJRSThx4=
+
+Name: res/drawable-hdpi/item_hud_content_n.png
+SHA1-Digest: j5JBYOx6zhwivTQCukSheEQ/Znw=
+
+Name: res/layout-1280x720/layout_h_dashboard2.xml
+SHA1-Digest: fx+Zt5XE+CJXhG7ZnEa0DTNxJW0=
+
+Name: res/drawable-hdpi/icon_main_cost.png
+SHA1-Digest: 9DGS/qk4zDVeiUVQ+Y9Dnjr8pbA=
+
+Name: res/drawable-hdpi/icon_errcode_prompt.png
+SHA1-Digest: YwJrd3f6aKcx2MexyaUaoXqDcg0=
+
+Name: res/drawable/progress_vertical.xml
+SHA1-Digest: 4UnQ77ad3Vjwt4COZcgMi03ZM+k=
+
+Name: res/drawable-hdpi/speed13.png
+SHA1-Digest: cKrh4vNZWonq6i8TGwpYLcPTsF4=
+
+Name: res/drawable-hdpi/icon_firmware.png
+SHA1-Digest: dOVSnJ96LYtpU4T2wsBMUHxuxJY=
+
+Name: res/drawable-hdpi/btn_back.xml
+SHA1-Digest: aNHVljW1WjLO0fm3WtS78j9pNPg=
+
+Name: res/drawable-hdpi/icon_warning_shift.png
+SHA1-Digest: gH598eWll/kG240z2eTUJhnfuV0=
+
+Name: res/drawable-hdpi/speed26.png
+SHA1-Digest: 2pxMtbPAUJlrr3kuAq9Nc9BfKjc=
+
+Name: res/drawable-hdpi/icon_ratingbar_empty.png
+SHA1-Digest: tQsXxE2UPhyUn3MLU9D4c31IicI=
+
+Name: res/drawable-xhdpi/pb_bg.png
+SHA1-Digest: 1yRLgdWpqyx9JxXjtkezVOLiXdA=
+
+Name: res/drawable-hdpi/speed69.png
+SHA1-Digest: NhNVpire0qgCCS1zZU0KydCmsz8=
+
+Name: res/anim/push_left_in.xml
+SHA1-Digest: b6U3kU82oVDcIzJ4n32DzRxh7Vs=
+
+Name: res/drawable-hdpi/umeng_update_btn_check_off_pressed_holo_light.
+ png
+SHA1-Digest: tIG1r++3vO7AWXDg4QVX1wKrvPc=
+
+Name: res/layout/layout_app_about.xml
+SHA1-Digest: vFcPCYvUo98v5F7qU1Afqg4LSe8=
+
+Name: assets/obd/car/logo/e3eeccd1c0fb497c655c2765e1c068d7.jpg
+SHA1-Digest: ELVJwQ6HpFw6odYTFEEwyV3mDq0=
+
+Name: assets/obd/car/logo/f060db7e7385bafc53dc75812be25485.jpg
+SHA1-Digest: z3UNPj1lzlO7CeYBiceV9pImxNQ=
+
+Name: res/anim/umeng_socialize_fade_out.xml
+SHA1-Digest: mATuWnKwSQ4VWpfkM+oC8E7hENg=
+
+Name: res/drawable-hdpi/upkeep_i_2.png
+SHA1-Digest: xxrWcETltx4ek0G1Y+4gIzi6vjE=
+
+Name: res/layout/layout_about_details.xml
+SHA1-Digest: ngWzeJENjAqqCl38XkC1JmlK9dg=
+
+Name: res/drawable/bg_toggle.xml
+SHA1-Digest: BcO00hBKCdseOkFyNMELQUkEtH4=
+
+Name: res/drawable-hdpi/divider.png
+SHA1-Digest: mCBkDF3/DURWsLQP3lJ66pNoIOo=
+
+Name: res/drawable/umeng_fb_list_item.9.png
+SHA1-Digest: 7q2oAmsuTIdGdDUC1q1WdMu0Ac8=
+
+Name: res/layout/layout_upkeepinfo.xml
+SHA1-Digest: A+W+OFTJMW7WZDE8Cm0vS74evj4=
+
+Name: res/layout/layout_instantgasconsumedialog.xml
+SHA1-Digest: +D3lIe85rRnwdZbLyMRY9Ib3uFE=
+
+Name: com/tencent/mm/sdk/platformtools/rep5402863540997075488.tmp
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: res/drawable/btn_light_open.xml
+SHA1-Digest: KsHvBQ/4xtxGJp1iFkfgi4ySCNY=
+
+Name: res/layout/push_download.xml
+SHA1-Digest: DSSFhAEpSqY3tlwXEQIUCi+7USw=
+
+Name: res/drawable-hdpi/icon_tired_prompt.png
+SHA1-Digest: A0MHtLx/UBk7ygUZhXDOgubiRa8=
+
+Name: res/layout/umeng_socialize_simple_spinner_item.xml
+SHA1-Digest: HmTMVcX23jngXcbprhnG/+026Wk=
+
+Name: res/drawable/umeng_fb_point_new.xml
+SHA1-Digest: f3U/QETVbH/3o7yN/GTXkh5j3jM=
+
+Name: assets/obd/car/logo/6582e9e7d89025fe2b8819d0bf5d26c2.jpg
+SHA1-Digest: zudbfDbvN4jUaUkkGhA4BWdzVm4=
+
+Name: res/drawable-hdpi/speed11.png
+SHA1-Digest: ljjKMQRhq6e/BFToIrmV88FMUb4=
+
+Name: res/drawable/umeng_fb_logo.png
+SHA1-Digest: r989FH1tphCKYX8IvOBPo6ti2u4=
+
+Name: res/drawable/umeng_update_button_cancel_bg_focused.xml
+SHA1-Digest: 1071EpuS6ab1CIimk+q29Fo6Z6E=
+
+Name: res/anim/slide_in_left.xml
+SHA1-Digest: GCY5Pm102PeiQoj3v0SCa7F0Cfs=
+
+Name: res/drawable-hdpi/hud_guide_setting.png
+SHA1-Digest: N8ad+GuQOnmMTwqpcoscPEmS+qc=
+
+Name: res/drawable-hdpi/icon_red_point.png
+SHA1-Digest: RaCjwKj4OwskXV9tklqNEq9ARok=
+
+Name: res/drawable-hdpi/arrow_up.png
+SHA1-Digest: wOpEKkbtnwS+iqRmgAdQIHMJ4PI=
+
+Name: res/drawable-hdpi/bg_toggle_normal.png
+SHA1-Digest: w7GMU34yYojAx9RoUDRbaLFLf7g=
+
+Name: res/drawable-hdpi/stop_button_d.png
+SHA1-Digest: /oldNhf/uG2PLiApYd6qVZYiyE4=
+
+Name: res/drawable/btn_dialog_ok.xml
+SHA1-Digest: iGPADvTRlmyQQVFV9/vM+wnpXxs=
+
+Name: res/anim/umeng_fb_slide_out_from_left.xml
+SHA1-Digest: M3myOz22y8DCrF3diRIrKzI/ymQ=
+
+Name: res/drawable-hdpi/umeng_socialize_share_music.png
+SHA1-Digest: zgZs6iGQ2jRJV4hKhKdiGlMwYPY=
+
+Name: res/drawable-hdpi/upkeep_src.png
+SHA1-Digest: kMGVA5ZqlJ9oRL/ECpWQw/evNP0=
+
+Name: res/drawable-hdpi/ic_drive_analyse.png
+SHA1-Digest: augNyDBq7cmXKE7Mf1tWAvO0TPM=
+
+Name: res/drawable/umeng_socialize_sms_on.png
+SHA1-Digest: f0eoEf/sFlab4uq75v4nSQoT5o8=
+
+Name: res/drawable-hdpi/btn_2_pressed.9.png
+SHA1-Digest: fLZGEQThZOxV6c4ScN89pg2WYkg=
+
+Name: res/layout/item_checker.xml
+SHA1-Digest: cWKR7+Zkl1dVFmZb871FfBDef6A=
+
+Name: res/drawable/bg_hudicon2.xml
+SHA1-Digest: n6ANHDl4/26PDduKMEZEjO/u308=
+
+Name: res/layout/layout_hud_setting_dailog.xml
+SHA1-Digest: 1jBSD1eNII94KRSwx+GF2j7kIJs=
+
+Name: res/layout/titlebar_upkeep.xml
+SHA1-Digest: jTaRZG6YOcL9VKNGlUyyjV1UM4U=
+
+Name: res/drawable-hdpi/state_bg.png
+SHA1-Digest: RBjZB9Tis9oGfBU2rDRE/XTuSho=
+
+Name: res/drawable-xhdpi/temperature_icon2.png
+SHA1-Digest: DjdUN/Knp+yVWFyUVXgJW6BOE4c=
+
+Name: res/drawable-hdpi/speed62.png
+SHA1-Digest: 42N7TkJNVAqejM7BAmq3brwnYx8=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Rrtt1fJ7ZZ0H2XHjrZNVMwdXFto=
+
+Name: res/drawable-hdpi/drive_statr.png
+SHA1-Digest: ERXhmJCTzXq9gB0qrlPOrf1ZL1k=
+
+Name: res/layout/umeng_bak_platform_item_simple.xml
+SHA1-Digest: 5dAtaIC8ApQ52PJxk7Gln8GeUIo=
+
+Name: res/layout/layout_drive_speed_prompt.xml
+SHA1-Digest: 2SepeWkhG6L13R0pYcCnuAfYPZs=
+
+Name: res/drawable-hdpi/progressbar_red_end.9.png
+SHA1-Digest: xoBNaw7vyfyZzr+R7lL3RfYwgMM=
+
+Name: assets/obd/car/logo/ecf62271bb4ad5a65cbc224583949f10.jpg
+SHA1-Digest: Mb46HfzI7Zch+aSgpz290s2gnmA=
+
+Name: res/layout/layout_voice_prompt.xml
+SHA1-Digest: U9rJHw5xRR7Kv46Pz+K6x3TnU54=
+
+Name: res/drawable-hdpi/vin_icon4.jpg
+SHA1-Digest: eYNzJDqLqLWwLGMPas5379d2MmM=
+
+Name: res/drawable-hdpi/bg_check_state_3.png
+SHA1-Digest: IM1DfihXseA5/cvWfFPOUYOmwyI=
+
+Name: res/layout/item_selecttheaddress.xml
+SHA1-Digest: hKeqKDu2l6SK0/u6Acet9e0LNCo=
+
+Name: res/drawable-hdpi/speed45.png
+SHA1-Digest: Ixavh711z1DXFQdZ1irYLzTKZuA=
+
+Name: res/layout/layout_maintain_mileage.xml
+SHA1-Digest: UuikHgxNyH2NBWzYV8ThCcAmjGI=
+
+Name: res/drawable/umeng_fb_statusbar_icon.png
+SHA1-Digest: dc/14UYS3XD9xi2BUhYNmVri6cw=
+
+Name: classes.dex
+SHA1-Digest: i8/br/0Cb/lte/owpv74qTPceVs=
+
+Name: res/drawable/umeng_socialize_gmail_off.png
+SHA1-Digest: IKqYZhYCNR/MGLnmkYBxd/hezZI=
+
+Name: res/drawable/umeng_update_dialog_bg.xml
+SHA1-Digest: 7BrUbaYZi+GcpqrXcYVz7nuVOf8=
+
+Name: res/layout/titlebar_check_history_query.xml
+SHA1-Digest: tthWHENTfcCfy7kGqYwN8H5tK9E=
+
+Name: res/drawable-hdpi/bluebooth_blue.png
+SHA1-Digest: iBqYSIf/6diFPbqQSbUZ6ou8z58=
+
+Name: res/drawable/bg_start_check.xml
+SHA1-Digest: WrLxtdCvvo857Xi6ICAL0anhKg0=
+
+Name: res/drawable-hdpi/drive_listitem_bg.9.png
+SHA1-Digest: GsuxL+fxVFf0bok27e1FzjmwcDM=
+
+Name: res/layout-960x540/layout_hud2_mirror.xml
+SHA1-Digest: 80Viz8SfFy1aLcnYQvMH3/G9K74=
+
+Name: res/layout/titlebar_purchasing_info.xml
+SHA1-Digest: Z0poR0BV5OMPJrtuZEPpueYNg3Y=
+
+Name: res/drawable-hdpi/bg_check_state_2.png
+SHA1-Digest: y+t3u6NzBiPnnqfVA6esrekzU9g=
+
+Name: res/drawable-xhdpi/changzhen.png
+SHA1-Digest: xob+BdfPFDwAjYp31WJ0WOoVPoE=
+
+Name: res/drawable-hdpi/icon_drive_analyse_right_circle.png
+SHA1-Digest: 1YoXWgHAQgVKeo3ZpLoLgYW+jE0=
+
+Name: res/drawable/btn_month.xml
+SHA1-Digest: qJMXV6KFLj7pSci4jBw+CaGT+ZQ=
+
+Name: res/layout/umeng_socialize_full_alert_dialog_item.xml
+SHA1-Digest: e+T5BcMeS/jm2vQw6gtgdCGdAV8=
+
+Name: res/layout-1280x720/layout_landscape_hud.xml
+SHA1-Digest: pEVulzbfTse/hg79fDgYwaFFbUc=
+
+Name: res/layout/layout_drive_detail.xml
+SHA1-Digest: TEPy/Pa7OQyOMyJmj95VZ6AkLPk=
+
+Name: res/drawable-hdpi/physical_icon1.png
+SHA1-Digest: rv4D3Y+Xl6FCNhKcF352feuOR1g=
+
+Name: res/layout/custom_notification.xml
+SHA1-Digest: TqgK6YGc9MZWMEgONSLdw9cJW44=
+
+Name: res/drawable-hdpi/icon_warning_speed.png
+SHA1-Digest: 59oOOxIn8RnLgUI6aXZK6ObgNjI=
+
+Name: res/layout/layout_stop_trip.xml
+SHA1-Digest: CVxfFZ8T/7H3sEc45DU6ZsM60IM=
+
+Name: res/layout-sw550dp-large/umeng_socialize_oauth_dialog.xml
+SHA1-Digest: kjFfb+bi2pfxEpiaQ9aKXBL6yY4=
+
+Name: res/drawable/umeng_socialize_action_back.xml
+SHA1-Digest: IcqZbjFe5anfAcwENFxCPa94EdI=
+
+Name: res/drawable/umeng_socialize_twitter.png
+SHA1-Digest: IJK62NyeTgmTLZJ2OoC/jMju08M=
+
+Name: res/drawable/umeng_socialize_title_tab_left_normal.png
+SHA1-Digest: C32Tvrgjw9145lX2s8lcl0uRrYs=
+
+Name: res/layout/layout_smart_service.xml
+SHA1-Digest: /dNufiRPtwG9HfMD8oGL3/R1ELY=
+
+Name: res/drawable/umeng_fb_btn_bg_selector.xml
+SHA1-Digest: XUE+n5hKuCa3H0vKSFFBq0NfFMA=
+
+Name: res/drawable-hdpi/travel_data_press_icon.png
+SHA1-Digest: eE7Qqmp4zPjZ1cJ9mb0CU0isT70=
+
+Name: res/drawable-hdpi/ui8_wg_bg_dialog_btn_single_p.9.png
+SHA1-Digest: cZxc35etCxoKw8OIKiKudjCFzXk=
+
+Name: res/drawable-hdpi/track_icon_normal.png
+SHA1-Digest: 1orlwT01WVmu0Y8fOazxEuOJyD4=
+
+Name: res/layout/titlebar_sn_scanning.xml
+SHA1-Digest: hQ0LAmIt26CGbDEUhUZmFTAFZiU=
+
+Name: res/layout/titlebar_order.xml
+SHA1-Digest: BBhnN4/PO3OO7OASPUHRF7EcUsQ=
+
+Name: res/drawable-hdpi/img_regist_forgot_password.png
+SHA1-Digest: YNlNn4YuVpNHD81yOEg8WSLNXWw=
+
+Name: res/layout/layout_order.xml
+SHA1-Digest: rnouwNZvd6yoNs2ulmdi3T9PF1k=
+
+Name: res/drawable/bg_dashboard_h_button.xml
+SHA1-Digest: 0wH1uxew+8R79smDniOWiw0I3jo=
+
+Name: res/drawable/iv_choice_normal.png
+SHA1-Digest: qTJVqCrROSeAQ+U+AtD8WiBhxZI=
+
+Name: res/drawable/bg_buy_tip.xml
+SHA1-Digest: n7fkiqLhPG1AjDcVuKbthxn2ciI=
+
+Name: res/layout/layout_start_trip.xml
+SHA1-Digest: yTT5QASY5C0WUKplDSM8c5gAd7w=
+
+Name: res/drawable-hdpi/speed1.png
+SHA1-Digest: F+owGc2qKEkz59gefmR/96VfMSU=
+
+Name: res/drawable-hdpi/iv_check.png
+SHA1-Digest: k2WYdSXpJOOB7qLS4cAyXF7NZj8=
+
+Name: res/anim/slide_out_top.xml
+SHA1-Digest: Td9iLopmwaui+cUxOltqUF9sbcM=
+
+Name: res/drawable-hdpi/sign_icon.png
+SHA1-Digest: MiVDbMa8t7TZyw11x2xjV57UVsg=
+
+Name: assets/obd/car/logo/8376d33e090c162b6a87c222088a7800.jpg
+SHA1-Digest: tQQsMTKnEabPTHpm+5WoJkRyucE=
+
+Name: res/drawable/gasocost_setting.xml
+SHA1-Digest: AuMu/l8nyPW8MjSBIixrEWHOTak=
+
+Name: res/drawable/umeng_fb_reply_left_bg.9.png
+SHA1-Digest: zkproNwtFu7wHoYmXw9xQS+cd8M=
+
+Name: res/layout/titlebar_app_about.xml
+SHA1-Digest: 4G/1ida+mtKTyMfzPXmW6hZ2uUU=
+
+Name: res/drawable/umeng_socialize_title_tab_right_pressed.png
+SHA1-Digest: 0dCWfyrxpOlP8OGrw04usa/7Vcs=
+
+Name: res/drawable-hdpi/speed44.png
+SHA1-Digest: WVJ4RtKPzNWCWeFHKkNgngq5aAU=
+
+Name: assets/obd/car/logo/c89330862a70a01828b3fa7be64724db.jpg
+SHA1-Digest: 05KcZb9Y/1ILmsnZOZ1g6M+4L0A=
+
+Name: res/drawable/btn_day.xml
+SHA1-Digest: 0OduL0vGQgLBqkr+bRhuz0QsE94=
+
+Name: res/layout/titlebar_choose_car.xml
+SHA1-Digest: oLu7uhJwfZ0+r8tbmDoGqoXCQb0=
+
+Name: res/drawable/umeng_fb_see_list_normal.png
+SHA1-Digest: r5E0hH7/To12bEbgFyDRQHkLKMI=
+
+Name: res/drawable-hdpi/speed22.png
+SHA1-Digest: 06CsiaJoeIQb8szcq+MzN9NlS4Y=
+
+Name: res/layout/umeng_bak_at_list.xml
+SHA1-Digest: 9bXb4I6PWiuG3UYr1NHrimLQsjk=
+
+Name: res/drawable/umeng_socialize_action_back_selected.png
+SHA1-Digest: 0c2cIzSckpQbcriQxoIXn6U70Rs=
+
+Name: res/layout-1208x720/layout_v_dashboard2.xml
+SHA1-Digest: f0i7vIFhvIge4mCfJ37eiQKRSAc=
+
+Name: res/layout/ixintui_custom_notification.xml
+SHA1-Digest: 3LQ4c5ewlzJ2qvUi9cqO9jrsoRc=
+
+Name: assets/obd/car/logo/cf86e7ba6fd0416ba162d0037c7a0ea8.jpg
+SHA1-Digest: 07eDA1MbLV+Nm9AR934aCmCmvB4=
+
+Name: res/drawable-hdpi/icon_shop_1.png
+SHA1-Digest: ySFG/sV5WAtw8yFSqHdB3+OaM5k=
+
+Name: res/drawable/umeng_socialize_at_normal.png
+SHA1-Digest: 41rnFdC9gFM2g5RHX/kKPAgQco8=
+
+Name: assets/obd/car/logo/9a07cdbc4e88231f0e3ba85d9c69b86a.jpg
+SHA1-Digest: KzqsZQUkNZE65CEkG0vODhjcJq4=
+
+Name: res/drawable-hdpi/iv_check_timeout.png
+SHA1-Digest: TXqyyfTGEv4shL2T4AE6GaclT4Q=
+
+Name: res/layout/layout_timer_dialog.xml
+SHA1-Digest: XdGCfMQR//jbx1n4WeMxqqD5lug=
+
+Name: res/drawable-hdpi/icon_highlight_cost.png
+SHA1-Digest: cnbK4erAqpBTP3zQeamiyxzyUIo=
+
+Name: res/drawable-xhdpi/dashboard_v_bg.png
+SHA1-Digest: oaWKw+j1ApVW85fgbliWWUwRX0w=
+
+Name: res/drawable-hdpi/shop_001h.png
+SHA1-Digest: nM0aMu7ZCpqvFgcZ8SyA51Lt8+I=
+
+Name: res/layout/item_check.xml
+SHA1-Digest: AnTnGhnvoq78ZHRRsipDWcKtLxQ=
+
+Name: res/anim/check_tip.xml
+SHA1-Digest: qs7qqbeMtfdvRRBlHN20YGCkVZw=
+
+Name: res/drawable/bg_synchro_trip_close.xml
+SHA1-Digest: fCYNMZ94XP2mXqqffqGC4whoVYw=
+
+Name: assets/obd/car/logo/1b0fb36ab6ee8419b0dbbace19d6c39a.jpg
+SHA1-Digest: UtAXuK87lw18QRVzxzUUG8Ibaic=
+
+Name: res/drawable-hdpi/speed37.png
+SHA1-Digest: +skCsbccmsDMsx8/oIlxyHIK5ps=
+
+Name: res/drawable-hdpi/umeng_update_btn_check_off_holo_light.png
+SHA1-Digest: LV/7eNLcJG6YuRPWli/QPnabT+s=
+
+Name: res/anim/slide_in_alpha.xml
+SHA1-Digest: YnSfYcL+XhYG5to5jAPHyo+yXog=
+
+Name: assets/navicore/res/data/packet.dat.png
+SHA1-Digest: tZZcr142veRoXMmu0492/l0p9gM=
+
+Name: res/layout/view_dashboard.xml
+SHA1-Digest: XqfNkQxDXy9ryi7e9bcwA5Ddf9A=
+
+Name: res/drawable-hdpi/dbbutton_p.png
+SHA1-Digest: qpj9BsSKBlT2e/6S+/4RUNPuCDw=
+
+Name: res/layout/titlebar_mileage_explain.xml
+SHA1-Digest: HQBnL/6AhkZZkzMeEEvBZDj1EtQ=
+
+Name: res/layout/layout_landscape_hud.xml
+SHA1-Digest: FFvc3DqBwNVyr0tHS+5INDFuIrg=
+
+Name: res/drawable/umeng_socialize_oauth_check.xml
+SHA1-Digest: TeJI4yCqRPpA8E6ZJrMlGTXMURc=
+
+Name: res/anim/layout_anim_ation.xml
+SHA1-Digest: xiRflYJYQXs4Yi1opxD/xzJp7ho=
+
+Name: res/layout/umeng_socialize_at_view.xml
+SHA1-Digest: Zny4zOcDnI8BbDtOjslrQFpQ/tU=
+
+Name: res/drawable-hdpi/ic_hud_limit_speed.png
+SHA1-Digest: AqQc0VK0+S+5uUKP07Ql4T9/1eU=
+
+Name: res/drawable-hdpi/speed7.png
+SHA1-Digest: 3PJIIM0QhEesxgAn0FWDef08MV0=
+
+Name: res/drawable-hdpi/bg_check_checking_normal.png
+SHA1-Digest: 2b3wkpHwDZGB4L+qIxak0/v0Gn4=
+
+Name: assets/obd/car/logo/b5098ad3ee65585e4cb88563e5d80c38.jpg
+SHA1-Digest: nEeKb5Xn6QwX+I8Vb/UtUJg2xQY=
+
+Name: assets/obd/car/logo/821288334e96a1a051189c811bba69c2.jpg
+SHA1-Digest: qzRZ5YNDl4knXs87OGiMztWVxf8=
+
+Name: res/drawable-hdpi/ic_synchro_trip_not.png
+SHA1-Digest: wYztPhHfB08f8QvRGR/ftH0qYBA=
+
+Name: res/drawable/progressbar_firwareup.xml
+SHA1-Digest: ltO13mQd36UbHBOCk1WgQdPs0Gs=
+
+Name: res/drawable-hdpi/speed9.png
+SHA1-Digest: WsZCI/mVSOCHL5ktpkeVFJEdbtM=
+
+Name: res/drawable-hdpi/icon_mileage.png
+SHA1-Digest: QQ1zrd557EEgCafxywNeBPyImDY=
+
+Name: res/layout/layout_error_file.xml
+SHA1-Digest: euBH8KSxTra4bH9NfNiIbZGDQUs=
+
+Name: assets/obd/car/logo/45abda6f750ddcfc317b28349e94ffe8.jpg
+SHA1-Digest: g8Q6a8PtHtUHWbjnD+pG2x+L+9Y=
+
+Name: res/drawable-hdpi/hud_pr2.png
+SHA1-Digest: rwmqqx+akoUvRZl7GGREKwnuod8=
+
+Name: res/drawable-hdpi/hudjianbian1.9.png
+SHA1-Digest: aX23mVO9k1p3Y7EV+/KzZd8R0PQ=
+
+Name: res/drawable-hdpi/shop_005.png
+SHA1-Digest: eHQK0u2g3EY42qw4zujXP89BQ9U=
+
+Name: res/drawable/umeng_socialize_laiwang_dynamic.png
+SHA1-Digest: izOF8BRjCIfPEW55iJrkHgdbwhE=
+
+Name: res/drawable-hdpi/speed34.png
+SHA1-Digest: uCpi7s4kMjEJrgBiD/XFmm1G+mo=
+
+Name: res/drawable/umeng_socialize_yixin_gray.png
+SHA1-Digest: 4pMdm9bE5PXw9bQ+4IwTmOOr5J4=
+
+Name: res/layout/layout_drive_early_warning_setting.xml
+SHA1-Digest: jvIbWpjNo/nnoLnWie2rN0Yd3oU=
+
+Name: res/drawable-hdpi/voltage_mistake.png
+SHA1-Digest: DfEmwVU7DOMaEw1eXL6tmK4WvJk=
+
+Name: res/drawable-hdpi/drive_history_red_cal_bg.png
+SHA1-Digest: 2ZrqHe9RrdHJyam1SO9gE7RJ/uI=
+
+Name: res/drawable-hdpi/shop_002.png
+SHA1-Digest: 9RH92T28PvOsbCCqaze5zo1yfrk=
+
+Name: res/drawable/bg_start_check_pressed.png
+SHA1-Digest: go7iUvlST82gphTeqLNjD2AyIeo=
+
+Name: res/layout/umeng_socialize_failed_load_page.xml
+SHA1-Digest: JkNkZBkST9cUeSZBgiQVknxfUO4=
+
+Name: res/drawable-hdpi/rect.png
+SHA1-Digest: I2deC6ccWN3Zki1biy7nxsb4y1U=
+
+Name: res/drawable-hdpi/bg2.9.png
+SHA1-Digest: Eo7CwQwQ0ChdO0U0BxT9eGj1H8U=
+
+Name: res/layout-1196x720/layout_landscape_hud.xml
+SHA1-Digest: r9K0ICkFsLGsEHjN8Nh6WLklIhs=
+
+Name: res/drawable-xhdpi/hud_guide_setting.png
+SHA1-Digest: 7t+AYLO+BxIV+2an+2pEpfpwv5M=
+
+Name: assets/obd/car/logo/5ebe4dd522cd755584f2718fa36ee3ed.jpg
+SHA1-Digest: zT5vg11aAC1leRZbm7gOPOHu8fA=
+
+Name: res/drawable-hdpi/login_bg.9.png
+SHA1-Digest: idy8gEUbBuu/fCpVpcHrxQcS180=
+
+Name: res/drawable/umeng_update_button_cancel_bg_normal.xml
+SHA1-Digest: kS9+mMuOkAWp4GHOy6VcOIDngi8=
+
+Name: res/drawable-xhdpi/xiaopan.png
+SHA1-Digest: sOr/g6oMsmsjBoRI9vZ9FDBiZlg=
+
+Name: res/drawable-xhdpi/checker_icon2.png
+SHA1-Digest: V/D/S/NmfCw4HZwuqC3hdPQ8H+Y=
+
+Name: res/drawable/progressbar_style2.xml
+SHA1-Digest: wo2DM3XdL7UMIrIFDlFOvTVsN7E=
+
+Name: res/layout/titlebar_electronic_update.xml
+SHA1-Digest: 6IOE3UzsyAlNBPTxNsL57d5Hu0M=
+
+Name: res/drawable-hdpi/button_month_n.png
+SHA1-Digest: vKZQaKMoi9BxZj5h4fekmkyVKvg=
+
+Name: res/drawable-hdpi/restore_p.png
+SHA1-Digest: jEmI8m+g09AfnWCIxhxckYr3I04=
+
+Name: res/drawable-hdpi/icon_toggle.png
+SHA1-Digest: LJZBXqkwvgwv/p7zBSHvxLiGs0s=
+
+Name: res/layout/week.xml
+SHA1-Digest: Z6IYpOJx+47Kg7qa3LvWEYIL06c=
+
+Name: res/drawable/umeng_socialize_title_back_bt.xml
+SHA1-Digest: SFlFXlIUyihDA13NzeKlclKVZKQ=
+
+Name: res/drawable-hdpi/adddevice_blue.png
+SHA1-Digest: Cojs8hapw9V39bwxdkpzMkj+1j4=
+
+Name: res/drawable/btn_gointegral.xml
+SHA1-Digest: QzTNknQ2pIif5GfEFRgszgs+sHM=
+
+Name: res/drawable-hdpi/history_big_green_pt.png
+SHA1-Digest: vAqBbWwWuCBbVj6oaiy8Lw6OzM8=
+
+Name: res/drawable-hdpi/month_translate_layer.png
+SHA1-Digest: cMPTnv3PJ5/qoG67630SX7nQ/X4=
+
+Name: assets/obd/car/logo/49c1c559c2a74b4aa9de07b5292bbcfe.jpg
+SHA1-Digest: mZAkaPW3817r+xJxmOZIPH9Rkoo=
+
+Name: res/drawable-hdpi/checker_icon1.png
+SHA1-Digest: rv4D3Y+Xl6FCNhKcF352feuOR1g=
+
+Name: res/layout/item_grid_years.xml
+SHA1-Digest: P78T7c1k5WZhj+K4cTOvOfPwKDw=
+
+Name: assets/res/obd_sys.db
+SHA1-Digest: gOj9ixCjZKSFS0jP52DfuSaAPeM=
+
+Name: res/drawable-hdpi/already_getpoing.png
+SHA1-Digest: tMEdA2wvPbJQX07h//XuFaJdfek=
+
+Name: res/drawable-hdpi/btn_hud.png
+SHA1-Digest: fzkZf1ZTg80TY4MAb/e4NkYlWYM=
+
+Name: res/drawable-hdpi/hud_icon.png
+SHA1-Digest: ojxoA+GQ1GezoKfH5YIxAsOPk40=
+
+Name: res/drawable-hdpi/speed4.png
+SHA1-Digest: FDnfc18MF09o9dylPOhfA2vpiaM=
+
+Name: res/drawable/umeng_update_button_ok_bg_selector.xml
+SHA1-Digest: 1upGTkiJE2gQL3favilo6uNMqMw=
+
+Name: assets/obd/car/logo/a8613c69d9491172cf747ea6b55bf9b6.jpg
+SHA1-Digest: HfqIx9R0C01fRVJqkVbVAbspZfQ=
+
+Name: res/anim/umeng_socialize_slide_out_from_bottom.xml
+SHA1-Digest: zw0QFnj+4kwx22Dyyfu6dS8PzFE=
+
+Name: res/layout/item_obtained_integral.xml
+SHA1-Digest: hAZCPV12ddOdqCVXKZSJRvp404M=
+
+Name: res/drawable-hdpi/ui8_wg_bg_dialog_title.9.png
+SHA1-Digest: jv+82enX9n4uCi4s1/YO7o9yMd4=
+
+Name: res/drawable-hdpi/shop_001a.png
+SHA1-Digest: 16qSDZA0XST8wXxFcuqgd/h29Mg=
+
+Name: res/drawable/umeng_socialize_button_login_pressed.png
+SHA1-Digest: J67D0FFijDTbSnePdIu+BLE12Ro=
+
+Name: res/layout/umeng_socialize_base_alert_dialog.xml
+SHA1-Digest: 8XVU4G5No5tGEmwhK+6WujHZfng=
+
+Name: res/drawable-hdpi/hud_compass_icon.png
+SHA1-Digest: fLHNGL8Tbf4WvcMOB53dCw4ixrc=
+
+Name: res/drawable-hdpi/hudyibiao_n.png
+SHA1-Digest: SsSTXI81JAuGi28HRF3sFNqBPCQ=
+
+Name: assets/stat_plugin/stat_plugin.jar
+SHA1-Digest: M/5rye3YFspdc4V8tRjNnmuhIf8=
+
+Name: res/layout/map_compassbar.xml
+SHA1-Digest: G3PyNAc49DJZB+yEfbW5IlSyr+4=
+
+Name: res/drawable-hdpi/ui8_web_error.png
+SHA1-Digest: PSLNHgt6vjOklQsH6VFd9v6AXFI=
+
+Name: res/drawable-hdpi/hud_n.png
+SHA1-Digest: bjhXBFr2iQQY78o47gVZdIhRPyI=
+
+Name: res/drawable-hdpi/mileage_icon.png
+SHA1-Digest: cAUf2kZD36Nqbz7sjSxgIYoYokI=
+
+Name: res/drawable-xhdpi/xiaozhen.png
+SHA1-Digest: prkDJFMPMUcjlk4tlSIuB4mD9Hg=
+
+Name: res/drawable/umeng_socialize_wxcircle_gray.png
+SHA1-Digest: TR8cYpooQsbrzQxs1p0y/iD8C+w=
+
+Name: res/color/bg_tv_jump.xml
+SHA1-Digest: ziLsR6CmhNmWjd1pZqGmdO5Jd64=
+
+Name: res/drawable-hdpi/btn_user_info_edit_down.png
+SHA1-Digest: 7zMeFFfMxClkTqRBFwM1Jl3CCCk=
+
+Name: res/drawable-hdpi/btn_user_center_pressed.png
+SHA1-Digest: mRdBNoYLkFroHq/2wE3F40BUQDE=
+
+Name: res/drawable-hdpi/hudbutton_p.png
+SHA1-Digest: 0Z9k6L2WDEq/KYTgjvBTbl1BGIg=
+
+Name: res/anim/umeng_socialize_slide_in_from_bottom.xml
+SHA1-Digest: 07UWP09ivKAqw+AoJ7kMnhC2KRM=
+
+Name: res/drawable/bg_choice.xml
+SHA1-Digest: vaIZNCxibOaOJfMTosxgPm1dc20=
+
+Name: res/layout/item_hud_setting.xml
+SHA1-Digest: N/Pm2vsMY4mnuDCHcajtC1Skjls=
+
+Name: res/drawable/umeng_fb_gray_frame.xml
+SHA1-Digest: aWHdngf/egP9o3M/2RvzMzfHbl8=
+
+Name: res/anim/slide_in_top.xml
+SHA1-Digest: YcNlAceKNmR6BwqESfAjUaJRMdk=
+
+Name: res/layout/titlebar_drive_analyse.xml
+SHA1-Digest: mc5C7x5u7hLKy1BrRmqW992YiRw=
+
+Name: res/anim/translate_add_button_in.xml
+SHA1-Digest: Z5Yq8UPdB8r19aMXD6x18ldGrPM=
+
+Name: res/drawable-hdpi/item_hud_content_d.png
+SHA1-Digest: 15Rp+w4DzF6sOAqtZUTtGAlHTUk=
+
+Name: res/drawable/umeng_socialize_qq_on.png
+SHA1-Digest: mkSaPj2AuSfY08N/XsSkP4Lm1uQ=
+
+Name: res/drawable-hdpi/vin_icon1.jpg
+SHA1-Digest: XvhKqWxF5Gb2L7SYT1mauas6Deo=
+
+Name: res/drawable-hdpi/hudlist_n.png
+SHA1-Digest: fblx5k6bcHk8Vrs4x5GaMAVz1Ls=
+
+Name: res/drawable-hdpi/speed32.png
+SHA1-Digest: TKb7s5wHJ/2MOsE8Yryd5SDvRv0=
+
+Name: res/drawable/umeng_fb_conversation_bg.png
+SHA1-Digest: MgZc1ooHqMmfimA3XzVfyTNu2bE=
+
+Name: res/drawable/umeng_socialize_laiwang_gray.png
+SHA1-Digest: IauJhm/ydqBlaVxOyXOChx+hTuU=
+
+Name: res/drawable/bg_dialogbutton.xml
+SHA1-Digest: AsKXQ7XjWk5HTM7cFaZSQHxhbNI=
+
+Name: res/drawable/umeng_fb_point_normal.xml
+SHA1-Digest: nS6YH4+LPj4f7x4zAnSC/ExzaoU=
+
+Name: res/layout-sw550dp-large/umeng_socialize_full_alert_dialog.xml
+SHA1-Digest: FmybWAUK+pUwbLJwfDcflEKN1EI=
+
+Name: res/drawable-hdpi/bluetooth_green.png
+SHA1-Digest: avSau5YF28cAuI61+SOeHdwew1Q=
+
+Name: res/layout/layout_carvin.xml
+SHA1-Digest: TipD4QUR4JttylN+TfPyiE4JNdo=
+
+Name: res/drawable-hdpi/speed30.png
+SHA1-Digest: 4nvEnOW7hmtcfIep173KJ6BkhPw=
+
+Name: res/layout/layout_ndashboard.xml
+SHA1-Digest: p27tIz5m/JDNSfW1bykOXg3ey6A=
+
+Name: assets/obd/car/logo/c97174daee5c692588980c478a5160b2.jpg
+SHA1-Digest: St/y19lpuMQGVRHDxnUqEo2v9wU=
+
+Name: res/drawable-hdpi/ic_synchro_trip_exclamation.png
+SHA1-Digest: Bpk4MSFRVz8aOc+XMfpGf4k+PnE=
+
+Name: res/drawable-hdpi/speed16.png
+SHA1-Digest: AogxsoXJ0X0bUflh4+QAWuCd3KM=
+
+Name: org/apache/http/entity/mime/version.properties
+SHA1-Digest: GUajTeiNbAxAF+Bb/QH6O97qfKQ=
+
+Name: res/drawable/umeng_fb_write_selector.xml
+SHA1-Digest: g3NyjikRIUvIGI4Jib+QFN3TbgY=
+
+Name: res/drawable-hdpi/speed59.png
+SHA1-Digest: bKcG7o1hZhiCmTfZELSm11fDi/0=
+
+Name: res/layout/drive_detail_bottom_view.xml
+SHA1-Digest: ZIy7jLFhsYW0R3LUvA8yEeOldfE=
+
+Name: res/layout/titlebar_car_control.xml
+SHA1-Digest: KKueZecAB/B7JPjM+gELavppubk=
+
+Name: res/layout/layout_drive_voltage_prompt.xml
+SHA1-Digest: ZlLBpfUfsnydM+pXtk9JkrhukYI=
+
+Name: res/layout/drive_detail_middle_view.xml
+SHA1-Digest: e9IsClMDp6bXqbIea589gl8SwoE=
+
+Name: res/drawable-hdpi/button_year_n.png
+SHA1-Digest: n8QUNRpF/+7vUPO92lJ/f7ay2w8=
+
+Name: res/layout/layout_voltage.xml
+SHA1-Digest: yXLKQAW1Za66gdHTjnl97RKyALk=
+
+Name: res/drawable/umeng_socialize_title_back_bt_normal.png
+SHA1-Digest: 2gAVcAgbc/E168FkC8jq+UPnHdo=
+
+Name: assets/alipay_plugin224_0602.apk
+SHA1-Digest: XTdaTPs9+pxfflGNnj44T0/Tppc=
+
+Name: res/drawable-hdpi/bgjianpian.9.png
+SHA1-Digest: BN0kzeI5XUzuurKlQ4GNQ6HiILU=
+
+Name: res/drawable/umeng_socialize_title_tab_right_normal.png
+SHA1-Digest: +RVCf+INVdqFDPUe4RGGukSrkl0=
+
+Name: assets/navicore/sound/ding.mp3.png
+SHA1-Digest: Unna9q8i7AGyXCM5PnBGMMrRMEg=
+
+Name: res/layout/layout_order_complete.xml
+SHA1-Digest: MStaZuCpVjoBqxyqHMMCREIKxVw=
+
+Name: res/drawable-hdpi/checker_background.png
+SHA1-Digest: vzRCMGbfwlYH0Dcs1+78pXpzlgg=
+
+Name: res/drawable/umeng_socialize_share_transparent_corner.xml
+SHA1-Digest: mMizN71IDLO90zDoQzTIocnfJkg=
+
+Name: assets/obd/car/logo/5bb0d7980d57caadcda99e446743244e.jpg
+SHA1-Digest: l9rJSuydpBQ4OQB8NsoYORnj8kA=
+
+Name: res/drawable-hdpi/bg_check_line_disable.png
+SHA1-Digest: WcN1Y66x6WM4MiHT83ZKP/NlbZo=
+
+Name: res/drawable-hdpi/checker_icon.png
+SHA1-Digest: jbvrVNMClFru+z9kz3sC/vR9/N0=
+
+Name: res/drawable-hdpi/getpoint_normal.png
+SHA1-Digest: r4C+DsTNbAkV7JK0l8dQziCDIrM=
+
+Name: res/drawable/hud_item.xml
+SHA1-Digest: fWFPiJMx22JktzZI/YS2/lbEyf0=
+
+Name: res/drawable-hdpi/btn_back_normal.png
+SHA1-Digest: OiO/aSS17csV260BrX0YFAsgon4=
+
+Name: res/drawable-hdpi/speed0.png
+SHA1-Digest: MWwt0LGZxUGbbBCGi69f/X5hdSA=
+
+Name: res/layout/titlebar_carvin.xml
+SHA1-Digest: u6Uow62QdoZzLZivp/nSv6CwYpk=
+
+Name: assets/obd/car/logo/000222db6342c3f1dbe96fdbaa5ea94d.jpg
+SHA1-Digest: fgB8JPvQKnLI7qG4VKPjTU057x8=
+
+Name: res/drawable/progress_bar_red.xml
+SHA1-Digest: EMlSGaOKBIl3NkvwVW5GEcTIG6Y=
+
+Name: res/drawable-hdpi/travel_data_icon_normal.png
+SHA1-Digest: sDbgZO9dtJV4odqEBjgLYJeUa3k=
+
+Name: assets/obd/car/logo/b95423aff87f7752093804010e1ffef7.jpg
+SHA1-Digest: hxsoMkNM6OaIVDqC+ssuRa8DDag=
+
+Name: res/layout/titlebar_traveling_track.xml
+SHA1-Digest: 7Py41r0z6YecY9FKv3kJubLLSgY=
+
+Name: lib/armeabi/libixintui.so
+SHA1-Digest: ZkgEcXlNuv8XoguN525YeM2SHyY=
+
+Name: res/layout-1196x720/layout_h_dashboard2.xml
+SHA1-Digest: fx+Zt5XE+CJXhG7ZnEa0DTNxJW0=
+
+Name: res/drawable-hdpi/speed2.png
+SHA1-Digest: lyK78aqAQbdInzEaNEGsL6YtE6c=
+
+Name: res/layout-960x540/layout_h_dashboard2.xml
+SHA1-Digest: d/WwCfw0WJCuqQtgoevje+fTFeE=
+
+Name: res/drawable-hdpi/ui8_wg_bg_dialog_bottom.9.png
+SHA1-Digest: GOQgquQ7HbwwSmWT2SJeBobmSI8=
+
+Name: res/drawable/umeng_socialize_sidebar_selector.xml
+SHA1-Digest: Xg0y0pwtik+u1TjZglD7cv5hXXw=
+
+Name: res/layout/umeng_common_download_notification.xml
+SHA1-Digest: drVg271/p0FlR/xtbWDnu75fkLg=
+
+Name: res/menu/main.xml
+SHA1-Digest: t7bnKWWO+Qd9QeZDtKLwFCwxh60=
+
+Name: res/drawable-hdpi/icon_app_weixin.png
+SHA1-Digest: N8Nyc103Pd3XOXhrGiWWK+vNeoE=
+
+Name: res/drawable-hdpi/speed19.png
+SHA1-Digest: ncLv28G86u9cEEQ/XkImGai4+N4=
+
+Name: res/drawable-hdpi/shop_008.png
+SHA1-Digest: 2293TmyUMawgx3q0Xyh4EA/LhRY=
+
+Name: res/drawable-hdpi/dashboard1.png
+SHA1-Digest: kwXj3IUoMbosCdxRuySC096REG8=
+
+Name: res/drawable-hdpi/d_icon3.png
+SHA1-Digest: mN4rII9uPqZERRiDyG3iOPLzd+8=
+
+Name: res/drawable-hdpi/restore_n.png
+SHA1-Digest: /ai+2YOg0KgCMZd5q2tnjUMFfc8=
+
+Name: res/layout/layout_drive_history.xml
+SHA1-Digest: dKCudQLj2Z6M7LSGxADadxNMWD4=
+
+Name: res/drawable-xhdpi/dashboard2_bg.9.png
+SHA1-Digest: e8GHaUBIn9ZvEdgTYuSbxVaeopg=
+
+Name: res/drawable-hdpi/hud_connect_icon.png
+SHA1-Digest: gwTHfkd5YVb67hnq9MiduVaqssU=
+
+Name: res/layout/titlebar_navi_model.xml
+SHA1-Digest: U9jR1XqrTNJxzyN18M9g/4LU3Ps=
+
+Name: res/drawable-hdpi/bg_user_center_device1.png
+SHA1-Digest: f6EiqA3D2ksmo+xyXcyxbt+aFdQ=
+
+Name: res/drawable/umeng_socialize_sina_off.png
+SHA1-Digest: dDkgVY5XB8gFlSs8wiw8dA1d6Cg=
+
+Name: assets/navicore/license.dat.png
+SHA1-Digest: d9juaj+vI2qZoznLR7ouwU1krLQ=
+
+Name: res/drawable-hdpi/d_icon1.png
+SHA1-Digest: rkctV8KnVsMqwH36dwmiO51t2y8=
+
+Name: res/layout/umeng_socialize_base_alert_dialog_button.xml
+SHA1-Digest: sywYFPw0tjkOonNPZNhexhi1oFY=
+
+Name: res/drawable-hdpi/speed_label.png
+SHA1-Digest: 0hBMZ1pl+JP21hmdtqfz67xNifU=
+
+Name: assets/obd/car/logo/103544e52e9b9dd91f8e4c860058465f.jpg
+SHA1-Digest: H9ml3MaWmD1GRbNWG/x7CVmSI7A=
+
+Name: res/layout/titlebar_add_cars.xml
+SHA1-Digest: LrsCdPsX+194cxIUeqSaA7xyFUY=
+
+Name: res/drawable-hdpi/btn_1_normal.9.png
+SHA1-Digest: XX2Vft6PALbGx4562wnNbQl7o+o=
+
+Name: res/drawable/umeng_fb_tick_selected.png
+SHA1-Digest: 9NP/kirw9NCnK5wgyJoRxk8KitY=
+
+Name: res/drawable-hdpi/hudbutton2_p.9.png
+SHA1-Digest: dorv/UJJAY+gJ6Ray4jrq59ZlJM=
+
+Name: res/drawable-hdpi/icon_warning_youhao.png
+SHA1-Digest: DPK0BsnfIn7j7IkcEcYbbaRwGfM=
+
+Name: res/anim/umeng_socialize_shareboard_animation_out.xml
+SHA1-Digest: gtKpiE2Q5Vh+3JXd/5kWXef7bh0=
+
+Name: res/drawable-xhdpi/consume_icon.png
+SHA1-Digest: d503GvkcqkgFFMHdq3Z2EjcphVQ=
+
+Name: res/drawable-xhdpi/checker_icon1.png
+SHA1-Digest: uEZeEFQ+cGlu/x6cCGh/K5dLwWk=
+
+Name: res/drawable-hdpi/btn_user_center_down.xml
+SHA1-Digest: X6zInh13XUGY6ui1CaCZHijORQk=
+
+Name: assets/obd/car/logo/4e76b40276be40533965a34ed85d0d31.jpg
+SHA1-Digest: YlGO9T7kmtL1P6tPFYvep0dY5aE=
+
+Name: res/layout/item_gasocost.xml
+SHA1-Digest: ESn3t6dpPpc+Kl6nzzoWF88IXg8=
+
+Name: res/layout-sw550dp-large/umeng_socialize_post_share.xml
+SHA1-Digest: 4C2nGctwClZeb3sztYueuurGCEU=
+
+Name: assets/obd/car/logo/b10c15b6a775bba17f18acd26a103eb3.jpg
+SHA1-Digest: FJq9qJ+ZOwwhrs4+TAWp4XbDhaM=
+
+Name: res/drawable-hdpi/icon_water_prompt.png
+SHA1-Digest: Diqv0L9foUP+n/58r/QYlULpxo8=
+
+Name: res/drawable/umeng_update_button_ok_bg_normal.xml
+SHA1-Digest: e2JtCfjXZHx8qXDkr8vUsLgkT20=
+
+Name: assets/obd/car/logo/67e50e182ece5edcf6c03002a298db1a.jpg
+SHA1-Digest: ORxM5trsw5v3jc/rFh0MJGFbKIE=
+
+Name: res/drawable-hdpi/bg_check_list_info.png
+SHA1-Digest: eWXkIK4vDs9pjZi9Z55mbAdXaUk=
+
+Name: res/drawable-hdpi/pointer_gas_check.png
+SHA1-Digest: 4PzQ3WJQ4s89zdIerjn9RP8OWBw=
+
+Name: res/drawable-hdpi/iv_costclose.png
+SHA1-Digest: hm8ooHQGE8lx3bcLvFvkdDCvZS4=
+
+Name: res/layout/layout_hud2_mirror.xml
+SHA1-Digest: pWc1e8jUob94wHDiCP67Wj8o6CU=
+
+Name: assets/navicore/res/zoomin_disable.png
+SHA1-Digest: iCv170ZV/5lL+Dw7CrutalY0DUY=
+
+Name: res/drawable-hdpi/icon_navi_model.png
+SHA1-Digest: Fn7m6hxuL/dRdlFzHHadIT/6dDo=
+
+Name: res/drawable/iv_holderror_pressed.png
+SHA1-Digest: k3SehQAixdtgpaft2d+cYiMLDTg=
+
+Name: res/layout/umeng_socialize_bind_select_dialog.xml
+SHA1-Digest: 3IomVJzSH8viEVJNHR9MkJUDzdg=
+
+Name: res/drawable-hdpi/xiaozhen_v.png
+SHA1-Digest: vO2Nz0lMPY4jjxTon4aqJBlt470=
+
+Name: res/drawable/umeng_common_gradient_red.xml
+SHA1-Digest: 2jLyupMAAgTIjXmw8H7uIWqHcPo=
+
+Name: resources.arsc
+SHA1-Digest: j3LF5+inyhq2v4E1GglhOZxPjkE=
+
+Name: assets/obd/car/logo/988e4acc69c3dc557e02b83a53507219.jpg
+SHA1-Digest: MiS6X6B2QbD67CS0VFAj/rqIPXU=
+
+Name: res/layout-1208x720/layout_landscape_hud.xml
+SHA1-Digest: r9K0ICkFsLGsEHjN8Nh6WLklIhs=
+
+Name: res/drawable-hdpi/circle_gas_check.png
+SHA1-Digest: qzfzHP/lIdImtyw81pD4hDyfLVw=
+
+Name: res/layout/layout_user_merge_trip.xml
+SHA1-Digest: BfgTWNU/mAzqdpf4jvzG2cVu1Vw=
+
+Name: res/layout/titlebar_usually_question.xml
+SHA1-Digest: wXT0KaPakul52G8LLlk3MXLj4Ck=
+
+Name: res/drawable-hdpi/background.png
+SHA1-Digest: FltQr4+L/XwU+jvhakEm8nVgVw8=
+
+Name: res/drawable/umeng_socialize_title_tab_button_left.xml
+SHA1-Digest: iiQs183Ly3SWALAY9uZc0iVeEyg=
+
+Name: res/drawable-hdpi/arc.png
+SHA1-Digest: n0/RALtvwE0aH45J+HmnW5yKfa4=
+
+Name: res/drawable-xhdpi/ic_synchro_trip_schedule.png
+SHA1-Digest: DZq++2GGMXsZz1TawfpEdMtHvM4=
+
+Name: res/drawable-hdpi/umeng_update_btn_check_on_pressed_holo_light.p
+ ng
+SHA1-Digest: LRfTTUEUavLv1hy7gIc9D3NfFno=
+
+Name: res/drawable-hdpi/btn_user_center_down_pressed.png
+SHA1-Digest: KExSiCfQaArW/1PIhBg+ZwNYoo8=
+
+Name: res/drawable/progressbar_hud_lan.xml
+SHA1-Digest: gVshBjAsvind/pwGIql9CBdzePc=
+
+Name: res/drawable/umeng_socialize_button_white_blue.xml
+SHA1-Digest: KN9hfwVPGKKWUDk4doI7r/fGIE8=
+
+Name: assets/obd/car/logo/40cb278ac6a8d1f5ac20fc00a93bb9c0.jpg
+SHA1-Digest: dyfi4jgkLf0fVHbhPE85XxdrJ8A=
+
+Name: res/layout/item_citylist.xml
+SHA1-Digest: t5mAKhYhKXtCbKf7VLEsRg2Auno=
+
+Name: res/layout/upkeep_header.xml
+SHA1-Digest: 3iAOAM5kP2X+q5muB1Sea10yeQM=
+
+Name: res/drawable-hdpi/icon_gears_prompt.png
+SHA1-Digest: i/N6h+TwlIzOEjUjTDqPsq0MK8w=
+
+Name: res/drawable-hdpi/speed48.png
+SHA1-Digest: TtY6Q9Z+Iwy3eaLV+RPq9JQjPXY=
+
+Name: res/layout/layout_user_login.xml
+SHA1-Digest: e4dZx5FxMENiO9jlzEeNk35pmiw=
+
+Name: res/drawable-xhdpi/hud_guide_state.png
+SHA1-Digest: N4gDbhoopyNVthLtW/RE1/h0WRw=
+
+Name: res/drawable-hdpi/btn_user_center.xml
+SHA1-Digest: CbigT25oJVWyEf/F00cLNktk4fQ=
+
+Name: assets/obd/car/logo/8e912a7ba6b666d6724a9ca18e41c4da.jpg
+SHA1-Digest: A3H+UZQl1L7ZcxJ9XuqN6EBXvLQ=
+
+Name: res/layout/titlebar_upkeep_i.xml
+SHA1-Digest: 9q/yfJqzqN9BvpvYgfQ6Zzc9+Bw=
+
+Name: res/drawable-hdpi/img_regist_phone_verification.png
+SHA1-Digest: dj9e2H2ps2BHs7rbi9I4BLdhSMk=
+
+Name: res/drawable-hdpi/arc_upkeep.png
+SHA1-Digest: qzfzHP/lIdImtyw81pD4hDyfLVw=
+
+Name: res/drawable-hdpi/speed27.png
+SHA1-Digest: +JpQdJmKdKA+zAcepKA3RgeWHv0=
+
+Name: res/drawable-hdpi/hud_por_gosetting_n.png
+SHA1-Digest: RQO7AL2pDfNR2hDbcYKrENXEi3Y=
+
+Name: res/drawable-hdpi/money1.9.png
+SHA1-Digest: UxkDHAlQZqVgVca3ACCM8g4FxGg=
+
+Name: res/drawable-hdpi/speed63.png
+SHA1-Digest: JkSk8IkuHCc5Cu7Ef2DF41nn7k0=
+
+Name: res/drawable-hdpi/hud_button_n.png
+SHA1-Digest: wSoVvd8UY9XATyK2NrxrE/DOSsM=
+
+Name: assets/obd/car/logo/f757350d804697161ee44d7c22d8e14a.jpg
+SHA1-Digest: Vjt6ryi4fVAXZJ2apbdKJhHBNIg=
+
+Name: res/layout/layout_options_setting.xml
+SHA1-Digest: /cy+Tzu8DBF5Stdhgir52k8igv4=
+
+Name: res/drawable-hdpi/icon_drive_analyse_left_circle.png
+SHA1-Digest: oJzd5YWDfJVTriJKc4lxC141IE8=
+
+Name: res/drawable-hdpi/ciycle_user_center_normal.png
+SHA1-Digest: gwIl5GCs9X/Cb6jqoXqWuMBIntA=
+
+Name: res/layout/titlebar_gasocostsetting.xml
+SHA1-Digest: pxuJpMo0PLXO5E550H9Gt9TJiUY=
+
+Name: res/drawable-hdpi/speed43.png
+SHA1-Digest: 5AzuQ9aimVAVFGYutJWlQ4s2kYM=
+
+Name: assets/obd/car/logo/b58653c95b3e5e142aa8c597531453ea.jpg
+SHA1-Digest: svAWUuT7O5J/MvCKdZlu0gqkNWw=
+
+Name: res/drawable-hdpi/jiaozheng_icon.png
+SHA1-Digest: GvD+Qxw7Kk0j5we0YQGMaog80jg=
+
+Name: res/raw/beep.ogg
+SHA1-Digest: 6NvE8+fdRZMbUDbgQTNj1YI1dF8=
+
+Name: res/layout/layout_newvoltage.xml
+SHA1-Digest: v+Pu0bXbbCW1IJeJQAxue5VUUeU=
+
+Name: res/drawable-hdpi/umeng_update_close_bg_normal.png
+SHA1-Digest: LWoD4Rz+w9IGWLXw0ZVpPQ9QNRc=
+
+Name: res/anim/push_left_out.xml
+SHA1-Digest: VH/UGQce/qYD0DYJlQGI90nzvEQ=
+
+Name: res/drawable-hdpi/drive_management.png
+SHA1-Digest: KYvZVQYFoZlxcI+wYIki03V34kI=
+
+Name: res/layout/umeng_socialize_oauth_dialog.xml
+SHA1-Digest: O6UCGxU7taa5BtR/8dugPHxVCik=
+
+Name: res/drawable-hdpi/speed66.png
+SHA1-Digest: /zM1HUCnofPLa0wsVtb8+xFGjYE=
+
+Name: res/drawable-hdpi/order_photo.png
+SHA1-Digest: BiHfNGxMb5EHriIsGVTuFHAY8KY=
+
+Name: res/layout/titlebar_voltage_prompt.xml
+SHA1-Digest: 5P2kOzxvHiTirfQjNhzrvdiR04I=
+
+Name: res/drawable-hdpi/speed51.png
+SHA1-Digest: Lo0SF7YoLYJP7nWm5kkSbHdhvRE=
+
+Name: assets/navicore/res/data/MapbarMiniFont.ttf.png
+SHA1-Digest: YeG8zGbkBSXTDjMqz7WV+S3rt7U=
+
+Name: res/drawable-hdpi/btn_user_info_edit.xml
+SHA1-Digest: p8dxy76a7FWdZkNqUua43a5PS4w=
+
+Name: res/drawable/bg_dashboard_button.xml
+SHA1-Digest: xHrh4vpbmAFcmf437Yb+dYicxE8=
+
+Name: res/drawable-hdpi/hud_p.png
+SHA1-Digest: U9OIhxg9WK70vEESdDPQhLzroDI=
+
+Name: res/drawable-hdpi/drive_end.png
+SHA1-Digest: TW9Dy6kVOSPc9/lVUfXGXiCLpCQ=
+
+Name: res/layout/layout_nhud.xml
+SHA1-Digest: O6SwUIYt8oaXjfbyxnttxS0aV6c=
+
+Name: res/drawable-hdpi/speed23.png
+SHA1-Digest: hEn1EdPi95Bw5NESn4qPygCwA7k=
+
+Name: res/drawable/umeng_socialize_tx_on.png
+SHA1-Digest: xqbvrYeIFYWU0i5HayPcMaA2yK0=
+
+Name: res/drawable/umeng_update_button_ok_bg_tap.xml
+SHA1-Digest: idej0iLnhOjYlaNHRbAQzCPAjLE=
+
+Name: res/layout/titlebar_mileage_upload.xml
+SHA1-Digest: 8rqMtkzb67oMxd2kS/daWov/aGE=
+
+Name: res/layout/layout_detailed_list.xml
+SHA1-Digest: 0eudax+CCQMPOPAWvplY2CtXqLg=
+
+Name: res/drawable-xhdpi/xiaopan_v.png
+SHA1-Digest: exmnxORdinlVqRZOeANJqAnzHRQ=
+
+Name: res/drawable-hdpi/hud_lan_gosettingbig_n.png
+SHA1-Digest: w6zA8N3UDdn7Jn+JybEHqdQRkMs=
+
+Name: res/drawable-hdpi/shop_004.png
+SHA1-Digest: PoNbLUNvZnPy1fZQ1m0opEfJwLE=
+
+Name: assets/obd/car/logo/400df61658c0c849f9a4fa23786d5e10.jpg
+SHA1-Digest: xkdlTaVJFVCJK9zM+a1BpEWG85M=
+
+Name: res/drawable-hdpi/ui8_wg_bg_dialog_content_line.9.png
+SHA1-Digest: 4RIUgyJT1KTdeAcXDJxcF0wHawM=
+
+Name: res/drawable/btn_connection_normal.png
+SHA1-Digest: 1j9bAYbbceTy4/XVhgGjJq8++Ns=
+
+Name: res/drawable/bg_hudbutton2.xml
+SHA1-Digest: 2rtlJEjBtiBrAGu092BoZVULblA=
+
+Name: res/layout/titlebar_maintain_mileage.xml
+SHA1-Digest: fpWzSpYyfaZjz0bpNrSLDdm536M=
+
+Name: res/drawable-hdpi/bg_check_state_1.png
+SHA1-Digest: 8ylEQo/WjmY4wuQsodp1sY/dPEY=
+
+Name: res/drawable-hdpi/moneyline2.png
+SHA1-Digest: eCc+C9B5t/CyRSN0MC0upCCpq34=
+
+Name: assets/frontia_plugin/plugin-deploy.jar
+SHA1-Digest: BFeZXfuipZntRah5T4QqGsJFRnU=
+
+Name: assets/obd/car/logo/8759bbcbfbab2dc422c4cab0e044dbd4.jpg
+SHA1-Digest: hcR7Tf4MGppxJGgnKIxV16WFw7A=
+
+Name: res/drawable-hdpi/speed3.png
+SHA1-Digest: N/Auang90RrjEtiPo9volftYHeI=
+
+Name: res/drawable/umeng_socialize_search_icon.png
+SHA1-Digest: Izqhamj4s+67CT36wF5zS6VyzTM=
+
+Name: res/drawable-hdpi/bg_light_n.png
+SHA1-Digest: /k+iXBsl40y9Rr6iymwPNnInmaQ=
+
+Name: res/drawable/umeng_socialize_button_red.9.png
+SHA1-Digest: A7XbYp8RX4Rzar6Xx0C6BcyRIig=
+
+Name: res/drawable-hdpi/drive_analy_yuanquan.png
+SHA1-Digest: 00SQqACq2o0OOJizyn+isZ6Wfik=
+
+Name: res/layout/titlebar_drive_management.xml
+SHA1-Digest: OBR8F8AhlLWFf11FeK/uEBYF80Y=
+
+Name: res/drawable-hdpi/bg_ok.png
+SHA1-Digest: OOPkibyFMWEb17NFBiO1aEOfeE4=
+
+Name: res/drawable-hdpi/checker_icon2.png
+SHA1-Digest: O2YNFMQIUEyMEYma+BmbWA5eeto=
+
+Name: res/drawable-hdpi/icon_shop_3.png
+SHA1-Digest: TsGR9ovzk2wflov+ij6UzDNs/Uw=
+
+Name: res/layout/titlebar_check.xml
+SHA1-Digest: V/vdveLPy8IOUX01q8mJ1hfMOLE=
+
+Name: res/drawable/umeng_common_gradient_orange.xml
+SHA1-Digest: AHyEGQnT7imQmkLcSm6fiGPhe3s=
+
+Name: res/layout/layout_total_mileage.xml
+SHA1-Digest: MZ0nmojroM+V0kk9iDxgth32vVA=
+
+Name: res/drawable/btn_light_close.xml
+SHA1-Digest: xDDCLQin3LxVV2la4xm97BSmyEM=
+
+Name: res/drawable-hdpi/ic_synchro_trip_circle.png
+SHA1-Digest: 0bTJqO0/Xe9reDiKcPw71eWJokE=
+
+Name: assets/obd/car/logo/4ec7728ac44e02af19a9b8c4958303ff.jpg
+SHA1-Digest: WymfAUKA8zsvtmXYAgzQHEUaUno=
+
+Name: res/layout/item_list_check.xml
+SHA1-Digest: g7IVp2cD1XrX+MNuubbtdOwMhKw=
+
+Name: res/drawable-hdpi/binddevice_black.png
+SHA1-Digest: A0v+wltP6WLrACx7sggxFViJsVs=
+
+Name: res/drawable-hdpi/stop_button_n.png
+SHA1-Digest: yTdA44YMHSFVrxCK2KUwXnuCkBA=
+
+Name: res/drawable/umeng_fb_tick_selector.xml
+SHA1-Digest: LCZnnlgPMGGdiab2gFLQcUawR0w=
+
+Name: res/drawable-hdpi/speed52.png
+SHA1-Digest: Dwu4MHCfXISJOsLYAsVyTw+R+nQ=
+
+Name: res/drawable/umeng_fb_list_item_selector.xml
+SHA1-Digest: y3Vnh6VbO3pK+miRvs1HICE4wl8=
+
+Name: res/drawable-xhdpi/physical_icon1.png
+SHA1-Digest: EmPlt11CrZZPHsYCJxHCxkHQX18=
+
+Name: assets/menu.xml
+SHA1-Digest: n7vC8J6yELI/+/6f6z7dEiZxmd8=
+
+Name: res/layout/titlebar_dashboard.xml
+SHA1-Digest: fYf1/lxJAhKADFHPRSF3fQayKR8=
+

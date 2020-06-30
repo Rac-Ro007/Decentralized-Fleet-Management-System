@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chaoyue.overseas.obd.widget.calendar.MonthView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/calendar_month_topmargin" android:layout_marginBottom="@dimen/calendar_month_title_bottommargin" style="@style/CalendarTitle" />
+    <com.chaoyue.overseas.obd.widget.calendar.CalendarGridView android:id="@id/calendar_grid" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.chaoyue.overseas.obd.widget.calendar.CalendarRowView android:paddingBottom="@dimen/calendar_day_headers_paddingbottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.DayHeader" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.DayHeader" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.DayHeader" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.DayHeader" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.DayHeader" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.DayHeader" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.DayHeader" />
+        </com.chaoyue.overseas.obd.widget.calendar.CalendarRowView>
+        <include layout="@layout/week" />
+        <include layout="@layout/week" />
+        <include layout="@layout/week" />
+        <include layout="@layout/week" />
+        <include layout="@layout/week" />
+        <include layout="@layout/week" />
+    </com.chaoyue.overseas.obd.widget.calendar.CalendarGridView>
+</com.chaoyue.overseas.obd.widget.calendar.MonthView>

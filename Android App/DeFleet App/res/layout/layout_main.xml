@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rl" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:obd="http://schemas.android.com/apk/res/com.chaoyue.overseas">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_drive_analyse" android:background="@drawable/bg_list_item" android:padding="20.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_drive_analyse" android:contentDescription="@string/des_image" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/label_color" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/label_drive_analyse" android:singleLine="true" android:layout_weight="1.0" style="@style/textAppearanceXXXLarge" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0dip" android:textColor="@color/label_gray_color" android:id="@id/tv_drive_analyse_distance" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_drive_analyse_exam" android:singleLine="true" style="@style/textAppearanceXXLarge" />
+                <TextView android:id="@id/hongdian2" android:background="@drawable/hongdian" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_toRightOf="@id/tv_drive_analyse_distance" />
+            </RelativeLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next" android:contentDescription="@string/des_image" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_condition_scan" android:background="@drawable/bg_list_item" android:padding="20.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.chaoyue.overseas.obd.widget.WaterViewGroup android:id="@id/vg_waterView_check" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" obd:src="@drawable/ic_condition_scan_normal" obd:type_draw="rect" obd:cover_src="@drawable/ic_condition_scan" obd:background_color="#ffe5e5e5" obd:child_off_y="-3">
+                <com.chaoyue.overseas.obd.widget.TextViewEx android:textSize="10.0dip" android:textColor="#ff35bdb2" android:gravity="center" android:id="@id/tv_check" android:layout_width="22.0dip" android:layout_height="16.0dip" android:text="100" />
+            </com.chaoyue.overseas.obd.widget.WaterViewGroup>
+            <TextView android:textSize="18.0dip" android:textColor="@color/label_color" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/label_condition_scan" android:singleLine="true" android:layout_weight="1.0" style="@style/textAppearanceXXXLarge" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="@color/label_gray_color" android:id="@id/tv_check_state" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_scanning" android:singleLine="true" style="@style/textAppearanceXXLarge" />
+                <TextView android:id="@id/check_hongdian" android:background="@drawable/hongdian" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_toRightOf="@id/tv_check_state" />
+            </RelativeLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next" android:contentDescription="@string/des_image" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_car_maintain" android:background="@drawable/bg_list_item" android:padding="20.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.chaoyue.overseas.obd.widget.WaterViewGroup android:id="@id/vg_waterView_upkeep" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" obd:src="@drawable/ic_car_maintain_normal" obd:type_draw="arc" obd:cover_src="@drawable/ic_car_maintain" obd:background_color="#ffe5e5e5" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/label_color" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/label_car_maintain" android:singleLine="true" android:layout_weight="1.0" style="@style/textAppearanceXXXLarge" />
+            <Button android:textSize="13.0sp" android:textColor="@android:color/white" android:id="@id/btn_set_car" android:background="@drawable/btn_green" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginRight="5.0dip" android:text="@string/label_btn_set_car" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="@color/label_gray_color" android:gravity="center" android:id="@id/tv_upkeep_state" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/label_car_maintain_exam" android:singleLine="true" style="@style/textAppearanceXXLarge" />
+                <TextView android:id="@id/hongdian" android:background="@drawable/hongdian" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_toRightOf="@id/tv_upkeep_state" />
+            </RelativeLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next" android:contentDescription="@string/des_image" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/rl_aa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_bottom" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/rl_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/layout_main_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <ImageView android:id="@id/iv_caricon" android:visibility="invisible" android:layout_width="@dimen/layout_main_iv_caricon" android:layout_height="@dimen/layout_main_iv_caricon" android:src="@drawable/iv_car_no" />
+            <TextView android:id="@id/tv_search_car" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_main_tv_set_car" android:text="@string/label_btn_search_car" style="@style/textAppearanceXXLarge" />
+            <TextView android:textColor="@color/tv_set_car_info_text" android:id="@id/tv_set_car" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_main_tv_set_car" android:text="@string/label_btn_set_car" style="@style/textAppearanceLarge" />
+            <TextView android:id="@id/tv_car_styles" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/str_tv_car_styles" style="@style/textAppearanceSMedium" />
+            <TextView android:textColor="@color/tv_connection" android:id="@id/tv_connection_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_main_top_connection" android:src="@drawable/iv_car_no" android:text="@string/bluetooth_connection_state3" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textColor="@color/title_color" android:id="@id/bt_connection_status" android:background="@drawable/bg_connection" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:text="@string/label_connection1" android:layout_centerHorizontal="true" style="@style/textAppearanceMedium" />
+                <ImageView android:id="@id/iv_error_log" android:background="@drawable/bg_error_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_toRightOf="@id/bt_connection_status" android:layout_alignBottom="@id/bt_connection_status" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_new_mileage" android:background="@color/tv_title" android:padding="20.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/title_color" android:id="@id/tv_new_mileage" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/label_new_mileage" android:singleLine="true" android:layout_weight="1.0" style="@style/textAppearanceLarge" />
+        <ImageView android:id="@id/im_close" android:background="@drawable/ic_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/des_image" />
+    </LinearLayout>
+</RelativeLayout>

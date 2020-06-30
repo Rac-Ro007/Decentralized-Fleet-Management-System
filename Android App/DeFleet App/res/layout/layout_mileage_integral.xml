@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/lv_mileage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@null" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_not_integral" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="113.0dip" android:src="@drawable/notintegral_icon" android:contentDescription="@string/des_image" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff9da3b0" android:gravity="center_horizontal" android:id="@id/tv_not_integra" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:layout_marginTop="45.0sp" android:text="@string/integral_noteintegral" />
+</LinearLayout>

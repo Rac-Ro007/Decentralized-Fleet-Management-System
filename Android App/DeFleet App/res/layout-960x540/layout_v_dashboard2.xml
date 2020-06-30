@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:berdy="http://schemas.android.com/apk/res/com.chaoyue.overseas">
+    <RelativeLayout android:orientation="vertical" android:id="@id/rela_title" android:background="#ff35bdb2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="74.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/line_hint1" android:layout_width="wrap_content" android:layout_height="37.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.599976dip" android:text="@string/txt_str_mileage3" />
+            <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="@color/title_color" android:id="@id/tv_tripLength_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="0.0" />
+            <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="km" />
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="@string/txt_str_time_consuming" />
+            <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="@color/title_color" android:id="@id/tv_time_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="00:00" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="37.0dip" android:layout_below="@id/line_hint1">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.599976dip" android:src="@drawable/hudduigou" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff98fff7" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/bluetooth_connection_state7" />
+        </LinearLayout>
+        <Button android:textStyle="normal" android:textColor="@color/title_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/bt_stop" android:background="@drawable/bg_hud2button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.599976dip" android:text="@string/txt_str_stop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rela_pro_all" android:background="@drawable/dashboard_v_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rela_title">
+        <RelativeLayout android:id="@id/rela_state" android:background="@drawable/state_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/line_checker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip">
+                <ImageView android:id="@id/iv_physical_icon" android:background="@drawable/checker_icon1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                <TextView android:textSize="@dimen/text_size4" android:textColor="#ff02fff6" android:layout_gravity="center_vertical" android:id="@id/tv_check_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/line_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:layout_centerVertical="true">
+                <ImageView android:id="@id/iv_temperature_icon" android:background="@drawable/temperature_icon2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                <TextView android:textSize="@dimen/text_size4" android:textColor="#ff02fff6" android:layout_gravity="center_vertical" android:id="@id/tv_engineCoolantTemperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0°" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/line_voltage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_marginTop9">
+                <ImageView android:id="@id/iv_voltage_icon" android:background="@drawable/voltage_icon1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                <TextView android:textSize="@dimen/text_size4" android:textColor="#ff02fff6" android:layout_gravity="center_vertical" android:id="@id/tv_voltage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0V" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/line_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="24.0dip" android:layout_toRightOf="@id/rela_state">
+            <RelativeLayout android:id="@id/rela_consumption" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="85.0sp" android:textColor="#ff02fff6" android:id="@id/tv_shunshi_consumption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" berdy:typeface="LcdD.ttf" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/line_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/rela_consumption">
+                <ImageView android:id="@id/ive_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/consume_icon" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff17c0b9" android:gravity="right" android:id="@id/tv_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/hud_gasConsum" android:layout_toRightOf="@id/ive_icon" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/line_cost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/line_text" android:layout_alignRight="@id/line_text">
+                <TextView android:textSize="@dimen/text_size9" android:textColor="#ff02fff6" android:id="@id/tv_money_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" android:layout_centerVertical="true" />
+                <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="@dimen/text_size8" android:textColor="#ff02fff6" android:id="@id/tve_v_cost1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/layout_marginRight5" android:text="0" android:layout_toRightOf="@id/tv_money_icon" berdy:typeface="LcdD.ttf" />
+            </RelativeLayout>
+            <TextView android:textSize="16.0sp" android:textColor="#ff17c0b9" android:id="@id/tv_cost_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_last_cost" android:layout_below="@id/line_cost" android:layout_alignRight="@id/line_text" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_marginTop12" android:layout_marginRight="@dimen/layout_marginRight2" android:layout_alignParentRight="true">
+                <ProgressBar android:id="@id/pb_consumption" android:layout_width="20.0dip" android:layout_height="150.0dip" android:max="50" android:progressDrawable="@drawable/progressbar_style2" style="?android:attr/progressBarStyleHorizontal" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/im_dashboard_background" android:background="@drawable/dashoboard_v_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_below="@id/rela_state" android:layout_centerHorizontal="true">
+            <RelativeLayout android:background="@drawable/xiaopan_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_marginLeft4" android:layout_alignBottom="@id/rela_dapan">
+                <ImageView android:id="@id/xiaozhen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/xiaozhen_v" android:layout_centerInParent="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/line_rmp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/layout_marginBottom3" android:layout_alignBottom="@id/xiaozhen" android:layout_centerHorizontal="true">
+                    <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="@dimen/text_size12" android:textColor="#ff02fff6" android:gravity="center" android:id="@id/tve_rpm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0000" berdy:typeface="LcdD.ttf" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/text_size5" android:textColor="#ff02fff6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_marginTop14" android:text="r/min" android:layout_below="@id/line_rmp" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rela_dapan" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/im_dapan" android:background="@drawable/bigdashboard_v" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/dazhen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/changzhen_v" android:layout_centerInParent="true" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/line_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/layout_marginBottom2" android:layout_alignBottom="@id/im_dapan" android:layout_centerHorizontal="true">
+                    <RelativeLayout android:id="@id/line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.chaoyue.overseas.obd.widget.TextViewFontLcdEx android:textSize="@dimen/text_size11" android:textColor="#ff02fff6" android:id="@id/tve_speed" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="000" berdy:typeface="LcdD.ttf" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/text_size5" android:textColor="#ff02fff6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_marginTop13" android:text="km/h" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_konw_padlock" android:background="@color/tv_title" android:padding="20.0dip" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/line_bottom">
+            <TextView android:textColor="@color/title_color" android:id="@id/tv_konw_padlock_cotent" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/know_padlock" android:singleLine="true" android:layout_weight="1.0" style="@style/textAppearanceLarge" />
+            <ImageView android:id="@id/im_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/im_close" android:contentDescription="@string/des_image" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_eletronic_padlock" android:background="@color/tv_title" android:padding="20.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/line_bottom">
+            <TextView android:textColor="@color/title_color" android:id="@id/tv_eletronic_padlock_cotent" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/eletronic_padlock" android:singleLine="true" android:layout_weight="1.0" style="@style/textAppearanceLarge" />
+            <ImageView android:id="@id/im_close_eletronic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/im_close" android:contentDescription="@string/des_image" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/line_bottom" android:background="#ff363636" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+            <RadioGroup android:orientation="horizontal" android:id="@id/rg_buttom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RadioButton android:id="@id/iv_icon1" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:checked="true" android:button="@drawable/bg_hudicon1" android:layout_weight="1.0" />
+                <RadioButton android:id="@id/iv_icon2" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/bg_hudicon2" android:layout_weight="1.0" />
+                <RadioButton android:id="@id/iv_icon3" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/bg_hudicon3" android:layout_weight="1.0" />
+            </RadioGroup>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rela_all" android:background="#cc000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dashboard_icon1" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/txt_str_txt" android:layout_below="@id/iv_icon" />
+            <Button android:textColor="#ffffffff" android:id="@id/bt_iknow" android:background="@drawable/bg_dashboard_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/main_iknow" android:layout_below="@id/tv_content" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

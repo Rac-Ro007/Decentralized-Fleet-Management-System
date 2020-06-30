@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/img_regist_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/img_regist_logo" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/loginLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/iv_logo">
+        <RelativeLayout android:id="@id/loginNameLy" android:layout_width="fill_parent" android:layout_height="42.5dip" android:layout_centerHorizontal="true">
+            <EditText android:textSize="15.329987dip" android:textColor="#ccffffff" android:textColorHint="#ccffffff" android:id="@id/loginName" android:background="@color/transparent" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/login_account_hint" android:singleLine="true" android:maxLength="11" android:digits="\ 0123456789" android:layout_centerVertical="true" android:inputType="phone" />
+        </RelativeLayout>
+        <View android:background="#ccffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/loginNameLy" />
+        <RelativeLayout android:id="@id/loginPassWord" android:layout_width="fill_parent" android:layout_height="42.5dip" android:layout_marginTop="16.0dip" android:layout_below="@id/loginNameLy" android:layout_centerHorizontal="true">
+            <EditText android:textSize="15.329987dip" android:textColor="#ccffffff" android:textColorHint="#ccffffff" android:id="@id/loginPassword" android:background="@color/transparent" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/login_passwd_hint" android:layout_centerVertical="true" android:inputType="textPassword" />
+            <ImageView android:id="@id/iv_forget_password" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/img_regist_forgot_password" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+        </RelativeLayout>
+        <View android:background="#ccffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/loginPassWord" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/localLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/loginLayout">
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/txt_user_login" android:background="@drawable/btn_green" android:clickable="true" android:layout_width="fill_parent" android:layout_height="58.5dip" android:text="@string/login_login" style="@style/textAppearanceLarge" />
+    </LinearLayout>
+    <TextView android:textColor="#ccffffff" android:id="@id/txt_user_registe" android:padding="15.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/login_user_registe" android:layout_below="@id/localLogin" android:layout_centerHorizontal="true" style="@style/textAppearanceMedium" />
+    <LinearLayout android:orientation="horizontal" android:background="#c00e57cc" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/rela_demodevice" android:padding="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="17.0dip" android:textColor="#ccffffff" android:id="@id/tv_demodevice" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_simulation_experience" style="@style/textAppearanceMedium" />
+            <ImageView android:id="@id/iv_demodevice_first" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:src="@drawable/hongdian" />
+        </RelativeLayout>
+        <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_regist_dividing_line" />
+        <TextView android:textSize="17.0dip" android:textColor="#ccffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_buydevice" android:padding="17.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_user_center_buydevice" android:layout_weight="1.0" style="@style/textAppearanceMedium" />
+    </LinearLayout>
+</RelativeLayout>

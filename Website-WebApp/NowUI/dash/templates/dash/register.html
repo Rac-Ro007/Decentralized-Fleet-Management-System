@@ -1,0 +1,16 @@
+{% extends 'dash/base.html'%}
+
+{% load static %}
+
+{% block head %}
+<section class="special_cource padding_top">
+<div class="container-fluid" align="center">
+  <form method="POST" >
+    {% csrf_token %} 
+    {{form.as_p}}
+    <button class="btn btn-success" style="color:white;">REGISTER</button>
+  </form>  
+</div>
+</section>
+
+{% endblock head %}

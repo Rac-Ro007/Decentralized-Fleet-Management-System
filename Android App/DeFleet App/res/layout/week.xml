@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chaoyue.overseas.obd.widget.calendar.CalendarRowView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.chaoyue.overseas.obd.widget.calendar.CalendarCellView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.CalendarDate" />
+    <com.chaoyue.overseas.obd.widget.calendar.CalendarCellView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.CalendarDate" />
+    <com.chaoyue.overseas.obd.widget.calendar.CalendarCellView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.CalendarDate" />
+    <com.chaoyue.overseas.obd.widget.calendar.CalendarCellView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.CalendarDate" />
+    <com.chaoyue.overseas.obd.widget.calendar.CalendarCellView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.CalendarDate" />
+    <com.chaoyue.overseas.obd.widget.calendar.CalendarCellView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.CalendarDate" />
+    <com.chaoyue.overseas.obd.widget.calendar.CalendarCellView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CalendarCell.CalendarDate" />
+</com.chaoyue.overseas.obd.widget.calendar.CalendarRowView>

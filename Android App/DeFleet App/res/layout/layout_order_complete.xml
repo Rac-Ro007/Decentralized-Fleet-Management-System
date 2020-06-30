@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff8f9fa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textColor="@color/dark_green" android:gravity="center" android:id="@id/textview1" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/txt_str_pay_success2" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/textview1">
+        <TextView android:textSize="16.0dip" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_number" android:background="@android:color/white" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/txt_str_order_no" />
+    </LinearLayout>
+    <TextView android:autoLink="phone" android:id="@id/tv_pre_price" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/txt_str_string" android:layout_below="@id/ll_info" />
+</RelativeLayout>

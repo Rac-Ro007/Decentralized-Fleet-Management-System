@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:obd="http://schemas.android.com/apk/res/com.chaoyue.overseas">
+    <com.chaoyue.overseas.obd.widget.WaterViewGroup android:id="@id/vg_waterView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" obd:src="@drawable/circle_gas_check" obd:type_draw="arc" obd:background_color="@color/keynote_color">
+        <TextView android:textColor="@color/keynote_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="579" style="@style/textAppearanceXXXLarge" />
+    </com.chaoyue.overseas.obd.widget.WaterViewGroup>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:obd="http://schemas.android.com/apk/res/com.chaoyue.overseas">
+    <ImageView android:layout_gravity="right" android:background="@drawable/ic_synchro_trip_exclamation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/rl_synchro_trip_schedule" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_synchro_trip_complete" android:background="@drawable/ic_synchro_trip_schedule" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.chaoyue.overseas.obd.widget.WaterViewGroup android:id="@id/vg_waterView_upkeep" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" obd:src="@drawable/ic_synchro_trip_circle" obd:type_draw="arc" obd:cover_src="@drawable/ic_synchro_trip_circle" obd:background_color="#ffe5e5e5" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_synchro_trip_str" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <TextView android:textColor="@color/check_score" android:id="@id/tv_synchro_trip_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="0 条" style="@style/textAppearanceXXXXXLarge" />
+            <View android:id="@id/vi_synchro_trip" android:background="#ffebedf0" android:layout_width="150.0dip" android:layout_height="1.0px" />
+            <TextView android:textColor="@color/check_score" android:id="@id/tv_synchro_trip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/txt_str_synchro_trip" style="@style/textAppearanceMedium" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textColor="@color/check_score" android:id="@id/tv_synchro_trip_str" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_synchro_trip3" style="@style/textAppearanceLarge" />
+        <TextView android:textColor="@color/tv_sn_gray" android:id="@id/tv_synchro_trip_str5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_synchro_trip5" style="@style/textAppearanceLarge" />
+        <TextView android:textColor="@color/tv_sn_gray" android:id="@id/tv_synchro_trip_str6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_synchro_trip7" style="@style/textAppearanceLarge" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_synchro_trip_sst" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <TextView android:textColor="@color/tv_sn_gray" android:id="@id/tv_synchro_trip_journeys_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_synchro_trip_journeys" style="@style/textAppearanceXXLarge" />
+            <TextView android:textColor="@color/tv_sn_gray" android:id="@id/tv_synchro_trip_journeys_val" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 条" style="@style/textAppearanceXXLarge" />
+            <TextView android:textColor="@color/tv_sn_gray" android:id="@id/tv_synchro_trip_already_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/txt_str_synchro_trip_already" style="@style/textAppearanceXXLarge" />
+            <TextView android:textColor="@color/tv_sn_gray" android:id="@id/tv_synchro_trip_already_val" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 条" style="@style/textAppearanceXXLarge" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textColor="@color/tv_sn_gray" android:id="@id/tv_synchro_trip_time_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_synchro_trip_time" style="@style/textAppearanceLarge" />
+            <TextView android:textColor="@color/tv_sn_gray" android:id="@id/tv_synchro_trip_time_val" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2014-01-01" style="@style/textAppearanceSMedium" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textColor="#ffffffff" android:id="@id/btn_start_synchro_trip" android:background="@drawable/btn_green" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="10.0dip" android:text="@string/txt_str_start_synchro_trip" style="@style/textAppearanceLarge" />
+</LinearLayout>

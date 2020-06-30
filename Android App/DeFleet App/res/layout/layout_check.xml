@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:obd="http://schemas.android.com/apk/res/com.chaoyue.overseas">
+    <RelativeLayout android:id="@id/rl_check_no" android:background="#ff35bdb2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_start_check" android:background="@drawable/bg_start_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true">
+            <TextView android:textColor="#ff3cbfb4" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_check1" style="@style/textAppearanceXXXXXLarge" />
+            <TextView android:textColor="#ff3cbfb4" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_check2" style="@style/textAppearanceXXXXXLarge" />
+        </LinearLayout>
+        <TextView android:textColor="@color/calendar_text_selected" android:id="@id/tv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/label_check3" android:layout_below="@id/ll_start_check" android:layout_centerHorizontal="true" style="@style/textAppearanceLarge" />
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/ll_check_view" android:background="@color/calendar_active_month_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="30.0dip" android:layout_below="@id/tv_text">
+            <ImageView android:background="@drawable/iv_check" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:id="@id/ll_check_start" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.chaoyue.overseas.obd.widget.WaterViewGroupEx android:id="@id/vg_waterView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" obd:src="@drawable/rect" obd:type_draw="rect" obd:background_color="#ffe3e6ec" obd:child_off_y="-5">
+                    <com.chaoyue.overseas.obd.widget.TextViewEx android:textSize="26.0sp" android:textColor="@color/check_score" android:gravity="center" android:id="@id/tv_last" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" />
+                </com.chaoyue.overseas.obd.widget.WaterViewGroupEx>
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_scaning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="17.0sp" android:id="@id/tv_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_scanning" />
+                        <Button android:textSize="17.0sp" android:textColor="@android:color/white" android:id="@id/btn_again_start" android:background="@drawable/btn_green" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/txt_str_detection" />
+                        <TextView android:textSize="17.0sp" android:textColor="@color/check_score" android:id="@id/tv_detailed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                    </LinearLayout>
+                    <com.chaoyue.overseas.obd.widget.HorizontalListView android:id="@id/hlv_loading" android:layout_width="wrap_content" android:layout_height="100.0dip" android:layout_marginTop="10.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_scan_result" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip">
+                    <TextView android:textSize="16.0dip" android:id="@id/tv_result" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" />
+                    <TextView android:textSize="16.0dip" android:textColor="@color/check_checking" android:id="@id/tv_result_per" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="" />
+                    <Button android:textColor="@android:color/white" android:id="@id/btn_again" android:background="@drawable/btn_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:text="@string/txt_str_againscanning" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <TextView android:textColor="#ff8a8d93" android:layout_gravity="left" android:id="@id/tv_last_check_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" style="@style/textAppearanceMedium" />
+                <TextView android:textColor="#ff8a8d93" android:layout_gravity="left" android:id="@id/tv_last_check_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" style="@style/textAppearanceMedium" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.chaoyue.overseas.obd.widget.ListViewEx android:id="@id/lv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/listdivider" android:dividerHeight="0.5dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.chaoyue.overseas.gifview.GifView android:layout_gravity="center" android:orientation="vertical" android:id="@id/view_gifview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/view_testing_success" android:background="@drawable/testing_success" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_open_bluetooth" android:padding="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_open_bluetooth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bluebooth_black" android:layout_centerVertical="true" />
+            <TextView android:textSize="20.0sp" android:id="@id/tv_open_bluetooth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/drive_management_open_bluetooth" android:layout_toRightOf="@id/iv_open_bluetooth" android:layout_centerVertical="true" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <TextView android:layout_gravity="center" android:id="@id/tv_bluetooth_opening" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drive_management_opening_bluetooth" />
+                <ImageView android:layout_gravity="center" android:id="@id/iv_bluetooth_opened" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_ok" />
+            </FrameLayout>
+        </RelativeLayout>
+        <View android:background="@color/listdivider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/rl_add_device" android:padding="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_add_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/adddevice_black" android:layout_centerVertical="true" />
+                <TextView android:textSize="20.0sp" android:id="@id/tv_add_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/drive_management_add_device" android:layout_toRightOf="@id/iv_add_device" android:layout_centerVertical="true" />
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                    <TextView android:layout_gravity="center" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drive_management_opening_bluetooth" />
+                    <ImageView android:layout_gravity="center" android:id="@id/iv_device_added" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mark" />
+                </FrameLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_add_device" android:background="#ffffffff" android:paddingBottom="@dimen/padding_large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:background="@drawable/drive_management" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="center" android:id="@id/iv_light" android:background="@drawable/btn_light_close" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" />
+                <Button android:textColor="#ffffffff" android:id="@id/btn_add_device_ok" android:background="@drawable/btn_green" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/txt_str_start_scan" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/listdivider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/rl_bind_device" android:padding="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/tv_bind_device_f" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/iv_bind_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/binddevice_black" android:layout_centerVertical="true" />
+                    <TextView android:textSize="20.0sp" android:id="@id/tv_bind_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/drive_management_bind_device" android:layout_toRightOf="@id/iv_bind_device" />
+                    <ImageView android:id="@id/iv_error_log" android:background="@drawable/bg_error_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff999ca1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/txt_str_clickconnection" android:layout_below="@id/tv_bind_device_f" />
+            </RelativeLayout>
+            <ListView android:id="@id/list_drive" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textColor="#ffffffff" android:id="@id/start" android:background="@drawable/btn_green" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_large" android:layout_marginRight="@dimen/padding_large" android:layout_marginBottom="100.0dip" android:text="@string/txt_str_start2" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_bind_device" android:paddingLeft="@dimen/padding_large" android:paddingRight="@dimen/padding_large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/main_layout">
+        <TextView android:id="@id/tv_bind_device_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_str_connectionfail" />
+        <Button android:textColor="#ffffffff" android:id="@id/btn_try_again" android:background="@drawable/btn_green" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_large" android:text="@string/txt_str_again" />
+    </LinearLayout>
+</RelativeLayout>

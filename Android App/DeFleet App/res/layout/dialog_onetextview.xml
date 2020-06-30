@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/tv_txt1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" />
+    <LinearLayout android:id="@id/ui8_wg_dialog_btn_multiple" android:paddingLeft="8.0dip" android:paddingTop="6.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+        <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:textSize="18.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/ui8_wg_dialog_btn1" android:paddingBottom="3.0dip" android:layout_width="98.0dip" android:layout_height="40.0dip" android:text="@string/cancel" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+            <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ui8_wg_dialog_btn2" android:background="@color/keynote_color" android:paddingBottom="3.0dip" android:layout_width="98.0dip" android:layout_height="40.0dip" android:text="确认" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
